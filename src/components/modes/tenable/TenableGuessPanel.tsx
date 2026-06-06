@@ -130,7 +130,18 @@ export function TenableMobileSearchBar({
       style={keyboardInset > 0 ? { bottom: keyboardInset } : undefined}
     >
       <div className="shrink-0 px-3 pt-2.5 pb-3">
-        <div className="tenable-mobile-input-wrap">
+        <div className="tenable-mobile-input-anchor">
+          <PlayerSuggestionList
+            suggestions={suggestions}
+            hasMore={hasMore}
+            isLoading={isLoading}
+            isLoadingMore={isLoadingMore}
+            onSelect={submit}
+            onLoadMore={loadMore}
+            disabled={disabled}
+            variant="popover-up-tenable"
+          />
+
           <div className="tenable-mobile-input-shell">
             <input
               value={guess}
@@ -165,17 +176,6 @@ export function TenableMobileSearchBar({
               <SendIcon />
             </button>
           </div>
-
-          <PlayerSuggestionList
-            suggestions={suggestions}
-            hasMore={hasMore}
-            isLoading={isLoading}
-            isLoadingMore={isLoadingMore}
-            onSelect={submit}
-            onLoadMore={loadMore}
-            disabled={disabled}
-            variant="popover"
-          />
         </div>
 
         {error && (

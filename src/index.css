@@ -202,12 +202,16 @@ h3 {
     touch-action: manipulation;
   }
 
-  .tenable-mobile-input-wrap {
-    @apply relative isolate overflow-visible;
+  .tenable-mobile-input-anchor {
+    @apply relative overflow-visible;
+  }
+
+  .tenable-mobile-suggestions {
+    @apply z-[1] max-h-[min(11rem,28dvh)] overflow-y-auto overscroll-contain rounded-xl border border-white/15 bg-[#0a1628] shadow-[0_-8px_32px_rgba(0,0,0,0.45)];
   }
 
   .tenable-mobile-input-shell {
-    @apply relative z-10 flex h-12 items-center gap-1 rounded-xl border border-white/10 bg-[#0a1628] px-3;
+    @apply relative z-[2] flex h-12 items-center gap-1 rounded-xl border border-white/10 bg-[#0a1628] px-3;
   }
 
   .tenable-mobile-input-shell:focus-within {
