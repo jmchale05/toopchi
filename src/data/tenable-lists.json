@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ucl-all-time-scorers",
+    "title": "Champions League Top 10 Goal Scorers",
+    "items": [
+      { "rank": 1, "answer": "Cristiano Ronaldo", "aliases": ["Ronaldo", "CR7"], "nation": "Portugal" },
+      { "rank": 2, "answer": "Lionel Messi", "aliases": ["Messi"], "nation": "Argentina" },
+      { "rank": 3, "answer": "Robert Lewandowski", "aliases": ["Lewandowski", "Lewa"], "nation": "Poland" },
+      { "rank": 4, "answer": "Karim Benzema", "aliases": ["Benzema"], "nation": "France" },
+      { "rank": 5, "answer": "Raúl", "aliases": ["Raul"], "nation": "Spain" },
+      { "rank": 6, "answer": "Ruud van Nistelrooy", "aliases": ["Van Nistelrooy", "Nistelrooy"], "nation": "Netherlands" },
+      { "rank": 7, "answer": "Thomas Müller", "aliases": ["Muller", "Müller"], "nation": "Germany" },
+      { "rank": 8, "answer": "Thierry Henry", "aliases": ["Henry"], "nation": "France" },
+      { "rank": 9, "answer": "Filippo Inzaghi", "aliases": ["Inzaghi"], "nation": "Italy" },
+      { "rank": 10, "answer": "Andriy Shevchenko", "aliases": ["Shevchenko", "Sheva"], "nation": "Ukraine" }
+    ]
+  },
+  {
+    "id": "ballon-dor-2024-25",
+    "title": "Ballon d'Or Top 10 (2024/25)",
+    "items": [
+      { "rank": 1, "answer": "Rodri", "aliases": ["Rodrigo Hernandez", "Rodrigo Hernández"], "nation": "Spain" },
+      { "rank": 2, "answer": "Vinícius Júnior", "aliases": ["Vinicius Jr", "Vini Jr", "Vinicius Junior"], "nation": "Brazil" },
+      { "rank": 3, "answer": "Jude Bellingham", "aliases": ["Bellingham"], "nation": "England" },
+      { "rank": 4, "answer": "Dani Carvajal", "aliases": ["Carvajal"], "nation": "Spain" },
+      { "rank": 5, "answer": "Erling Haaland", "aliases": ["Haaland"], "nation": "Norway" },
+      { "rank": 6, "answer": "Kylian Mbappé", "aliases": ["Mbappe", "Mbappé"], "nation": "France" },
+      { "rank": 7, "answer": "Lautaro Martínez", "aliases": ["Lautaro", "Martinez"], "nation": "Argentina" },
+      { "rank": 8, "answer": "Lamine Yamal", "aliases": ["Yamal"], "nation": "Spain" },
+      { "rank": 9, "answer": "Toni Kroos", "aliases": ["Kroos"], "nation": "Germany" },
+      { "rank": 10, "answer": "Harry Kane", "aliases": ["Kane"], "nation": "England" }
+    ]
+  },
+  {
+    "id": "most-expensive-transfers",
+    "title": "Top 10 Most Expensive Signings Ever",
+    "subtitle": "Transfer fees",
+    "valueFormat": { "prefix": "€", "suffix": "m" },
+    "items": [
+      { "rank": 1, "answer": "Neymar", "aliases": ["Neymar Jr"], "nation": "Brazil", "value": 222 },
+      { "rank": 2, "answer": "Kylian Mbappé", "aliases": ["Mbappe", "Mbappé"], "nation": "France", "value": 180 },
+      { "rank": 3, "answer": "Ousmane Dembélé", "aliases": ["Dembele", "Dembélé"], "nation": "France", "value": 148 },
+      { "rank": 4, "answer": "Alexander Isak", "aliases": ["Isak"], "nation": "Sweden", "value": 145 },
+      { "rank": 5, "answer": "Philippe Coutinho", "aliases": ["Coutinho"], "nation": "Brazil", "value": 135 },
+      { "rank": 6, "answer": "João Félix", "aliases": ["Joao Felix", "Felix", "Félix"], "nation": "Portugal", "value": 127 },
+      { "rank": 7, "answer": "Jude Bellingham", "aliases": ["Bellingham"], "nation": "England", "value": 127 },
+      { "rank": 8, "answer": "Florian Wirtz", "aliases": ["Wirtz"], "nation": "Germany", "value": 125 },
+      { "rank": 9, "answer": "Enzo Fernández", "aliases": ["Enzo", "Fernandez", "Fernández"], "nation": "Argentina", "value": 121 },
+      { "rank": 10, "answer": "Eden Hazard", "aliases": ["Hazard"], "nation": "Belgium", "value": 121 }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /game
+Disallow: /results
+Disallow: /tenable/game
+Disallow: /tenable/results
+Disallow: /create-account
+
+Sitemap: https://toopchi.com/sitemap.xml

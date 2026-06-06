@@ -1,0 +1,62 @@
+[
+  {
+    "id": "messi",
+    "answer": "Lionel Messi",
+    "aliases": ["Messi", "Leo Messi"]
+  },
+  {
+    "id": "ronaldo",
+    "answer": "Cristiano Ronaldo",
+    "aliases": ["Ronaldo", "CR7"]
+  },
+  {
+    "id": "mbappe",
+    "answer": "Kylian Mbappé",
+    "aliases": ["Mbappe", "Mbappé"]
+  },
+  {
+    "id": "haaland",
+    "answer": "Erling Haaland",
+    "aliases": ["Haaland"]
+  },
+  {
+    "id": "salah",
+    "answer": "Mohamed Salah",
+    "aliases": ["Salah", "Mo Salah"]
+  },
+  {
+    "id": "modric",
+    "answer": "Luka Modrić",
+    "aliases": ["Modric", "Modrić"]
+  },
+  {
+    "id": "neuer",
+    "answer": "Manuel Neuer",
+    "aliases": ["Neuer"]
+  },
+  {
+    "id": "henry",
+    "answer": "Thierry Henry",
+    "aliases": ["Henry"]
+  },
+  {
+    "id": "zidane",
+    "answer": "Zinedine Zidane",
+    "aliases": ["Zidane", "Zizou"]
+  },
+  {
+    "id": "iniesta",
+    "answer": "Andrés Iniesta",
+    "aliases": ["Iniesta", "Andres Iniesta"]
+  },
+  {
+    "id": "ronaldinho",
+    "answer": "Ronaldinho",
+    "aliases": ["Ronnie"]
+  },
+  {
+    "id": "kane",
+    "answer": "Harry Kane",
+    "aliases": ["Kane"]
+  }
+]

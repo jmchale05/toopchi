@@ -1,0 +1,148 @@
+[
+  {
+    "id": "game-thierry-henry",
+    "name": "Thierry Henry",
+    "firstname": "Thierry",
+    "lastname": "Henry",
+    "age": 47,
+    "nationality": "France",
+    "club": "Retired",
+    "retired": true
+  },
+  {
+    "id": "game-zinedine-zidane",
+    "name": "Zinedine Zidane",
+    "firstname": "Zinedine",
+    "lastname": "Zidane",
+    "age": 52,
+    "nationality": "France",
+    "club": "Retired",
+    "retired": true
+  },
+  {
+    "id": "game-raul",
+    "name": "Raúl",
+    "firstname": "Raúl",
+    "lastname": "González",
+    "age": 47,
+    "nationality": "Spain",
+    "club": "Retired",
+    "retired": true
+  },
+  {
+    "id": "game-filippo-inzaghi",
+    "name": "Filippo Inzaghi",
+    "firstname": "Filippo",
+    "lastname": "Inzaghi",
+    "age": 51,
+    "nationality": "Italy",
+    "club": "Retired",
+    "retired": true
+  },
+  {
+    "id": "game-andriy-shevchenko",
+    "name": "Andriy Shevchenko",
+    "firstname": "Andriy",
+    "lastname": "Shevchenko",
+    "age": 48,
+    "nationality": "Ukraine",
+    "club": "Retired",
+    "retired": true
+  },
+  {
+    "id": "game-ruud-van-nistelrooy",
+    "name": "Ruud van Nistelrooy",
+    "firstname": "Ruud",
+    "lastname": "van Nistelrooy",
+    "age": 48,
+    "nationality": "Netherlands",
+    "club": "Retired",
+    "retired": true
+  },
+  {
+    "id": "game-toni-kroos",
+    "name": "Toni Kroos",
+    "firstname": "Toni",
+    "lastname": "Kroos",
+    "age": 34,
+    "nationality": "Germany",
+    "club": "Retired",
+    "retired": true
+  },
+  {
+    "id": "game-karim-benzema",
+    "name": "Karim Benzema",
+    "firstname": "Karim",
+    "lastname": "Benzema",
+    "age": 37,
+    "nationality": "France",
+    "club": "Al-Ittihad",
+    "retired": false,
+    "sourcePlayerId": "759"
+  },
+  {
+    "id": "game-robert-lewandowski",
+    "name": "Robert Lewandowski",
+    "firstname": "Robert",
+    "lastname": "Lewandowski",
+    "age": 36,
+    "nationality": "Poland",
+    "club": "Barcelona",
+    "retired": false,
+    "sourcePlayerId": "521"
+  },
+  {
+    "id": "game-lionel-messi",
+    "name": "Lionel Messi",
+    "firstname": "Lionel",
+    "lastname": "Messi",
+    "age": 38,
+    "nationality": "Argentina",
+    "club": "Inter Miami",
+    "retired": false,
+    "sourcePlayerId": "154"
+  },
+  {
+    "id": "game-cristiano-ronaldo",
+    "name": "Cristiano Ronaldo",
+    "firstname": "Cristiano",
+    "lastname": "Ronaldo",
+    "age": 40,
+    "nationality": "Portugal",
+    "club": "Al-Nassr",
+    "retired": false,
+    "sourcePlayerId": "874"
+  },
+  {
+    "id": "game-manuel-neuer",
+    "name": "Manuel Neuer",
+    "firstname": "Manuel",
+    "lastname": "Neuer",
+    "age": 39,
+    "nationality": "Germany",
+    "club": "Bayern München",
+    "retired": false,
+    "sourcePlayerId": "497"
+  },
+  {
+    "id": "game-luka-modric",
+    "name": "Luka Modrić",
+    "firstname": "Luka",
+    "lastname": "Modrić",
+    "age": 39,
+    "nationality": "Croatia",
+    "club": "Real Madrid",
+    "retired": false,
+    "sourcePlayerId": "754"
+  },
+  {
+    "id": "game-andres-iniesta",
+    "name": "Andrés Iniesta",
+    "firstname": "Andrés",
+    "lastname": "Iniesta",
+    "age": 40,
+    "nationality": "Spain",
+    "club": "Retired",
+    "retired": true
+  }
+]
