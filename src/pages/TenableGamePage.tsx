@@ -19,11 +19,13 @@ import {
 } from "../lib/modes/tenable/gameRules";
 import { resolveTenableGuess } from "../lib/modes/tenable/nameMatch";
 import {
+  ALREADY_GUESSED_FLASH_MS,
   CORRECT_FLASH_MS,
   delay,
   FAIL_FLASH_MS,
   runRankReveal,
   scrollBoardIntoView,
+  scrollRevealRankIntoView,
 } from "../lib/modes/tenable/revealSequence";
 import { playerLastName } from "../lib/playerImages";
 import type { ScoreAnimation } from "../components/AnimatedPlayerScore";
@@ -33,9 +35,16 @@ export function TenableGamePage() {
   const { session, updateSession } = useSession();
   const [error, setError] = useState<string | null>(null);
   const [revealRank, setRevealRank] = useState<number | null>(null);
+  const [highlightMode, setHighlightMode] = useState<"reveal" | "duplicate">(
+    "reveal",
+  );
   const [isRevealing, setIsRevealing] = useState(false);
   const [failFlash, setFailFlash] = useState(false);
   const [correctFlash, setCorrectFlash] = useState<{
+    name: string;
+    rank: number;
+  } | null>(null);
+  const [alreadyGuessedFlash, setAlreadyGuessedFlash] = useState<{
     name: string;
     rank: number;
   } | null>(null);
@@ -83,8 +92,10 @@ export function TenableGamePage() {
     revealSignal.current.cancelled = true;
     revealSignal.current = { cancelled: false };
     setRevealRank(null);
+    setHighlightMode("reveal");
     setFailFlash(false);
     setCorrectFlash(null);
+    setAlreadyGuessedFlash(null);
     setError(null);
   }, [session?.activePlayerIndex, session?.phase, isRevealing]);
 
@@ -103,9 +114,28 @@ export function TenableGamePage() {
   const alreadyFound = tenableSession.slots.filter(Boolean) as string[];
   const foundCount = alreadyFound.length;
 
+  async function playAlreadyGuessedReveal(answer: string, rank: number) {
+    setError(null);
+    setIsRevealing(true);
+    setHighlightMode("duplicate");
+    await prepareBoardForReveal();
+    if (revealSignal.current.cancelled) return;
+    setRevealRank(rank);
+    scrollRevealRankIntoView(scrollContainerRef.current, rank);
+    setAlreadyGuessedFlash({ name: answer, rank });
+    await delay(ALREADY_GUESSED_FLASH_MS);
+    if (revealSignal.current.cancelled) return;
+
+    setRevealRank(null);
+    setAlreadyGuessedFlash(null);
+    setHighlightMode("reveal");
+    setIsRevealing(false);
+  }
+
   async function playFailReveal(guess: string) {
     setError(null);
     setIsRevealing(true);
+    setHighlightMode("reveal");
     await prepareBoardForReveal();
     if (revealSignal.current.cancelled) return;
     await runRankReveal(
@@ -136,6 +166,7 @@ export function TenableGamePage() {
   ) {
     setError(null);
     setIsRevealing(true);
+    setHighlightMode("reveal");
     await prepareBoardForReveal();
     if (revealSignal.current.cancelled) return;
     await runRankReveal(
@@ -182,6 +213,11 @@ export function TenableGamePage() {
         duplicate: "Already found!",
         ambiguous: "Be more specific — use full name.",
       };
+
+      if (result.reason === "duplicate") {
+        void playAlreadyGuessedReveal(result.answer, result.rank);
+        return;
+      }
 
       if (result.reason === "unknown" || result.reason === "ambiguous") {
         void playFailReveal(guess);
@@ -261,6 +297,7 @@ export function TenableGamePage() {
               tenableSession.revealedNations ?? Array.from({ length: 10 }, () => false)
             }
             highlightRank={revealRank}
+            highlightMode={highlightMode}
             disabled={isRevealing || nationDialogOpen}
             activePlayerScore={activePlayer.score}
             onRequestReveal={handleNationHintRequest}
@@ -268,6 +305,19 @@ export function TenableGamePage() {
         </div>
 
       </div>
+
+      {alreadyGuessedFlash && (
+        <div className="pointer-events-none fixed inset-0 z-50 flex items-center justify-center bg-black/25 px-6 backdrop-blur-[2px]">
+          <div className="already-guessed-flash flex flex-col items-center text-center">
+            <p className="font-display text-4xl uppercase leading-none text-amber-300 drop-shadow-[0_0_32px_rgba(251,191,36,0.45)] md:text-6xl">
+              Already guessed
+            </p>
+            <p className="mt-4 font-spartan text-base text-white/60 md:text-lg">
+              {playerLastName(alreadyGuessedFlash.name)} · #{alreadyGuessedFlash.rank}
+            </p>
+          </div>
+        </div>
+      )}
 
       {correctFlash && (
         <div className="pointer-events-none fixed inset-0 z-50 flex items-center justify-center bg-black/30 px-6 backdrop-blur-[2px]">

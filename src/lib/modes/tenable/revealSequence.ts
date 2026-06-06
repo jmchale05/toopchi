@@ -2,6 +2,7 @@ export const REVEAL_STEP_MS = 500;
 export const REVEAL_HOLD_MS = 450;
 export const FAIL_FLASH_MS = 1800;
 export const CORRECT_FLASH_MS = 2200;
+export const ALREADY_GUESSED_FLASH_MS = 1400;
 export const SCROLL_INTO_VIEW_MS = 400;
 
 export function delay(ms: number): Promise<void> {

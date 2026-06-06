@@ -1,9 +1,16 @@
 import dailyPlayersData from "../data/daily-players.json";
+import dailyPlayerScheduleData from "../data/daily-player-schedule.json";
 import type { DailyPlayer, DailyPlayerState } from "../types/dailyPlayer";
 import { normalizeName } from "./nameMatch";
 
 const STORAGE_KEY = "toopchi-daily-player";
+
+export const DAILY_MAX_GUESSES = 6;
 const dailyPlayers = dailyPlayersData as DailyPlayer[];
+const dailyPlayerSchedule = dailyPlayerScheduleData as Record<
+  string,
+  DailyPlayer
+>;
 
 export function getTodayKey(date = new Date()): string {
   const year = date.getFullYear();
@@ -23,6 +30,11 @@ function hashDateKey(dateKey: string): number {
 /** Local fallback until daily answer is served by API */
 export function getDailyPlayer(date = new Date()): DailyPlayer {
   const dateKey = getTodayKey(date);
+  const scheduled = dailyPlayerSchedule[dateKey];
+  if (scheduled) {
+    return scheduled;
+  }
+
   const index = hashDateKey(dateKey) % dailyPlayers.length;
   return dailyPlayers[index];
 }
@@ -56,11 +68,24 @@ export function loadDailyPlayerState(dateKey = getTodayKey()): DailyPlayerState 
       return { dateKey, solved: false, guesses: [] };
     }
 
+    const guesses = (parsed.guesses ?? [])
+      .filter(
+        (entry) =>
+          typeof entry.ageMatch === "string" &&
+          typeof entry.nationMatch === "string",
+      )
+      .slice(0, DAILY_MAX_GUESSES);
+    const failed =
+      parsed.failed ??
+      (!parsed.solved && guesses.length >= DAILY_MAX_GUESSES);
+
     return {
       dateKey: parsed.dateKey,
       solved: parsed.solved,
-      guesses: parsed.guesses ?? [],
-      answer: parsed.answer,
+      failed,
+      guesses,
+      answer: parsed.answer ?? (failed ? getDailyPlayer().answer : undefined),
+      photo: parsed.photo,
     };
   } catch {
     return { dateKey, solved: false, guesses: [] };

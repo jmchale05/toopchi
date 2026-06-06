@@ -44,4 +44,5 @@ export type TenableSession = {
   phase: GamePhase;
   roundsWithoutProgress: number;
   roundGuessesThisCycle: number;
+  endedEarly?: boolean;
 };

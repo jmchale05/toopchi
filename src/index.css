@@ -241,6 +241,11 @@ h3 {
   animation: tenable-reveal-pulse 0.5s ease-out;
 }
 
+.tenable-duplicate-row {
+  @apply border-amber-400/70 bg-amber-400/12 shadow-[0_0_24px_rgba(251,191,36,0.35)];
+  animation: tenable-duplicate-pulse 0.45s ease-out;
+}
+
 @keyframes tenable-reveal-pulse {
   0% {
     transform: scale(0.98);
@@ -254,6 +259,46 @@ h3 {
     transform: scale(1);
     filter: brightness(1);
   }
+}
+
+@keyframes tenable-duplicate-pulse {
+  0% {
+    transform: scale(0.99);
+    filter: brightness(0.98);
+  }
+  50% {
+    transform: scale(1.015);
+    filter: brightness(1.08);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+@keyframes already-guessed-flash-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  12% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+  22% {
+    transform: scale(1);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+.already-guessed-flash {
+  animation: already-guessed-flash-in 1.4s ease forwards;
 }
 
 @keyframes fail-flash-in {
@@ -408,7 +453,361 @@ h3 {
   animation: score-gain-pulse 0.7s ease;
 }
 
+.daily-solved-reveal {
+  animation: daily-solved-fade-in 0.65s cubic-bezier(0.34, 1.1, 0.64, 1) forwards;
+}
+
+@keyframes daily-solved-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.daily-guess-row {
+  @apply overflow-hidden rounded-2xl border border-white/12 bg-gradient-to-b from-white/[0.07] to-white/[0.02] shadow-[0_8px_24px_rgba(0,0,0,0.22)];
+}
+
+.daily-guess-name {
+  @apply border-b border-white/10 bg-black/25 px-4 py-3 text-center font-spartan text-base font-bold tracking-wide text-white md:text-lg;
+}
+
+.daily-guess-board {
+  @apply w-full;
+}
+
+.daily-guess-row-compact {
+  @apply rounded-xl border border-white/10 bg-white/[0.03] px-2 py-2;
+}
+
+.daily-guess-row-compact-name {
+  @apply mb-1.5 truncate px-1 text-center font-spartan text-[11px] font-semibold uppercase tracking-wide text-white/45;
+}
+
+.daily-guess-hints {
+  @apply grid grid-cols-2 gap-2 p-3 sm:grid-cols-4;
+}
+
+.daily-guess-hints--horizontal {
+  @apply grid-cols-4 gap-1.5 p-0;
+}
+
+.daily-hint-cell--compact {
+  @apply min-h-[3.25rem] rounded-lg px-1 py-1.5;
+}
+
+.daily-hint-cell--compact .daily-hint-label {
+  @apply text-[8px] tracking-[0.14em];
+}
+
+.daily-hint-cell--compact .daily-hint-value {
+  @apply mt-1 text-[11px] md:text-xs;
+}
+
+.daily-hint-cell {
+  @apply flex min-h-[5rem] flex-col items-center justify-center rounded-xl border px-2 py-2.5 text-center;
+}
+
+.daily-hint-label {
+  @apply font-spartan text-[10px] font-semibold uppercase tracking-[0.2em] text-white/40;
+}
+
+.daily-hint-value {
+  @apply mt-1.5 flex items-center justify-center font-spartan text-sm font-semibold leading-tight text-inherit md:text-base;
+}
+
+.daily-hint-arrow {
+  @apply ml-1 text-base font-bold;
+}
+
+.daily-hint-correct {
+  @apply border-emerald-400/55 bg-emerald-400/15 text-emerald-200;
+}
+
+.daily-hint-ultra {
+  border-color: rgba(110, 231, 183, 0.9);
+  background-color: rgba(52, 211, 153, 0.32);
+  color: rgb(236, 253, 245);
+  box-shadow:
+    0 0 20px rgba(52, 211, 153, 0.42),
+    inset 0 0 12px rgba(167, 243, 208, 0.12);
+}
+
+.daily-hint-close {
+  @apply border-amber-400/55 bg-amber-400/15 text-amber-200;
+}
+
+.daily-hint-miss {
+  @apply border-white/12 bg-white/[0.04] text-white/55;
+}
+
+.daily-hint-unknown {
+  @apply border-white/10 bg-black/20 text-white/35;
+}
+
+.daily-hint-cell--animate {
+  --hint-delay: calc(var(--hint-index) * 0.42s);
+  border-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.025);
+  color: rgba(255, 255, 255, 0.25);
+  transform: perspective(700px) rotateX(0deg);
+  animation-duration: 0.58s;
+  animation-timing-function: cubic-bezier(0.34, 1.15, 0.64, 1);
+  animation-fill-mode: forwards;
+  animation-delay: var(--hint-delay);
+}
+
+.daily-hint-cell--animate .daily-hint-label {
+  @apply text-white/25;
+}
+
+.daily-hint-cell--animate .daily-hint-value {
+  opacity: 0;
+  animation: daily-hint-value-show 0.2s ease-out forwards;
+  animation-delay: calc(var(--hint-delay) + 0.2s);
+}
+
+.daily-hint-cell--animate[data-result="correct"] {
+  animation-name: daily-hint-flip-correct;
+}
+
+.daily-hint-cell--animate[data-result="team"] {
+  animation-name: daily-hint-flip-team;
+}
+
+.daily-hint-cell--animate[data-result="close-higher"],
+.daily-hint-cell--animate[data-result="close-lower"] {
+  animation-name: daily-hint-flip-close;
+}
+
+.daily-hint-cell--animate[data-result="miss"],
+.daily-hint-cell--animate[data-result="higher"],
+.daily-hint-cell--animate[data-result="lower"] {
+  animation-name: daily-hint-flip-miss;
+}
+
+.daily-hint-cell--animate[data-result="unknown"] {
+  animation-name: daily-hint-flip-unknown;
+}
+
+@keyframes daily-hint-value-show {
+  from {
+    opacity: 0;
+    filter: blur(3px);
+  }
+  to {
+    opacity: 1;
+    filter: none;
+  }
+}
+
+@keyframes daily-hint-flip-correct {
+  0% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.025);
+    color: rgba(255, 255, 255, 0.25);
+    box-shadow: none;
+  }
+  18% {
+    transform: perspective(700px) rotateX(-90deg) scale(0.97);
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.45);
+    box-shadow: none;
+  }
+  38% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.65);
+    box-shadow: none;
+  }
+  58% {
+    transform: perspective(700px) rotateX(0deg) scale(1.06);
+    border-color: rgba(52, 211, 153, 0.85);
+    background-color: rgba(52, 211, 153, 0.38);
+    color: rgb(209, 250, 229);
+    box-shadow: 0 0 28px rgba(52, 211, 153, 0.45);
+  }
+  100% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(52, 211, 153, 0.55);
+    background-color: rgba(52, 211, 153, 0.15);
+    color: rgb(167, 243, 208);
+    box-shadow: none;
+  }
+}
+
+@keyframes daily-hint-flip-team {
+  0% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.025);
+    color: rgba(255, 255, 255, 0.25);
+    box-shadow: none;
+  }
+  18% {
+    transform: perspective(700px) rotateX(-90deg) scale(0.97);
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.45);
+    box-shadow: none;
+  }
+  38% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.65);
+    box-shadow: none;
+  }
+  58% {
+    transform: perspective(700px) rotateX(0deg) scale(1.1);
+    border-color: rgba(134, 239, 172, 1);
+    background-color: rgba(52, 211, 153, 0.62);
+    color: rgb(255, 255, 255);
+    box-shadow:
+      0 0 40px rgba(74, 222, 128, 0.75),
+      0 0 80px rgba(52, 211, 153, 0.35);
+  }
+  100% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(110, 231, 183, 0.9);
+    background-color: rgba(52, 211, 153, 0.32);
+    color: rgb(236, 253, 245);
+    box-shadow:
+      0 0 20px rgba(52, 211, 153, 0.42),
+      inset 0 0 12px rgba(167, 243, 208, 0.12);
+  }
+}
+
+@keyframes daily-hint-flip-close {
+  0% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.025);
+    color: rgba(255, 255, 255, 0.25);
+    box-shadow: none;
+  }
+  18% {
+    transform: perspective(700px) rotateX(-90deg) scale(0.97);
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.45);
+    box-shadow: none;
+  }
+  38% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.65);
+    box-shadow: none;
+  }
+  58% {
+    transform: perspective(700px) rotateX(0deg) scale(1.05);
+    border-color: rgba(251, 191, 36, 0.8);
+    background-color: rgba(251, 191, 36, 0.32);
+    color: rgb(254, 243, 199);
+    box-shadow: 0 0 22px rgba(251, 191, 36, 0.35);
+  }
+  100% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(251, 191, 36, 0.55);
+    background-color: rgba(251, 191, 36, 0.15);
+    color: rgb(253, 230, 138);
+    box-shadow: none;
+  }
+}
+
+@keyframes daily-hint-flip-miss {
+  0% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.025);
+    color: rgba(255, 255, 255, 0.25);
+  }
+  18% {
+    transform: perspective(700px) rotateX(-90deg) scale(0.97);
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.45);
+  }
+  42% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.14);
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(255, 255, 255, 0.04);
+    color: rgba(255, 255, 255, 0.55);
+  }
+}
+
+@keyframes daily-hint-flip-unknown {
+  0% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.25);
+  }
+  18% {
+    transform: perspective(700px) rotateX(-90deg) scale(0.97);
+  }
+  100% {
+    transform: perspective(700px) rotateX(0deg) scale(1);
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.35);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .daily-solved-reveal {
+    animation: none;
+  }
+
+  .daily-hint-cell--animate {
+    transform: none;
+    animation: none;
+  }
+
+  .daily-hint-cell--animate .daily-hint-value {
+    opacity: 1;
+    animation: none;
+    filter: none;
+  }
+
+  .daily-hint-cell--animate[data-result="correct"] {
+    @apply border-emerald-400/55 bg-emerald-400/15 text-emerald-200;
+  }
+
+  .daily-hint-cell--animate[data-result="team"] {
+    @apply border-emerald-300 bg-emerald-400/35 text-emerald-50;
+    box-shadow: 0 0 20px rgba(52, 211, 153, 0.42);
+  }
+
+  .daily-hint-cell--animate[data-result="close-higher"],
+  .daily-hint-cell--animate[data-result="close-lower"] {
+    @apply border-amber-400/55 bg-amber-400/15 text-amber-200;
+  }
+
+  .daily-hint-cell--animate[data-result="miss"],
+  .daily-hint-cell--animate[data-result="higher"],
+  .daily-hint-cell--animate[data-result="lower"] {
+    @apply border-white/12 bg-white/[0.04] text-white/55;
+  }
+
+  .daily-hint-cell--animate[data-result="unknown"] {
+    @apply border-white/10 bg-black/20 text-white/35;
+  }
+
   .bottom-sheet {
     transform: none;
     animation: none;

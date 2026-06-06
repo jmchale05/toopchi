@@ -1,6 +1,7 @@
 import { DAILY_PLAYER_API_URL } from "../config/dailyPlayer";
-import type { DailyGuessResult } from "../types/dailyPlayer";
 import { getDailyPlayer, resolveDailyPlayerGuess } from "./dailyPlayer";
+import { buildDailyGuessFeedback } from "./dailyPlayerHints";
+import type { DailyGuessResult } from "../types/dailyPlayer";
 
 export async function submitDailyGuess(
   guess: string,
@@ -23,22 +24,34 @@ export async function submitDailyGuess(
   return submitDailyGuessMock(guess);
 }
 
-function submitDailyGuessMock(guess: string): DailyGuessResult {
+async function submitDailyGuessMock(guess: string): Promise<DailyGuessResult> {
   const player = getDailyPlayer();
+  const feedback = await buildDailyGuessFeedback(guess, player);
 
-  if (resolveDailyPlayerGuess(player, guess)) {
+  if (resolveDailyPlayerGuess(player, guess) || feedback.correct) {
     return {
       correct: true,
-      temperature: 100,
-      label: "correct",
       answer: player.answer,
+      feedback: {
+        ...feedback,
+        correct: true,
+        ageMatch: feedback.age == null ? "unknown" : "correct",
+        positionMatch:
+          feedback.positionMatch === "unknown" ? "unknown" : "correct",
+        leagueMatch:
+          feedback.leagueMatch === "unknown"
+            ? "unknown"
+            : feedback.leagueMatch === "team"
+              ? "team"
+              : "correct",
+        nationMatch:
+          feedback.nationMatch === "unknown" ? "unknown" : "correct",
+      },
     };
   }
 
   return {
     correct: false,
-    temperature: 0,
-    label: "cold",
-    hints: [],
+    feedback,
   };
 }

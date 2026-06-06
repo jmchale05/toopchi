@@ -145,6 +145,7 @@ function BoardRow({
   slots,
   revealAll,
   highlightRank,
+  highlightMode = "reveal",
   nationRevealed,
   revealAllNations,
   disabled,
@@ -156,6 +157,7 @@ function BoardRow({
   slots: Array<string | null>;
   revealAll: boolean;
   highlightRank: number | null;
+  highlightMode?: "reveal" | "duplicate";
   nationRevealed: boolean;
   revealAllNations: boolean;
   disabled: boolean;
@@ -164,24 +166,31 @@ function BoardRow({
   onRequestReveal?: (rank: number) => void;
 }) {
   const { found, revealName, displayName } = getSlotState(item, slots, revealAll);
-  const isScanning = highlightRank === item.rank;
+  const isHighlighted = highlightRank === item.rank;
+  const rowHighlightClass =
+    isHighlighted && highlightMode === "duplicate"
+      ? "tenable-duplicate-row"
+      : isHighlighted
+        ? "tenable-reveal-row"
+        : null;
 
   return (
     <div
       data-reveal-rank={item.rank}
       className={`flex items-center gap-3 rounded-2xl border px-4 py-3 transition-colors duration-150 md:gap-3.5 md:px-5 md:py-3 ${
-        isScanning
-          ? "tenable-reveal-row"
-          : found
+        rowHighlightClass ??
+        (found
             ? "border-[#f5c542]/55 bg-[#f5c542]/12"
             : revealName
               ? "border-white/20 bg-white/5"
-              : "border-white/15 bg-white/[0.05]"
+              : "border-white/15 bg-white/[0.05]")
       }`}
     >
       <span
         className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full font-display text-xl md:h-9 md:w-9 md:text-lg ${
-          isScanning
+          isHighlighted && highlightMode === "duplicate"
+            ? "bg-amber-400 text-[#0a1628] shadow-[0_0_16px_rgba(251,191,36,0.55)]"
+            : isHighlighted
             ? "bg-[#f5c542] text-[#0a1628] shadow-[0_0_16px_rgba(245,197,66,0.65)]"
             : found
               ? "bg-[#f5c542] text-[#0a1628]"
@@ -238,6 +247,7 @@ export function TopTenBoard({
   revealAll = false,
   revealAllNations = false,
   highlightRank = null,
+  highlightMode = "reveal",
   revealedNations,
   disabled = false,
   activePlayerScore,
@@ -248,6 +258,7 @@ export function TopTenBoard({
   revealAll?: boolean;
   revealAllNations?: boolean;
   highlightRank?: number | null;
+  highlightMode?: "reveal" | "duplicate";
   revealedNations?: boolean[];
   disabled?: boolean;
   activePlayerScore?: number;
@@ -269,6 +280,7 @@ export function TopTenBoard({
           slots={slots}
           revealAll={revealAll}
           highlightRank={highlightRank}
+          highlightMode={highlightMode}
           nationRevealed={nationState[item.rank - 1]}
           revealAllNations={revealAllNations}
           disabled={disabled}

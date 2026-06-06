@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useNavigate } from "react-router-dom";
 import { useSession } from "../context/SessionContext";
+import { finishGame } from "../lib/gameRules";
+import { finishTenableSession } from "../lib/modes/tenable/gameRules";
+import { isLineupSession, isTenableSession } from "../types/session";
 import { GhostButton } from "./Layout";
 
 function LogOutIcon() {
@@ -25,7 +28,7 @@ function LogOutIcon() {
 
 export function GameExitButton({ className = "" }: { className?: string }) {
   const navigate = useNavigate();
-  const { clearSession } = useSession();
+  const { session, clearSession, updateSession } = useSession();
   const [confirmOpen, setConfirmOpen] = useState(false);
 
   useEffect(() => {
@@ -39,9 +42,36 @@ export function GameExitButton({ className = "" }: { className?: string }) {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [confirmOpen]);
 
+  const exitMessage =
+    session && isTenableSession(session)
+      ? "You'll go to results and see the answers you missed."
+      : session && isLineupSession(session)
+        ? "You'll go to results and see the lineups you missed."
+        : "Your progress will be lost.";
+
   function handleConfirmExit() {
-    clearSession();
-    navigate("/");
+    if (!session) {
+      clearSession();
+      navigate("/");
+      setConfirmOpen(false);
+      return;
+    }
+
+    if (isTenableSession(session)) {
+      updateSession((current) =>
+        isTenableSession(current) ? finishTenableSession(current) : current,
+      );
+      navigate("/tenable/results");
+    } else if (isLineupSession(session)) {
+      updateSession((current) =>
+        isLineupSession(current) ? finishGame(current) : current,
+      );
+      navigate("/results");
+    } else {
+      clearSession();
+      navigate("/");
+    }
+    setConfirmOpen(false);
   }
 
   return (
@@ -76,8 +106,8 @@ export function GameExitButton({ className = "" }: { className?: string }) {
               >
                 Exit game?
               </h2>
-              <p className="mt-2 font-spartan text-sm text-white/60">
-                Your progress will be lost.
+              <p className="mt-2 font-spartan text-sm text-white/60 md:text-base">
+                {exitMessage}
               </p>
               <div className="mt-6 flex gap-3">
                 <GhostButton
@@ -89,7 +119,7 @@ export function GameExitButton({ className = "" }: { className?: string }) {
                 <button
                   type="button"
                   onClick={handleConfirmExit}
-                  className="inline-flex min-h-10 flex-1 items-center justify-center rounded-xl border border-red-500/50 bg-red-500/15 px-4 py-2 font-spartan text-sm font-semibold tracking-wide text-red-400 transition hover:border-red-400/60 hover:bg-red-500/25 hover:text-red-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500/40 active:scale-[0.98]"
+                  className="inline-flex min-h-10 flex-1 items-center justify-center rounded-xl border border-red-500/50 bg-red-500/15 px-4 py-2 font-spartan text-sm font-semibold tracking-wide text-red-400 transition hover:border-red-400/60 hover:bg-red-500/25 hover:text-red-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500/40 active:scale-[0.98] md:text-base"
                 >
                   Exit game
                 </button>

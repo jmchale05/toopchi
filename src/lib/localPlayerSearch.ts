@@ -12,6 +12,9 @@ type SearchIndexEntry = {
   name: string;
   age: number | null;
   club: string;
+  league: string | null;
+  position: string | null;
+  nationality: string | null;
   retired: boolean;
   searchName: string;
   searchFirstname: string;
@@ -38,9 +41,11 @@ function toPlayerRecord(entry: SearchIndexEntry): PlayerRecord {
     firstname: null,
     lastname: null,
     age: entry.age,
-    nationality: null,
+    nationality: entry.nationality,
     team: entry.club,
     club: entry.club,
+    league: entry.league,
+    position: entry.position,
     retired: entry.retired,
     searchName: entry.searchName,
     searchFirstname: entry.searchFirstname,
@@ -116,6 +121,7 @@ export async function searchPlayersLocal(
   rawTerm: string,
   options?: {
     offset?: number;
+    limit?: number;
   },
 ): Promise<LocalSearchPage> {
   const term = normalizeTerm(rawTerm);
@@ -125,11 +131,12 @@ export async function searchPlayersLocal(
 
   const ranked = rankPlayers(await loadIndex(), term);
   const offset = options?.offset ?? 0;
-  const page = ranked.slice(offset, offset + PAGE_SIZE);
+  const pageSize = options?.limit ?? PAGE_SIZE;
+  const page = ranked.slice(offset, offset + pageSize);
 
   return {
     results: page,
-    hasMore: offset + PAGE_SIZE < ranked.length,
+    hasMore: options?.limit ? false : offset + pageSize < ranked.length,
   };
 }
 

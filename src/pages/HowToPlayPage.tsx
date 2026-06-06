@@ -47,7 +47,7 @@ export function HowToPlayPage() {
           </p>
         </Card>
 
-        <SecondaryButton to={START_GAME_PATH}>Start game</SecondaryButton>
+        <SecondaryButton to={START_GAME_PATH}>Top Order</SecondaryButton>
       </div>
     </Layout>
   );

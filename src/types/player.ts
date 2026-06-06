@@ -7,6 +7,8 @@ export type PlayerRecord = {
   nationality: string | null;
   team: string;
   club?: string;
+  league?: string | null;
+  position?: string | null;
   retired?: boolean;
   searchName?: string;
   searchFirstname?: string;

@@ -1,9 +1,19 @@
 import { Navigate, useNavigate } from "react-router-dom";
-import { Card, Layout, PrimaryButton, SecondaryButton } from "../components/Layout";
+import {
+  Card,
+  FixedBottomActions,
+  Layout,
+  PrimaryButton,
+  SecondaryButton,
+} from "../components/Layout";
 import { TopTenBoard } from "../components/modes/tenable/TopTenBoard";
 import { Scoreboard } from "../components/Scoreboard";
 import { useSession } from "../context/SessionContext";
-import { getWinners } from "../lib/modes/tenable/gameRules";
+import {
+  getTenableMissedAnswers,
+  getWinners,
+} from "../lib/modes/tenable/gameRules";
+import { formatTenableItemValue } from "../lib/modes/tenable/formatValue";
 import { isTenableSession } from "../types/session";
 
 export function TenableResultsPage() {
@@ -23,17 +33,18 @@ export function TenableResultsPage() {
   }
 
   const winners = getWinners(session.players);
+  const missedAnswers = getTenableMissedAnswers(session);
   const winnerLabel =
     winners.length === 1
       ? winners[0].name
       : winners.map((player) => player.name).join(" & ");
 
   return (
-    <Layout>
-      <div className="space-y-5 md:space-y-6">
+    <Layout contentClassName="pb-0">
+      <div className="space-y-5 pb-[calc(9.5rem+env(safe-area-inset-bottom))] md:space-y-6">
         <div className="text-center">
           <p className="font-display text-base uppercase tracking-[0.3em] text-[#f5c542]">
-            Final whistle
+            {session.endedEarly ? "Game ended" : "Final whistle"}
           </p>
           <h1 className="mt-2 font-display text-4xl font-normal uppercase md:text-6xl">
             Results
@@ -48,6 +59,42 @@ export function TenableResultsPage() {
         </div>
 
         <Scoreboard players={session.players} />
+
+        {missedAnswers.length > 0 && (
+          <Card>
+            <h2 className="mb-1 font-bold md:text-xl">
+              Missed answers
+            </h2>
+            <p className="mb-4 font-spartan text-sm text-white/50 md:text-base">
+              {missedAnswers.length} of {session.list.items.length} not guessed
+            </p>
+            <ul className="space-y-2">
+              {missedAnswers.map((item) => (
+                <li
+                  key={item.rank}
+                  className="flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3"
+                >
+                  <span className="font-spartan text-base text-white/80 md:text-lg">
+                    <span className="mr-2 font-display text-[#f5c542]">
+                      #{item.rank}
+                    </span>
+                    {item.answer}
+                    {item.value != null && (
+                      <span className="text-white/45">
+                        {" "}
+                        {formatTenableItemValue(
+                          item.value,
+                          session.list.valueFormat,
+                        )}
+                      </span>
+                    )}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </Card>
+        )}
+
         <TopTenBoard
           list={session.list}
           slots={session.slots}
@@ -85,6 +132,9 @@ export function TenableResultsPage() {
           </Card>
         )}
 
+      </div>
+
+      <FixedBottomActions>
         <PrimaryButton
           onClick={() => {
             clearSession();
@@ -101,7 +151,7 @@ export function TenableResultsPage() {
         >
           Home
         </SecondaryButton>
-      </div>
+      </FixedBottomActions>
     </Layout>
   );
 }

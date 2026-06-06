@@ -35,93 +35,122 @@ function matchesGuessToName(guessNorm: string, candidate: string): boolean {
 
 function findUniqueByToken(
   items: TenableItem[],
-  alreadyFound: string[],
   token: string,
   pick: (item: TenableItem) => string,
 ): TenableItem | undefined {
-  const matches = items.filter((item) => {
-    if (alreadyFound.includes(item.answer)) {
-      return false;
-    }
-    return normalizeName(pick(item)) === token;
-  });
+  const matches = items.filter(
+    (item) => normalizeName(pick(item)) === token,
+  );
 
   return matches.length === 1 ? matches[0] : undefined;
 }
 
-export function resolveTenableGuess(
-  list: TenableList,
-  input: string,
-  alreadyFound: string[],
-): { ok: true; answer: string; rank: number } | { ok: false; reason: "empty" | "unknown" | "duplicate" | "ambiguous" } {
-  const trimmed = input.trim();
-  if (!trimmed) {
-    return { ok: false, reason: "empty" };
-  }
+function collectDirectMatches(
+  items: TenableItem[],
+  normalizedInput: string,
+): TenableItem[] {
+  const matches: TenableItem[] = [];
 
-  const normalizedInput = normalizeName(trimmed);
-  const matches: Array<{ answer: string; rank: number }> = [];
-
-  for (const item of list.items) {
-    if (alreadyFound.includes(item.answer)) {
-      continue;
-    }
-
+  for (const item of items) {
     const names = [item.answer, ...(item.aliases ?? [])];
     for (const name of names) {
       if (
         normalizeName(name) === normalizedInput ||
         matchesGuessToName(normalizedInput, name)
       ) {
-        matches.push({ answer: item.answer, rank: item.rank });
+        matches.push(item);
         break;
       }
     }
   }
 
-  if (matches.length === 0) {
-    const lastNameMatch = findUniqueByToken(
-      list.items,
-      alreadyFound,
-      normalizedInput,
-      (item) => item.answer.split(" ").pop() ?? item.answer,
-    );
+  return matches;
+}
 
-    if (lastNameMatch) {
-      return {
-        ok: true,
-        answer: lastNameMatch.answer,
-        rank: lastNameMatch.rank,
-      };
-    }
+function matchTenableItem(
+  items: TenableItem[],
+  normalizedInput: string,
+): TenableItem | "ambiguous" | null {
+  const directMatches = collectDirectMatches(items, normalizedInput);
 
-    const firstNameMatch = findUniqueByToken(
-      list.items,
-      alreadyFound,
-      normalizedInput,
-      (item) => item.answer.split(" ")[0] ?? item.answer,
-    );
-
-    if (firstNameMatch) {
-      return {
-        ok: true,
-        answer: firstNameMatch.answer,
-        rank: firstNameMatch.rank,
-      };
-    }
-
-    return { ok: false, reason: "unknown" };
+  if (directMatches.length === 1) {
+    return directMatches[0];
   }
 
-  if (matches.length > 1) {
+  if (directMatches.length > 1) {
+    return "ambiguous";
+  }
+
+  const lastNameMatch = findUniqueByToken(
+    items,
+    normalizedInput,
+    (item) => item.answer.split(" ").pop() ?? item.answer,
+  );
+  if (lastNameMatch) {
+    return lastNameMatch;
+  }
+
+  const firstNameMatch = findUniqueByToken(
+    items,
+    normalizedInput,
+    (item) => item.answer.split(" ")[0] ?? item.answer,
+  );
+  if (firstNameMatch) {
+    return firstNameMatch;
+  }
+
+  return null;
+}
+
+export type TenableGuessResult =
+  | { ok: true; answer: string; rank: number }
+  | { ok: false; reason: "empty" | "unknown" | "ambiguous" }
+  | { ok: false; reason: "duplicate"; answer: string; rank: number };
+
+export function resolveTenableGuess(
+  list: TenableList,
+  input: string,
+  alreadyFound: string[],
+): TenableGuessResult {
+  const trimmed = input.trim();
+  if (!trimmed) {
+    return { ok: false, reason: "empty" };
+  }
+
+  const normalizedInput = normalizeName(trimmed);
+  const foundItems = list.items.filter((item) =>
+    alreadyFound.includes(item.answer),
+  );
+  const unfoundItems = list.items.filter(
+    (item) => !alreadyFound.includes(item.answer),
+  );
+
+  const duplicateMatch = matchTenableItem(foundItems, normalizedInput);
+  if (duplicateMatch === "ambiguous") {
     return { ok: false, reason: "ambiguous" };
   }
-
-  if (alreadyFound.includes(matches[0].answer)) {
-    return { ok: false, reason: "duplicate" };
+  if (duplicateMatch) {
+    return {
+      ok: false,
+      reason: "duplicate",
+      answer: duplicateMatch.answer,
+      rank: duplicateMatch.rank,
+    };
   }
 
-  return { ok: true, answer: matches[0].answer, rank: matches[0].rank };
+  const successMatch = matchTenableItem(unfoundItems, normalizedInput);
+  if (successMatch === "ambiguous") {
+    return { ok: false, reason: "ambiguous" };
+  }
+  if (successMatch) {
+    return {
+      ok: true,
+      answer: successMatch.answer,
+      rank: successMatch.rank,
+    };
+  }
+
+  return { ok: false, reason: "unknown" };
 }
 
 export function getTenableSuggestions(list: TenableList, query: string): string[] {

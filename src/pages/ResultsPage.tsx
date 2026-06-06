@@ -1,6 +1,12 @@
 import { Navigate, useNavigate } from "react-router-dom";
 import { FormationPitch } from "../components/FormationPitch";
-import { Card, Layout, PrimaryButton, SecondaryButton } from "../components/Layout";
+import {
+  Card,
+  FixedBottomActions,
+  Layout,
+  PrimaryButton,
+  SecondaryButton,
+} from "../components/Layout";
 import { MatchCard } from "../components/MatchCard";
 import { Scoreboard } from "../components/Scoreboard";
 import { useSession } from "../context/SessionContext";
@@ -30,8 +36,8 @@ export function ResultsPage() {
       : winners.map((player) => player.name).join(" & ");
 
   return (
-    <Layout>
-      <div className="space-y-5 md:space-y-6">
+    <Layout contentClassName="pb-0">
+      <div className="space-y-5 pb-[calc(9.5rem+env(safe-area-inset-bottom))] md:space-y-6">
         <div className="text-center">
           <p className="font-display text-sm uppercase tracking-[0.3em] text-[#f5c542] md:text-base">
             Full time
@@ -73,6 +79,9 @@ export function ResultsPage() {
           </Card>
         )}
 
+      </div>
+
+      <FixedBottomActions>
         <PrimaryButton
           onClick={() => {
             clearSession();
@@ -89,7 +98,7 @@ export function ResultsPage() {
         >
           Home
         </SecondaryButton>
-      </div>
+      </FixedBottomActions>
     </Layout>
   );
 }

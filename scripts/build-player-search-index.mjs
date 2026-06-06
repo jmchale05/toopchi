@@ -1,12 +1,11 @@
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import { buildPlayerDoc, normalizeName } from "./lib/playerMatch.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const players = Object.values(
-  JSON.parse(readFileSync(join(root, "players.json"), "utf8")),
-);
+const catalogPath = join(root, "players.json");
+const players = Object.values(JSON.parse(readFileSync(catalogPath, "utf8")));
 const gamePlayers = JSON.parse(
   readFileSync(join(root, "src/data/game-players.json"), "utf8"),
 );
@@ -17,6 +16,9 @@ function toIndexEntry(doc) {
     name: doc.name,
     age: doc.age,
     club: doc.club,
+    league: doc.league ?? null,
+    position: doc.position ?? null,
+    nationality: doc.nationality ?? null,
     retired: doc.retired,
     searchName: doc.searchName,
     searchFirstname: doc.searchFirstname,
@@ -41,6 +43,9 @@ function mergeCatalogEntry(catalogEntry, gameDoc) {
     name: gameDoc.name,
     age: gameDoc.age ?? catalogEntry.age,
     club: gameDoc.club ?? catalogEntry.club,
+    league: gameDoc.league ?? catalogEntry.league ?? null,
+    position: gameDoc.position ?? catalogEntry.position ?? null,
+    nationality: gameDoc.nationality ?? catalogEntry.nationality ?? null,
     retired: gameDoc.retired ?? catalogEntry.retired,
     searchName: gameDoc.searchName,
     searchFirstname: gameDoc.searchFirstname,

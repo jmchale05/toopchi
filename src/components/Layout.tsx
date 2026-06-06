@@ -10,7 +10,7 @@ const ACCOUNT_LINK = {
 
 const NAV_LINKS = [
   { to: "/", label: "Home" },
-  { to: START_GAME_PATH, label: "Start game" },
+  { to: START_GAME_PATH, label: "Top Order" },
   { to: "/how-to-play", label: "How to play" },
 ] as const;
 
@@ -175,6 +175,16 @@ export function Layout({
       <div
         className={`mx-auto flex w-full max-w-lg flex-1 flex-col px-4 py-6 md:max-w-3xl md:px-8 md:py-10 ${contentClassName}`.trim()}
       >
+        {children}
+      </div>
+    </div>
+  );
+}
+
+export function FixedBottomActions({ children }: { children: ReactNode }) {
+  return (
+    <div className="fixed inset-x-0 bottom-0 z-20 border-t border-white/10 bg-[#081220] px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
+      <div className="mx-auto w-full max-w-lg space-y-3 md:max-w-3xl">
         {children}
       </div>
     </div>

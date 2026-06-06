@@ -1,112 +1,14 @@
 import { useState } from "react";
 import type { Player } from "../../../types/match";
-import type { PlayerRecord } from "../../../types/player";
 import type { TenableList } from "../../../types/tenable";
-import {
-  getTenableSuggestionKey,
-  getTenableSuggestionName,
-  useTenablePlayerSearch,
-  type TenableSuggestion,
-} from "../../../hooks/useTenablePlayerSearch";
+import { useTenablePlayerSearch } from "../../../hooks/useTenablePlayerSearch";
 import {
   AnimatedPlayerScore,
   type ScoreAnimation,
 } from "../../AnimatedPlayerScore";
 import { GameExitButton } from "../../GameExitButton";
+import { PlayerSuggestionList } from "../../PlayerSuggestionList";
 import { PrimaryButton } from "../../Layout";
-
-function formatPlayerMeta(player: PlayerRecord): string | null {
-  const club = player.club ?? player.team;
-  const parts: string[] = [];
-
-  if (typeof player.age === "number") {
-    parts.push(String(player.age));
-  }
-
-  if (club) {
-    parts.push(club);
-  }
-
-  return parts.length > 0 ? parts.join(" · ") : null;
-}
-
-function TenableSuggestionList({
-  suggestions,
-  hasMore,
-  isLoading,
-  isLoadingMore,
-  onSelect,
-  onLoadMore,
-  disabled,
-  variant,
-}: {
-  suggestions: TenableSuggestion[];
-  hasMore: boolean;
-  isLoading: boolean;
-  isLoadingMore: boolean;
-  onSelect: (name: string) => void;
-  onLoadMore: () => void;
-  disabled?: boolean;
-  variant: "desktop" | "mobile";
-}) {
-  if (suggestions.length === 0 && !isLoading) {
-    return null;
-  }
-
-  const listClassName =
-    variant === "mobile"
-      ? "absolute inset-x-3 bottom-full mb-2 max-h-48 overflow-y-auto rounded-xl border border-white/15 bg-[#0a1628] shadow-[0_-8px_32px_rgba(0,0,0,0.45)] divide-y divide-white/10"
-      : "mt-3 overflow-hidden rounded-xl border border-white/10 divide-y divide-white/10";
-
-  const buttonClassName =
-    variant === "mobile"
-      ? "w-full px-4 py-3.5 text-left font-spartan text-base text-white transition hover:bg-white/10 disabled:opacity-50"
-      : "w-full px-4 py-3 text-left text-sm transition hover:bg-white/10 disabled:cursor-not-allowed disabled:opacity-50 md:text-base";
-
-  return (
-    <ul className={listClassName}>
-      {suggestions.map((item) => {
-        const name = getTenableSuggestionName(item);
-        const subtitle = formatPlayerMeta(item.result.player);
-
-        return (
-          <li key={getTenableSuggestionKey(item)}>
-            <button
-              type="button"
-              onClick={() => onSelect(name)}
-              disabled={disabled}
-              className={buttonClassName}
-            >
-              <span className="block truncate">{name}</span>
-              {subtitle && (
-                <span className="block truncate text-sm text-white/40 md:text-xs">
-                  {subtitle}
-                </span>
-              )}
-            </button>
-          </li>
-        );
-      })}
-
-      {isLoading && suggestions.length === 0 && (
-        <li className="px-4 py-3.5 text-base text-white/45 md:text-sm">Searching...</li>
-      )}
-
-      {hasMore && (
-        <li>
-          <button
-            type="button"
-            onClick={() => void onLoadMore()}
-            disabled={disabled || isLoadingMore}
-            className={`${buttonClassName} text-[#f5c542]`}
-          >
-            {isLoadingMore ? "Loading..." : "Load more"}
-          </button>
-        </li>
-      )}
-    </ul>
-  );
-}
 
 // ── Shared guess form (desktop sidebar) ──────────────────────────────────────
 
@@ -155,7 +57,7 @@ export function TenableGuessForm({
         disabled={disabled}
       />
 
-      <TenableSuggestionList
+      <PlayerSuggestionList
         suggestions={suggestions}
         hasMore={hasMore}
         isLoading={isLoading}
@@ -163,7 +65,6 @@ export function TenableGuessForm({
         onSelect={submit}
         onLoadMore={loadMore}
         disabled={disabled}
-        variant="desktop"
       />
 
       {error && (
@@ -223,7 +124,7 @@ export function TenableMobileSearchBar({
 
   return (
     <div className="tenable-mobile-footer md:hidden">
-      <TenableSuggestionList
+      <PlayerSuggestionList
         suggestions={suggestions}
         hasMore={hasMore}
         isLoading={isLoading}
@@ -231,7 +132,7 @@ export function TenableMobileSearchBar({
         onSelect={submit}
         onLoadMore={loadMore}
         disabled={disabled}
-        variant="mobile"
+        variant="popover-up"
       />
 
       <div className="relative px-3 pt-2.5 pb-3">

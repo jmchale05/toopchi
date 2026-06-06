@@ -1,5 +1,5 @@
 import type { Player } from "../../../types/match";
-import type { TenableList, TenableSession } from "../../../types/tenable";
+import type { TenableItem, TenableList, TenableSession } from "../../../types/tenable";
 
 export const POINTS_PER_TENABLE_GUESS = 100;
 export const NATION_REVEAL_COST = 50;
@@ -25,6 +25,16 @@ export function createTenableSession(
 
 export function tenableItemsFound(session: TenableSession): number {
   return session.slots.filter(Boolean).length;
+}
+
+export function finishTenableSession(session: TenableSession): TenableSession {
+  return { ...session, phase: "finished", endedEarly: true };
+}
+
+export function getTenableMissedAnswers(session: TenableSession): TenableItem[] {
+  return [...session.list.items]
+    .filter((item) => !session.slots[item.rank - 1])
+    .sort((a, b) => a.rank - b.rank);
 }
 
 export function isTenableFinished(session: TenableSession): boolean {

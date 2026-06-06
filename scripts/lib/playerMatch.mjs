@@ -55,6 +55,8 @@ export function buildPlayerDoc(player) {
     nationality: player.nationality ?? null,
     team,
     club,
+    league: player.league ?? null,
+    position: player.position ?? null,
     retired,
     source: player.source ?? "players-json",
     sourcePlayerId: player.sourcePlayerId ?? null,
