@@ -13,7 +13,7 @@ export function GameHud({
   const sorted = [...players].sort((a, b) => b.score - a.score);
 
   return (
-    <div className="shrink-0 border-b border-white/10 bg-[#0a1628]">
+    <div className="shrink-0 border-b border-white/10 bg-[#0a1628] pt-[env(safe-area-inset-top)]">
       <div className="relative px-3 pt-2.5 pb-2">
         <div className="absolute inset-y-0 right-3 z-10 flex items-center">
           <GameExitButton />

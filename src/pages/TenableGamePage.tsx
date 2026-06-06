@@ -23,6 +23,7 @@ import {
   delay,
   FAIL_FLASH_MS,
   runRankReveal,
+  scrollBoardIntoView,
 } from "../lib/modes/tenable/revealSequence";
 import { playerLastName } from "../lib/playerImages";
 import type { ScoreAnimation } from "../components/AnimatedPlayerScore";
@@ -45,7 +46,19 @@ export function TenableGamePage() {
   } | null>(null);
   const scoreAnimationId = useRef(0);
   const revealSignal = useRef({ cancelled: false });
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const boardRef = useRef<HTMLDivElement>(null);
   const nationDialogOpen = pendingNationReveal !== null;
+
+  async function prepareBoardForReveal(): Promise<void> {
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
+    await delay(150);
+    if (revealSignal.current.cancelled) return;
+    await scrollBoardIntoView(scrollContainerRef.current, boardRef.current);
+    if (revealSignal.current.cancelled) return;
+  }
 
   function triggerScoreAnimation(
     playerIndex: number,
@@ -93,6 +106,8 @@ export function TenableGamePage() {
   async function playFailReveal(guess: string) {
     setError(null);
     setIsRevealing(true);
+    await prepareBoardForReveal();
+    if (revealSignal.current.cancelled) return;
     await runRankReveal(10, setRevealRank, revealSignal.current);
     if (revealSignal.current.cancelled) return;
 
@@ -116,6 +131,8 @@ export function TenableGamePage() {
   ) {
     setError(null);
     setIsRevealing(true);
+    await prepareBoardForReveal();
+    if (revealSignal.current.cancelled) return;
     await runRankReveal(rank, setRevealRank, revealSignal.current);
     if (revealSignal.current.cancelled) return;
 
@@ -219,8 +236,14 @@ export function TenableGamePage() {
         />
       </div>
 
-      <div className="relative min-h-0 flex-1 overflow-y-auto">
-        <div className="py-4 pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:py-8 md:pb-8 md:flex md:min-h-full md:items-center md:justify-center">
+      <div
+        ref={scrollContainerRef}
+        className="relative min-h-0 flex-1 overflow-y-auto"
+      >
+        <div
+          ref={boardRef}
+          className="py-4 pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:py-8 md:pb-8 md:flex md:min-h-full md:items-center md:justify-center"
+        >
           <TopTenBoard
             list={tenableSession.list}
             slots={tenableSession.slots}

@@ -98,7 +98,7 @@ function AppNavbar({
   const location = useLocation();
 
   return (
-    <header className="sticky top-0 z-10 border-b border-white/10 bg-[#0a1628]/95 backdrop-blur-md">
+    <header className="sticky top-0 z-10 border-b border-white/10 bg-[#0a1628]/95 pt-[env(safe-area-inset-top)] backdrop-blur-md">
       <div className="mx-auto flex h-14 max-w-lg items-center px-4 md:h-20 md:max-w-3xl md:px-10 lg:h-24">
         {showBack ? (
           <>

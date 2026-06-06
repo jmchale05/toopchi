@@ -234,7 +234,7 @@ export function TenableMobileSearchBar({
         variant="mobile"
       />
 
-      <div className="relative px-3 pt-2.5 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
+      <div className="relative px-3 pt-2.5 pb-3">
         <div className="relative">
           <input
             value={guess}

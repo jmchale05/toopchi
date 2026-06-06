@@ -23,7 +23,7 @@ export function HomePage() {
         <DailyPlayerGame />
       </div>
 
-      <div className="fixed inset-x-0 bottom-0 z-20 px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] md:hidden">
+      <div className="fixed inset-x-0 bottom-0 z-20 bg-[#081220] px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] md:hidden">
         <div className="mx-auto w-full max-w-lg space-y-3">
           <PrimaryButton onClick={() => navigate(START_GAME_PATH)}>
             Start game
