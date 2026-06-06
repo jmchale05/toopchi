@@ -10,7 +10,7 @@ const ACCOUNT_LINK = {
 
 const NAV_LINKS = [
   { to: "/", label: "Home" },
-  { to: START_GAME_PATH, label: "Top Order" },
+  { to: START_GAME_PATH, label: "Try Top Order" },
   { to: "/how-to-play", label: "How to play" },
 ] as const;
 
@@ -188,6 +188,34 @@ export function FixedBottomActions({ children }: { children: ReactNode }) {
         {children}
       </div>
     </div>
+  );
+}
+
+export function TryTopOrderButton({
+  onClick,
+  to,
+  className = "",
+}: {
+  onClick?: () => void;
+  to?: string;
+  className?: string;
+}) {
+  const classes = `btn-top-order ${className}`.trim();
+
+  const label = <span className="relative z-[1]">Try Top Order</span>;
+
+  if (to) {
+    return (
+      <Link to={to} className={classes}>
+        {label}
+      </Link>
+    );
+  }
+
+  return (
+    <button type="button" onClick={onClick} className={classes}>
+      {label}
+    </button>
   );
 }
 

@@ -121,6 +121,57 @@ h3 {
     @apply inline-flex min-h-12 w-full items-center justify-center rounded-xl border border-[#ffe082]/55 bg-[#f5c542] px-6 py-3 font-spartan text-base font-semibold leading-none tracking-wide text-[#081220] shadow-[inset_0_1px_0_rgba(255,255,255,0.35),0_4px_24px_rgba(245,197,66,0.22)] transition-all duration-200 select-none hover:border-[#ffe082]/75 hover:bg-[#ffcf4d] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.45),0_6px_28px_rgba(245,197,66,0.32)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/70 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-dark active:translate-y-px active:shadow-[inset_0_1px_0_rgba(255,255,255,0.2),0_2px_12px_rgba(245,197,66,0.18)] disabled:cursor-not-allowed disabled:border-white/10 disabled:bg-white/10 disabled:text-white/35 disabled:shadow-none disabled:active:translate-y-0 md:min-h-[3.25rem] md:px-7 md:text-lg;
   }
 
+  .btn-top-order {
+    @apply relative inline-flex min-h-[3.5rem] w-full items-center justify-center overflow-hidden rounded-2xl border border-[#fff0b3]/90 px-7 py-3.5 font-display text-lg uppercase leading-none tracking-[0.08em] text-[#081220] transition-all duration-200 select-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/80 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-dark active:translate-y-px md:min-h-[3.75rem] md:px-8 md:text-xl;
+    background: linear-gradient(
+      180deg,
+      #ffe27a 0%,
+      #f5c542 42%,
+      #e5a820 100%
+    );
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.55),
+      inset 0 -2px 0 rgba(180, 120, 10, 0.18),
+      0 10px 32px rgba(245, 197, 66, 0.38),
+      0 0 0 1px rgba(245, 197, 66, 0.12);
+  }
+
+  .btn-top-order::before {
+    content: "";
+    position: absolute;
+    inset: 1px 1px auto;
+    height: 42%;
+    border-radius: 1rem 1rem 0.75rem 0.75rem;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.42) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    pointer-events: none;
+  }
+
+  .btn-top-order:hover {
+    border-color: rgba(255, 248, 210, 0.95);
+    background: linear-gradient(
+      180deg,
+      #ffe98f 0%,
+      #ffcf4d 42%,
+      #eab224 100%
+    );
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.62),
+      inset 0 -2px 0 rgba(180, 120, 10, 0.2),
+      0 14px 38px rgba(245, 197, 66, 0.48),
+      0 0 0 1px rgba(245, 197, 66, 0.2);
+  }
+
+  .btn-top-order:active {
+    box-shadow:
+      inset 0 2px 4px rgba(120, 80, 0, 0.18),
+      inset 0 -1px 0 rgba(180, 120, 10, 0.12),
+      0 4px 16px rgba(245, 197, 66, 0.28);
+  }
+
   .btn-secondary {
     @apply inline-flex min-h-12 w-full items-center justify-center rounded-xl border border-white/20 bg-white/[0.06] px-6 py-3 font-spartan text-base font-semibold leading-none tracking-wide text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] backdrop-blur-sm transition-all duration-200 select-none hover:border-[#f5c542]/45 hover:bg-white/10 hover:text-[#f5c542] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/50 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-dark active:scale-[0.98] md:min-h-[3.25rem] md:px-7 md:text-lg;
   }
@@ -476,12 +527,29 @@ h3 {
   @apply border-b border-white/10 bg-black/25 px-4 py-3 text-center font-spartan text-base font-bold tracking-wide text-white md:text-lg;
 }
 
+.daily-guess-board-scroll {
+  @apply w-full overflow-hidden;
+}
+
 .daily-guess-board {
-  @apply w-full;
+  @apply flex w-full gap-3 overflow-x-auto scroll-smooth pb-2;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.daily-guess-board::-webkit-scrollbar {
+  height: 4px;
+}
+
+.daily-guess-board::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .daily-guess-row-compact {
-  @apply rounded-xl border border-white/10 bg-white/[0.03] px-2 py-2;
+  @apply w-[15.5rem] shrink-0 snap-start rounded-xl border border-white/10 bg-white/[0.03] px-2 py-2;
 }
 
 .daily-guess-row-compact-name {

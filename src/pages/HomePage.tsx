@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { DailyPlayerGame } from "../components/DailyPlayerGame";
-import { Layout, PrimaryButton, SecondaryButton } from "../components/Layout";
+import { Layout, SecondaryButton, TryTopOrderButton } from "../components/Layout";
 import { START_GAME_PATH } from "../config/features";
 
 function SmartDisplayIcon() {
@@ -25,9 +25,7 @@ export function HomePage() {
 
       <div className="fixed inset-x-0 bottom-0 z-20 bg-[#081220] px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] md:hidden">
         <div className="mx-auto w-full max-w-lg space-y-3">
-          <PrimaryButton onClick={() => navigate(START_GAME_PATH)}>
-            Top Order
-          </PrimaryButton>
+          <TryTopOrderButton onClick={() => navigate(START_GAME_PATH)} />
           <SecondaryButton
             className="gap-2.5"
             onClick={() => navigate("/premium")}
@@ -59,12 +57,10 @@ export function HomePage() {
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <PrimaryButton
-              className="w-auto min-w-[10.5rem]"
+            <TryTopOrderButton
+              className="w-auto min-w-[12.5rem]"
               onClick={() => navigate(START_GAME_PATH)}
-            >
-              Top Order
-            </PrimaryButton>
+            />
             <SecondaryButton
               className="w-auto min-w-[10.5rem] gap-2.5"
               onClick={() => navigate("/premium")}

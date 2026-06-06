@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   DAILY_MAX_GUESSES,
   getDailyPlayer,
@@ -166,9 +166,11 @@ function DailyHintCell({
 function DailySolvedReveal({
   name,
   failed,
+  guessCount,
 }: {
   name: string;
   failed?: boolean;
+  guessCount?: number;
 }) {
   return (
     <div
@@ -199,6 +201,11 @@ function DailySolvedReveal({
       >
         {name}
       </p>
+      {!failed && guessCount != null && guessCount > 0 && (
+        <p className="mt-4 font-spartan text-sm font-semibold tracking-wide text-emerald-200/90 md:text-base">
+          Got it in {guessCount} {guessCount === 1 ? "guess" : "guesses"}
+        </p>
+      )}
     </div>
   );
 }
@@ -353,6 +360,7 @@ export function DailyPlayerGame() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isRevealing, setIsRevealing] = useState(false);
   const [revealLatestGuess, setRevealLatestGuess] = useState(false);
+  const guessBoardRef = useRef<HTMLUListElement>(null);
   const { suggestions, hasMore, isLoading, isLoadingMore, loadMore } =
     usePlayerSearch(guess);
 
@@ -360,6 +368,16 @@ export function DailyPlayerGame() {
     setIsRevealing(false);
     setRevealLatestGuess(false);
   }, []);
+
+  useEffect(() => {
+    const board = guessBoardRef.current;
+    if (!board || state.guesses.length === 0) return;
+
+    board.scrollTo({
+      left: board.scrollWidth,
+      behavior: "smooth",
+    });
+  }, [state.guesses.length]);
 
   const gameOver = state.solved || Boolean(state.failed);
   const guessesUsed = state.guesses.length;
@@ -437,25 +455,35 @@ export function DailyPlayerGame() {
       )}
 
       {showGuessBoard && (
-        <ul className="daily-guess-board mt-4 w-full max-w-lg space-y-2">
-          {state.guesses.map((entry, index) => (
-            <DailyGuessRow
-              key={`${entry.guess}-${index}`}
-              entry={entry}
-              compact
-              animate={revealLatestGuess && index === latestGuessIndex}
-              onRevealComplete={
-                revealLatestGuess && index === latestGuessIndex
-                  ? handleRevealComplete
-                  : undefined
-              }
-            />
-          ))}
-        </ul>
+        <div className="daily-guess-board-scroll mt-4 w-full max-w-lg">
+          <ul
+            ref={guessBoardRef}
+            className="daily-guess-board"
+            aria-label="Previous guesses"
+          >
+            {state.guesses.map((entry, index) => (
+              <DailyGuessRow
+                key={`${entry.guess}-${index}`}
+                entry={entry}
+                compact
+                animate={revealLatestGuess && index === latestGuessIndex}
+                onRevealComplete={
+                  revealLatestGuess && index === latestGuessIndex
+                    ? handleRevealComplete
+                    : undefined
+                }
+              />
+            ))}
+          </ul>
+        </div>
       )}
 
       {showSolvedMessage && state.answer && (
-        <DailySolvedReveal name={state.answer} failed={state.failed} />
+        <DailySolvedReveal
+          name={state.answer}
+          failed={state.failed}
+          guessCount={state.solved ? guessesUsed : undefined}
+        />
       )}
 
       {canGuess && (

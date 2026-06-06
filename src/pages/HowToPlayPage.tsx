@@ -1,4 +1,4 @@
-import { Card, Layout, SecondaryButton } from "../components/Layout";
+import { Card, Layout, TryTopOrderButton } from "../components/Layout";
 import { START_GAME_PATH } from "../config/features";
 
 export function HowToPlayPage() {
@@ -47,7 +47,7 @@ export function HowToPlayPage() {
           </p>
         </Card>
 
-        <SecondaryButton to={START_GAME_PATH}>Top Order</SecondaryButton>
+        <TryTopOrderButton className="max-w-md" to={START_GAME_PATH} />
       </div>
     </Layout>
   );
