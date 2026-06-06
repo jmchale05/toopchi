@@ -197,14 +197,28 @@ h3 {
   }
 
   .tenable-mobile-footer {
-    @apply fixed inset-x-0 bottom-0 z-20 flex flex-col border-t border-white/10 bg-[#0a1628]/96 pb-[env(safe-area-inset-bottom)] backdrop-blur-md;
+    @apply fixed inset-x-0 bottom-0 z-20 overflow-visible border-t border-white/10 bg-[#0a1628] pb-[env(safe-area-inset-bottom)];
     transition: bottom 0.2s ease-out;
     touch-action: manipulation;
   }
 
+  .tenable-mobile-input-wrap {
+    @apply relative isolate overflow-visible;
+  }
+
+  .tenable-mobile-input-shell {
+    @apply relative z-10 flex h-12 items-center gap-1 rounded-xl border border-white/10 bg-[#0a1628] px-3;
+  }
+
+  .tenable-mobile-input-shell:focus-within {
+    @apply border-[#f5c542]/50;
+  }
+
   .tenable-mobile-guess-input {
-    @apply h-12 min-h-12 py-0 text-base leading-[3rem];
-    font-size: max(1rem, 16px);
+    @apply min-h-0 min-w-0 flex-1 border-0 bg-transparent p-0 font-spartan text-base leading-normal tracking-wide text-white outline-none placeholder:text-white/35;
+    font-size: 16px;
+    -webkit-appearance: none;
+    appearance: none;
   }
 
   .btn-team-active {

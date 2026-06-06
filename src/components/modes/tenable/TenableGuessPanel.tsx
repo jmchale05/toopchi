@@ -129,51 +129,53 @@ export function TenableMobileSearchBar({
       className="tenable-mobile-footer md:hidden"
       style={keyboardInset > 0 ? { bottom: keyboardInset } : undefined}
     >
-      <PlayerSuggestionList
-        suggestions={suggestions}
-        hasMore={hasMore}
-        isLoading={isLoading}
-        isLoadingMore={isLoadingMore}
-        onSelect={submit}
-        onLoadMore={loadMore}
-        disabled={disabled}
-        variant="stack"
-      />
-
       <div className="shrink-0 px-3 pt-2.5 pb-3">
-        <div className="relative">
-          <input
-            value={guess}
-            onChange={(e) => setGuess(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                e.preventDefault();
-                submit(guess);
-              }
-            }}
-            placeholder="Guess a name..."
-            className="field-input tenable-mobile-guess-input w-full pr-12 disabled:cursor-not-allowed disabled:opacity-50"
-            autoComplete="off"
-            autoCapitalize="words"
-            autoCorrect="off"
-            spellCheck={false}
-            enterKeyHint="go"
-            inputMode="text"
+        <div className="tenable-mobile-input-wrap">
+          <div className="tenable-mobile-input-shell">
+            <input
+              value={guess}
+              onChange={(e) => setGuess(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  submit(guess);
+                }
+              }}
+              placeholder="Guess a name..."
+              className="tenable-mobile-guess-input disabled:cursor-not-allowed disabled:opacity-50"
+              autoComplete="off"
+              autoCapitalize="words"
+              autoCorrect="off"
+              spellCheck={false}
+              enterKeyHint="go"
+              inputMode="text"
+              disabled={disabled}
+            />
+            <button
+              type="button"
+              onClick={() => submit(guess)}
+              disabled={!canSend}
+              aria-label="Send guess"
+              className={`flex h-9 w-9 shrink-0 items-center justify-center transition ${
+                canSend
+                  ? "text-[#f5c542] hover:text-[#ffcf4d]"
+                  : "text-white/30"
+              }`}
+            >
+              <SendIcon />
+            </button>
+          </div>
+
+          <PlayerSuggestionList
+            suggestions={suggestions}
+            hasMore={hasMore}
+            isLoading={isLoading}
+            isLoadingMore={isLoadingMore}
+            onSelect={submit}
+            onLoadMore={loadMore}
             disabled={disabled}
+            variant="popover"
           />
-          <button
-            type="button"
-            onClick={() => submit(guess)}
-            disabled={!canSend}
-            aria-label="Send guess"
-            className={`absolute top-1/2 right-2 flex h-9 w-9 -translate-y-1/2 items-center justify-center transition ${
-              canSend
-                ? "text-[#f5c542] hover:text-[#ffcf4d]"
-                : "text-white/30"
-            }`}
-          >
-            <SendIcon />
-          </button>
         </div>
 
         {error && (
