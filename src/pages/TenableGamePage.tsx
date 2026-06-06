@@ -282,15 +282,14 @@ export function TenableGamePage() {
         />
       </div>
 
-      <div className="flex min-h-0 flex-1 flex-col overflow-hidden md:flex-row">
+      <div
+        ref={scrollContainerRef}
+        className="relative min-h-0 flex-1 overflow-y-auto overscroll-y-contain scroll-pb-[calc(5.5rem+env(safe-area-inset-bottom))] md:scroll-pb-0"
+      >
         <div
-          ref={scrollContainerRef}
-          className="relative min-h-0 flex-1 overflow-y-auto overscroll-y-contain md:scroll-pb-0"
+          ref={boardRef}
+          className="py-4 pb-[calc(5.5rem+env(safe-area-inset-bottom))] md:flex md:min-h-full md:items-center md:justify-center md:py-8 md:pb-8"
         >
-          <div
-            ref={boardRef}
-            className="py-4 md:flex md:min-h-full md:items-center md:justify-center md:py-8"
-          >
           <TopTenBoard
             list={tenableSession.list}
             slots={tenableSession.slots}
@@ -303,15 +302,7 @@ export function TenableGamePage() {
             activePlayerScore={activePlayer.score}
             onRequestReveal={handleNationHintRequest}
           />
-          </div>
         </div>
-
-        <TenableMobileSearchBar
-          list={tenableSession.list}
-          onSubmit={handleGuess}
-          error={error}
-          disabled={isRevealing || nationDialogOpen}
-        />
       </div>
 
       {alreadyGuessedFlash && (
@@ -366,6 +357,13 @@ export function TenableGamePage() {
           onCancel={() => setPendingNationReveal(null)}
         />
       )}
+
+      <TenableMobileSearchBar
+        list={tenableSession.list}
+        onSubmit={handleGuess}
+        error={error}
+        disabled={isRevealing || nationDialogOpen}
+      />
 
       <div className="hidden md:flex">
         <TenableDesktopSidebar

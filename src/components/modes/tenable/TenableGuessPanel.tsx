@@ -127,11 +127,7 @@ export function TenableMobileSearchBar({
   return (
     <div
       className="tenable-mobile-footer md:hidden"
-      style={
-        keyboardInset > 0
-          ? { transform: `translate3d(0, -${keyboardInset}px, 0)` }
-          : undefined
-      }
+      style={keyboardInset > 0 ? { bottom: keyboardInset } : undefined}
     >
       <PlayerSuggestionList
         suggestions={suggestions}
@@ -156,7 +152,7 @@ export function TenableMobileSearchBar({
               }
             }}
             placeholder="Guess a name..."
-            className="field-input tenable-mobile-guess-input min-h-12 w-full py-3 pr-12 disabled:cursor-not-allowed disabled:opacity-50"
+            className="field-input tenable-mobile-guess-input w-full pr-12 disabled:cursor-not-allowed disabled:opacity-50"
             autoComplete="off"
             autoCapitalize="words"
             autoCorrect="off"

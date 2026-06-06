@@ -197,12 +197,13 @@ h3 {
   }
 
   .tenable-mobile-footer {
-    @apply relative z-20 flex shrink-0 flex-col border-t border-white/10 bg-[#0a1628]/96 pb-[env(safe-area-inset-bottom)] backdrop-blur-md;
-    transition: transform 0.2s ease-out;
+    @apply fixed inset-x-0 bottom-0 z-20 flex flex-col border-t border-white/10 bg-[#0a1628]/96 pb-[env(safe-area-inset-bottom)] backdrop-blur-md;
+    transition: bottom 0.2s ease-out;
     touch-action: manipulation;
   }
 
   .tenable-mobile-guess-input {
+    @apply h-12 min-h-12 py-0 text-base leading-[3rem];
     font-size: max(1rem, 16px);
   }
 
