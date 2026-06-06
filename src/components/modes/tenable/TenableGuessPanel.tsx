@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useVisualViewportBottomInset } from "../../../hooks/useVisualViewportBottomInset";
 import type { Player } from "../../../types/match";
 import type { TenableList } from "../../../types/tenable";
 import { useTenablePlayerSearch } from "../../../hooks/useTenablePlayerSearch";
@@ -121,9 +122,17 @@ export function TenableMobileSearchBar({
   }
 
   const canSend = guess.trim().length > 0 && !disabled;
+  const keyboardInset = useVisualViewportBottomInset();
 
   return (
-    <div className="tenable-mobile-footer md:hidden">
+    <div
+      className="tenable-mobile-footer md:hidden"
+      style={
+        keyboardInset > 0
+          ? { transform: `translate3d(0, -${keyboardInset}px, 0)` }
+          : undefined
+      }
+    >
       <PlayerSuggestionList
         suggestions={suggestions}
         hasMore={hasMore}
@@ -132,10 +141,10 @@ export function TenableMobileSearchBar({
         onSelect={submit}
         onLoadMore={loadMore}
         disabled={disabled}
-        variant="popover-up"
+        variant="stack"
       />
 
-      <div className="relative px-3 pt-2.5 pb-3">
+      <div className="shrink-0 px-3 pt-2.5 pb-3">
         <div className="relative">
           <input
             value={guess}
@@ -147,8 +156,13 @@ export function TenableMobileSearchBar({
               }
             }}
             placeholder="Guess a name..."
-            className="field-input min-h-12 w-full py-3 pr-12 disabled:cursor-not-allowed disabled:opacity-50"
+            className="field-input tenable-mobile-guess-input min-h-12 w-full py-3 pr-12 disabled:cursor-not-allowed disabled:opacity-50"
             autoComplete="off"
+            autoCapitalize="words"
+            autoCorrect="off"
+            spellCheck={false}
+            enterKeyHint="go"
+            inputMode="text"
             disabled={disabled}
           />
           <button

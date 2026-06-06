@@ -39,11 +39,7 @@ async function submitDailyGuessMock(guess: string): Promise<DailyGuessResult> {
         positionMatch:
           feedback.positionMatch === "unknown" ? "unknown" : "correct",
         leagueMatch:
-          feedback.leagueMatch === "unknown"
-            ? "unknown"
-            : feedback.leagueMatch === "team"
-              ? "team"
-              : "correct",
+          feedback.leagueMatch === "unknown" ? "unknown" : "correct",
         nationMatch:
           feedback.nationMatch === "unknown" ? "unknown" : "correct",
       },

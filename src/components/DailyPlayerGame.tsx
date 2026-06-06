@@ -13,7 +13,7 @@ import type {
   DailyAgeMatch,
   DailyFieldMatch,
   DailyGuessEntry,
-  DailyLeagueMatch,
+  DailyNationMatch,
 } from "../types/dailyPlayer";
 import { NationFlag } from "./NationFlag";
 import { PlayerSuggestionList } from "./PlayerSuggestionList";
@@ -21,7 +21,7 @@ import { PlayerSuggestionList } from "./PlayerSuggestionList";
 const HINT_STAGGER_MS = 420;
 const HINT_REVEAL_DURATION_MS = HINT_STAGGER_MS * 4 + 600;
 
-type HintResult = DailyAgeMatch | DailyFieldMatch | DailyLeagueMatch;
+type HintResult = DailyAgeMatch | DailyFieldMatch | DailyNationMatch;
 
 function BlankProfileAvatar() {
   return (
@@ -102,10 +102,9 @@ function DailyGuessCounter({
 
 function staticHintClass(result: HintResult): string {
   switch (result) {
-    case "team":
-      return "daily-hint-ultra";
     case "correct":
       return "daily-hint-correct";
+    case "close":
     case "close-higher":
     case "close-lower":
       return "daily-hint-close";

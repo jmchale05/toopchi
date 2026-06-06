@@ -8,7 +8,7 @@ export type DailyAgeMatch =
 
 export type DailyFieldMatch = "correct" | "miss" | "unknown";
 
-export type DailyLeagueMatch = "team" | "correct" | "miss" | "unknown";
+export type DailyNationMatch = "correct" | "close" | "miss" | "unknown";
 
 export type DailyPlayerProfile = {
   age: number | null;
@@ -27,8 +27,8 @@ export type DailyGuessFeedback = {
   nation: string | null;
   ageMatch: DailyAgeMatch;
   positionMatch: DailyFieldMatch;
-  leagueMatch: DailyLeagueMatch;
-  nationMatch: DailyFieldMatch;
+  leagueMatch: DailyFieldMatch;
+  nationMatch: DailyNationMatch;
 };
 
 export type DailyGuessResult = {

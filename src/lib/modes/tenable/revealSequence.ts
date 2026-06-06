@@ -4,6 +4,23 @@ export const FAIL_FLASH_MS = 1800;
 export const CORRECT_FLASH_MS = 2200;
 export const ALREADY_GUESSED_FLASH_MS = 1400;
 export const SCROLL_INTO_VIEW_MS = 400;
+const MOBILE_FOOTER_SELECTOR = ".tenable-mobile-footer";
+
+function getScrollBottomInset(scrollContainer: HTMLElement): number {
+  const footer = document.querySelector<HTMLElement>(MOBILE_FOOTER_SELECTOR);
+  if (!footer) return 16;
+
+  const footerStyle = window.getComputedStyle(footer);
+  if (footerStyle.display === "none" || footerStyle.visibility === "hidden") {
+    return 16;
+  }
+
+  const containerRect = scrollContainer.getBoundingClientRect();
+  const footerRect = footer.getBoundingClientRect();
+  if (footerRect.top >= containerRect.bottom) return 16;
+
+  return containerRect.bottom - footerRect.top + 16;
+}
 
 export function delay(ms: number): Promise<void> {
   return new Promise((resolve) => window.setTimeout(resolve, ms));
@@ -61,20 +78,22 @@ export function scrollRevealRankIntoView(
   );
   if (!row) return;
 
-  const padding = 12;
+  const topPadding = 12;
+  const bottomInset = getScrollBottomInset(scrollContainer);
   const containerRect = scrollContainer.getBoundingClientRect();
   const rowRect = row.getBoundingClientRect();
   const rowTop = scrollContainer.scrollTop + (rowRect.top - containerRect.top);
   const rowBottom = rowTop + row.offsetHeight;
   const visibleTop = scrollContainer.scrollTop;
-  const visibleBottom = visibleTop + scrollContainer.clientHeight;
+  const visibleBottom =
+    visibleTop + scrollContainer.clientHeight - bottomInset;
 
   let targetScroll = scrollContainer.scrollTop;
 
-  if (rowTop < visibleTop + padding) {
-    targetScroll = rowTop - padding;
-  } else if (rowBottom > visibleBottom - padding) {
-    targetScroll = rowBottom - scrollContainer.clientHeight + padding;
+  if (rowTop < visibleTop + topPadding) {
+    targetScroll = rowTop - topPadding;
+  } else if (rowBottom > visibleBottom - topPadding) {
+    targetScroll = rowBottom - scrollContainer.clientHeight + bottomInset + topPadding;
   } else {
     return;
   }

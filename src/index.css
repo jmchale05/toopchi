@@ -197,7 +197,13 @@ h3 {
   }
 
   .tenable-mobile-footer {
-    @apply fixed inset-x-0 bottom-0 z-20 border-t border-white/10 bg-[#0a1628]/96 pb-[env(safe-area-inset-bottom)] backdrop-blur-md;
+    @apply relative z-20 flex shrink-0 flex-col border-t border-white/10 bg-[#0a1628]/96 pb-[env(safe-area-inset-bottom)] backdrop-blur-md;
+    transition: transform 0.2s ease-out;
+    touch-action: manipulation;
+  }
+
+  .tenable-mobile-guess-input {
+    font-size: max(1rem, 16px);
   }
 
   .btn-team-active {
@@ -288,12 +294,14 @@ h3 {
 }
 
 .tenable-reveal-row {
-  @apply border-[#f5c542]/75 bg-[#f5c542]/18 shadow-[0_0_28px_rgba(245,197,66,0.4)];
+  @apply relative z-10 border-[#f5c542]/75 bg-[#0a1628] shadow-[0_0_28px_rgba(245,197,66,0.4)];
+  background-color: color-mix(in srgb, #f5c542 18%, #0a1628);
   animation: tenable-reveal-pulse 0.5s ease-out;
 }
 
 .tenable-duplicate-row {
-  @apply border-amber-400/70 bg-amber-400/12 shadow-[0_0_24px_rgba(251,191,36,0.35)];
+  @apply relative z-10 border-amber-400/70 bg-[#0a1628] shadow-[0_0_24px_rgba(251,191,36,0.35)];
+  background-color: color-mix(in srgb, #fbbf24 12%, #0a1628);
   animation: tenable-duplicate-pulse 0.45s ease-out;
 }
 
@@ -641,6 +649,7 @@ h3 {
   animation-name: daily-hint-flip-team;
 }
 
+.daily-hint-cell--animate[data-result="close"],
 .daily-hint-cell--animate[data-result="close-higher"],
 .daily-hint-cell--animate[data-result="close-lower"] {
   animation-name: daily-hint-flip-close;
@@ -855,6 +864,7 @@ h3 {
     box-shadow: 0 0 20px rgba(52, 211, 153, 0.42);
   }
 
+  .daily-hint-cell--animate[data-result="close"],
   .daily-hint-cell--animate[data-result="close-higher"],
   .daily-hint-cell--animate[data-result="close-lower"] {
     @apply border-amber-400/55 bg-amber-400/15 text-amber-200;

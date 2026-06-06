@@ -44,7 +44,7 @@ export function PlayerSuggestionList({
   onSelect: (name: string) => void;
   onLoadMore: () => void;
   disabled?: boolean;
-  variant?: "dropdown" | "popover" | "popover-up";
+  variant?: "dropdown" | "popover" | "popover-up" | "stack";
   showTeam?: boolean;
   showMeta?: boolean;
 }) {
@@ -53,7 +53,9 @@ export function PlayerSuggestionList({
   }
 
   const listClassName =
-    variant === "popover-up"
+    variant === "stack"
+      ? "max-h-[min(11rem,28dvh)] shrink-0 overflow-y-auto overscroll-contain border-b border-white/10 divide-y divide-white/10"
+      : variant === "popover-up"
       ? "absolute inset-x-3 bottom-full z-20 mb-2 max-h-48 overflow-y-auto rounded-xl border border-white/15 bg-[#0a1628] shadow-[0_-8px_32px_rgba(0,0,0,0.45)] divide-y divide-white/10"
       : variant === "popover"
         ? "absolute inset-x-0 top-full z-20 mt-2 max-h-48 overflow-y-auto rounded-xl border border-white/15 bg-[#0a1628] shadow-[0_12px_32px_rgba(0,0,0,0.45)] divide-y divide-white/10"

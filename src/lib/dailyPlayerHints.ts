@@ -3,13 +3,12 @@ import type {
   DailyAgeMatch,
   DailyFieldMatch,
   DailyGuessFeedback,
-  DailyLeagueMatch,
   DailyPlayer,
   DailyPlayerProfile,
 } from "../types/dailyPlayer";
+import { compareNation } from "./dailyNationMatch";
 import { getDailyPlayer } from "./dailyPlayer";
 import { lookupPlayersByNames } from "./localPlayerSearch";
-import { normalizeNation } from "./nationFlags";
 
 function normalizeField(value: string | null | undefined): string | null {
   const trimmed = value?.trim();
@@ -37,16 +36,6 @@ function normalizePosition(value: string | null | undefined): string | null {
   return lower;
 }
 
-function normalizeNationField(value: string | null | undefined): string | null {
-  const field = normalizeField(value);
-  return field ? normalizeNation(field) : null;
-}
-
-function normalizeTeam(value: string | null | undefined): string | null {
-  const field = normalizeField(value);
-  return field ? field.toLowerCase() : null;
-}
-
 function resolveNation(
   player: PlayerRecord | DailyPlayer,
 ): string | null {
@@ -67,19 +56,6 @@ function resolveTeam(player: PlayerRecord | DailyPlayer): string | null {
   }
 
   return null;
-}
-
-export function compareLeague(
-  guessTeam: string | null,
-  guessLeague: string | null,
-  answerTeam: string | null,
-  answerLeague: string | null,
-): DailyLeagueMatch {
-  if (compareField(guessTeam, answerTeam, normalizeTeam) === "correct") {
-    return "team";
-  }
-
-  return compareField(guessLeague, answerLeague);
 }
 
 export function compareAge(
@@ -200,16 +176,7 @@ export async function buildDailyGuessFeedback(
       answerProfile.position,
       normalizePosition,
     ),
-    leagueMatch: compareLeague(
-      guessProfile.team,
-      guessProfile.league,
-      answerProfile.team,
-      answerProfile.league,
-    ),
-    nationMatch: compareField(
-      guessProfile.nation,
-      answerProfile.nation,
-      normalizeNationField,
-    ),
+    leagueMatch: compareField(guessProfile.league, answerProfile.league),
+    nationMatch: compareNation(guessProfile.nation, answerProfile.nation),
   };
 }
