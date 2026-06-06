@@ -40,14 +40,64 @@ export async function scrollBoardIntoView(
   await delay(SCROLL_INTO_VIEW_MS);
 }
 
+function waitForPaint(): Promise<void> {
+  return new Promise((resolve) => {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => resolve());
+    });
+  });
+}
+
+/** Keep the actively highlighted row inside the scroll container. */
+export function scrollRevealRankIntoView(
+  scrollContainer: HTMLElement | null,
+  rank: number,
+): void {
+  if (!scrollContainer) return;
+
+  const row = scrollContainer.querySelector<HTMLElement>(
+    `[data-reveal-rank="${rank}"]`,
+  );
+  if (!row) return;
+
+  const padding = 12;
+  const containerRect = scrollContainer.getBoundingClientRect();
+  const rowRect = row.getBoundingClientRect();
+  const rowTop = scrollContainer.scrollTop + (rowRect.top - containerRect.top);
+  const rowBottom = rowTop + row.offsetHeight;
+  const visibleTop = scrollContainer.scrollTop;
+  const visibleBottom = visibleTop + scrollContainer.clientHeight;
+
+  let targetScroll = scrollContainer.scrollTop;
+
+  if (rowTop < visibleTop + padding) {
+    targetScroll = rowTop - padding;
+  } else if (rowBottom > visibleBottom - padding) {
+    targetScroll = rowBottom - scrollContainer.clientHeight + padding;
+  } else {
+    return;
+  }
+
+  scrollContainer.scrollTo({
+    top: Math.max(0, targetScroll),
+    behavior: "smooth",
+  });
+}
+
 export async function runRankReveal(
   lastRank: number,
   onRank: (rank: number) => void,
   signal?: { cancelled: boolean },
+  scrollContainer?: HTMLElement | null,
 ): Promise<void> {
   for (let rank = 1; rank <= lastRank; rank++) {
     if (signal?.cancelled) return;
     onRank(rank);
+    if (scrollContainer) {
+      await waitForPaint();
+      if (signal?.cancelled) return;
+      scrollRevealRankIntoView(scrollContainer, rank);
+    }
     await delay(REVEAL_STEP_MS);
   }
   if (!signal?.cancelled) {

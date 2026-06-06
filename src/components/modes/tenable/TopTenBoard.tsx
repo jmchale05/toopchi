@@ -168,6 +168,7 @@ function BoardRow({
 
   return (
     <div
+      data-reveal-rank={item.rank}
       className={`flex items-center gap-3 rounded-2xl border px-4 py-3 transition-colors duration-150 md:gap-3.5 md:px-5 md:py-3 ${
         isScanning
           ? "tenable-reveal-row"

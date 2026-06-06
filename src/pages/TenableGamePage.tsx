@@ -110,7 +110,12 @@ export function TenableGamePage() {
     setIsRevealing(true);
     await prepareBoardForReveal();
     if (revealSignal.current.cancelled) return;
-    await runRankReveal(10, setRevealRank, revealSignal.current);
+    await runRankReveal(
+      10,
+      setRevealRank,
+      revealSignal.current,
+      scrollContainerRef.current,
+    );
     if (revealSignal.current.cancelled) return;
 
     setRevealRank(null);
@@ -135,7 +140,12 @@ export function TenableGamePage() {
     setIsRevealing(true);
     await prepareBoardForReveal();
     if (revealSignal.current.cancelled) return;
-    await runRankReveal(rank, setRevealRank, revealSignal.current);
+    await runRankReveal(
+      rank,
+      setRevealRank,
+      revealSignal.current,
+      scrollContainerRef.current,
+    );
     if (revealSignal.current.cancelled) return;
 
     setRevealRank(null);

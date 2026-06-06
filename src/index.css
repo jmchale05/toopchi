@@ -444,7 +444,7 @@ h3 {
 
 @media (max-width: 767px) {
   .game-viewport-shell {
-    top: var(--visual-viewport-offset-top, 0px);
-    height: var(--visual-viewport-height, 100dvh);
+    inset: 0;
+    height: 100dvh;
   }
 }
