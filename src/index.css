@@ -527,33 +527,23 @@ h3 {
   @apply border-b border-white/10 bg-black/25 px-4 py-3 text-center font-spartan text-base font-bold tracking-wide text-white md:text-lg;
 }
 
-.daily-guess-board-scroll {
-  @apply w-full overflow-hidden;
-}
-
 .daily-guess-board {
-  @apply flex w-full gap-3 overflow-x-auto scroll-smooth pb-2;
+  @apply grid w-full auto-cols-[100%] grid-flow-col gap-0 overflow-x-auto scroll-smooth pb-2;
   -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x proximity;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
 
 .daily-guess-board::-webkit-scrollbar {
-  height: 4px;
-}
-
-.daily-guess-board::-webkit-scrollbar-thumb {
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.2);
+  display: none;
 }
 
 .daily-guess-row-compact {
-  @apply w-[15.5rem] shrink-0 snap-start rounded-xl border border-white/10 bg-white/[0.03] px-2 py-2;
+  @apply min-w-0 snap-start rounded-2xl border border-white/12 bg-white/[0.04] px-3 py-3;
 }
 
 .daily-guess-row-compact-name {
-  @apply mb-1.5 truncate px-1 text-center font-spartan text-[11px] font-semibold uppercase tracking-wide text-white/45;
+  @apply mb-2.5 truncate px-1 text-center font-spartan text-sm font-semibold tracking-wide text-white md:text-base;
 }
 
 .daily-guess-hints {
@@ -561,19 +551,23 @@ h3 {
 }
 
 .daily-guess-hints--horizontal {
-  @apply grid-cols-4 gap-1.5 p-0;
+  @apply grid-cols-2 gap-2 p-0;
 }
 
 .daily-hint-cell--compact {
-  @apply min-h-[3.25rem] rounded-lg px-1 py-1.5;
+  @apply min-h-[5.25rem] rounded-xl px-3 py-2.5;
 }
 
 .daily-hint-cell--compact .daily-hint-label {
-  @apply text-[8px] tracking-[0.14em];
+  @apply text-[10px] tracking-[0.18em];
 }
 
 .daily-hint-cell--compact .daily-hint-value {
-  @apply mt-1 text-[11px] md:text-xs;
+  @apply mt-1.5 flex w-full items-center justify-center text-sm leading-snug md:text-base;
+}
+
+.daily-hint-value--wrap {
+  @apply w-full text-center text-xs font-semibold leading-tight break-words line-clamp-2 md:text-sm;
 }
 
 .daily-hint-cell {

@@ -135,6 +135,7 @@ function DailyHintCell({
   result,
   animate,
   compact,
+  hintTitle,
   children,
 }: {
   index: number;
@@ -142,6 +143,7 @@ function DailyHintCell({
   result: HintResult;
   animate: boolean;
   compact?: boolean;
+  hintTitle?: string;
   children: React.ReactNode;
 }) {
   return (
@@ -155,7 +157,7 @@ function DailyHintCell({
           : undefined
       }
       data-result={animate ? result : undefined}
-      title={label}
+      title={hintTitle ?? label}
     >
       <span className="daily-hint-label">{label}</span>
       <span className="daily-hint-value">{children}</span>
@@ -255,8 +257,9 @@ function DailyGuessRow({
             result={entry.positionMatch}
             animate={animate}
             compact
+            hintTitle={formatHintValue(entry.position)}
           >
-            <span className="block max-w-full truncate text-[11px] md:text-xs">
+            <span className="daily-hint-value--wrap">
               {formatHintValue(entry.position)}
             </span>
           </DailyHintCell>
@@ -267,8 +270,9 @@ function DailyGuessRow({
             result={entry.leagueMatch}
             animate={animate}
             compact
+            hintTitle={formatHintValue(entry.league)}
           >
-            <span className="block max-w-full truncate text-[11px] md:text-xs">
+            <span className="daily-hint-value--wrap">
               {formatHintValue(entry.league)}
             </span>
           </DailyHintCell>
@@ -281,7 +285,7 @@ function DailyGuessRow({
             compact
           >
             {entry.nation ? (
-              <NationFlag nation={entry.nation} size={22} />
+              <NationFlag nation={entry.nation} size={28} />
             ) : (
               "—"
             )}
@@ -455,7 +459,7 @@ export function DailyPlayerGame() {
       )}
 
       {showGuessBoard && (
-        <div className="daily-guess-board-scroll mt-4 w-full max-w-lg">
+        <div className="mt-4 w-full max-w-lg">
           <ul
             ref={guessBoardRef}
             className="daily-guess-board"
@@ -475,6 +479,20 @@ export function DailyPlayerGame() {
               />
             ))}
           </ul>
+          {state.guesses.length > 1 && (
+            <div className="mt-2 flex justify-center gap-1.5">
+              {state.guesses.map((_, i) => (
+                <span
+                  key={i}
+                  className={`h-1.5 rounded-full transition-all duration-300 ${
+                    i === latestGuessIndex
+                      ? "w-4 bg-white/60"
+                      : "w-1.5 bg-white/20"
+                  }`}
+                />
+              ))}
+            </div>
+          )}
         </div>
       )}
 
