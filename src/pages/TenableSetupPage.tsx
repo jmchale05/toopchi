@@ -80,7 +80,7 @@ export function TenableSetupPage() {
         </Card>
 
         {error && (
-          <p className="text-sm font-semibold text-red-400 md:text-base">
+          <p className="text-base font-semibold text-red-400">
             {error}
           </p>
         )}

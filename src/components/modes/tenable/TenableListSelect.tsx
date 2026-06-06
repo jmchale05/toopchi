@@ -66,7 +66,7 @@ export function TenableListSelect({
   return (
     <div className="space-y-4">
       <div className="space-y-2">
-        <label className="block font-spartan text-sm tracking-wide text-white/70 md:text-base">
+        <label className="block font-spartan text-base tracking-wide text-white/70">
           Top Order list
         </label>
         <select
@@ -87,7 +87,7 @@ export function TenableListSelect({
 
       {showSeasonPicker && (
         <div className="space-y-2">
-          <label className="block font-spartan text-sm tracking-wide text-white/70 md:text-base">
+          <label className="block font-spartan text-base tracking-wide text-white/70">
             Season
           </label>
           <select

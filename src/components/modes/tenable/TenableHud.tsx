@@ -28,18 +28,18 @@ export function TenableHud({
           <GameExitButton />
         </div>
         <div className="px-10 pb-1 text-center">
-          <p className="text-[11px] font-semibold uppercase tracking-widest text-white/35">
+          <p className="text-xs font-semibold uppercase tracking-widest text-white/35 md:text-[11px]">
             {list.title}
           </p>
           {list.subtitle && (
-            <p className="mt-0.5 text-[10px] font-medium normal-case tracking-wide text-white/30">
+            <p className="mt-0.5 text-xs font-medium normal-case tracking-wide text-white/30 md:text-[10px]">
               {list.subtitle}
             </p>
           )}
         </div>
 
         <div className="flex items-baseline justify-center">
-          <span className="font-display text-2xl text-[#f5c542] md:text-3xl">
+          <span className="font-display text-3xl text-[#f5c542] md:text-3xl">
             {activePlayer.name}
           </span>
         </div>
@@ -56,7 +56,7 @@ export function TenableHud({
               }`}
             >
               <span
-                className={`truncate text-[11px] font-semibold md:text-xs ${
+                className={`truncate text-sm font-semibold md:text-xs ${
                   isActive ? "text-[#f5c542]" : "text-white/50"
                 }`}
               >
@@ -66,7 +66,7 @@ export function TenableHud({
                 playerIndex={index}
                 score={player.score}
                 animation={scoreAnimation}
-                className={`font-display text-xl leading-tight md:text-2xl ${
+                className={`font-display text-2xl leading-tight md:text-2xl ${
                   isActive ? "text-white" : "text-white/70"
                 }`}
               />

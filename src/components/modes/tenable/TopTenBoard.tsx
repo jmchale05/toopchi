@@ -75,7 +75,7 @@ export function NationRevealDialog({
         >
           Reveal nation?
         </h2>
-        <p className="mt-2 font-spartan text-sm text-white/60">
+        <p className="mt-2 font-spartan text-base text-white/60 md:text-sm">
           Take −{NATION_REVEAL_COST} to reveal the nation for rank #{rank}.
         </p>
         <div className="mt-6 flex gap-3">
@@ -168,7 +168,7 @@ function BoardRow({
 
   return (
     <div
-      className={`flex items-center gap-3 rounded-2xl border px-4 py-2.5 transition-colors duration-150 md:gap-3.5 md:px-5 md:py-3 ${
+      className={`flex items-center gap-3 rounded-2xl border px-4 py-3 transition-colors duration-150 md:gap-3.5 md:px-5 md:py-3 ${
         isScanning
           ? "tenable-reveal-row"
           : found
@@ -179,7 +179,7 @@ function BoardRow({
       }`}
     >
       <span
-        className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full font-display text-lg md:h-9 md:w-9 md:text-lg ${
+        className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full font-display text-xl md:h-9 md:w-9 md:text-lg ${
           isScanning
             ? "bg-[#f5c542] text-[#0a1628] shadow-[0_0_16px_rgba(245,197,66,0.65)]"
             : found
@@ -192,7 +192,7 @@ function BoardRow({
         {item.rank}
       </span>
       <span
-        className={`min-w-0 flex-1 truncate font-spartan text-base font-medium leading-snug md:text-base ${
+        className={`min-w-0 flex-1 truncate font-spartan text-lg font-medium leading-snug md:text-base ${
           found
             ? "text-white"
             : revealName

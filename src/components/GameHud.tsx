@@ -19,7 +19,7 @@ export function GameHud({
           <GameExitButton />
         </div>
         {/* Match label */}
-        <div className="flex items-center justify-center gap-2 px-10 pb-1 text-[11px] font-semibold uppercase tracking-widest text-white/35">
+        <div className="flex items-center justify-center gap-2 px-10 pb-1 text-xs font-semibold uppercase tracking-widest text-white/35 md:text-[11px]">
           <span>{match.teamB.name}</span>
           <span className="text-white/20">vs</span>
           <span>{match.teamA.name}</span>
@@ -44,7 +44,7 @@ export function GameHud({
               }`}
             >
               <span
-                className={`truncate text-[11px] font-semibold md:text-xs ${
+                className={`truncate text-sm font-semibold md:text-xs ${
                   isActive ? "text-[#f5c542]" : "text-white/50"
                 }`}
               >

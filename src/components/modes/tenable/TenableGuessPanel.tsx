@@ -60,7 +60,7 @@ function TenableSuggestionList({
 
   const buttonClassName =
     variant === "mobile"
-      ? "w-full px-4 py-3 text-left font-spartan text-sm text-white transition hover:bg-white/10 disabled:opacity-50"
+      ? "w-full px-4 py-3.5 text-left font-spartan text-base text-white transition hover:bg-white/10 disabled:opacity-50"
       : "w-full px-4 py-3 text-left text-sm transition hover:bg-white/10 disabled:cursor-not-allowed disabled:opacity-50 md:text-base";
 
   return (
@@ -79,7 +79,7 @@ function TenableSuggestionList({
             >
               <span className="block truncate">{name}</span>
               {subtitle && (
-                <span className="block truncate text-xs text-white/40">
+                <span className="block truncate text-sm text-white/40 md:text-xs">
                   {subtitle}
                 </span>
               )}
@@ -89,7 +89,7 @@ function TenableSuggestionList({
       })}
 
       {isLoading && suggestions.length === 0 && (
-        <li className="px-4 py-3 text-sm text-white/45">Searching...</li>
+        <li className="px-4 py-3.5 text-base text-white/45 md:text-sm">Searching...</li>
       )}
 
       {hasMore && (
@@ -246,7 +246,7 @@ export function TenableMobileSearchBar({
               }
             }}
             placeholder="Guess a name..."
-            className="field-input min-h-11 w-full py-2.5 pr-12 disabled:cursor-not-allowed disabled:opacity-50"
+            className="field-input min-h-12 w-full py-3 pr-12 disabled:cursor-not-allowed disabled:opacity-50"
             autoComplete="off"
             disabled={disabled}
           />
@@ -266,7 +266,7 @@ export function TenableMobileSearchBar({
         </div>
 
         {error && (
-          <p className="mt-1.5 px-0.5 text-xs font-semibold text-red-400">
+          <p className="mt-1.5 px-0.5 text-sm font-semibold text-red-400 md:text-xs">
             {error}
           </p>
         )}

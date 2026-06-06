@@ -70,11 +70,11 @@ function GuessRow({ entry }: { entry: DailyGuessEntry }) {
       className={`rounded-xl border px-3 py-2.5 ${style.bg} ${style.border}`}
     >
       <div className="flex items-center justify-between gap-3">
-        <span className="truncate font-spartan text-sm font-medium text-white">
+        <span className="truncate font-spartan text-base font-medium text-white md:text-sm">
           {entry.guess}
         </span>
         <span
-          className={`shrink-0 font-spartan text-xs font-semibold uppercase tracking-wide ${style.text}`}
+          className={`shrink-0 font-spartan text-sm font-semibold uppercase tracking-wide md:text-xs ${style.text}`}
         >
           {TEMPERATURE_LABELS[entry.label]}
         </span>
@@ -85,7 +85,7 @@ function GuessRow({ entry }: { entry: DailyGuessEntry }) {
           {entry.hints.map((hint) => (
             <span
               key={`${entry.guess}-${hint.label}`}
-              className="rounded-md border border-white/10 bg-black/20 px-2 py-0.5 font-spartan text-[11px] text-white/70"
+              className="rounded-md border border-white/10 bg-black/20 px-2 py-0.5 font-spartan text-xs text-white/70 md:text-[11px]"
             >
               {hint.label} {hintSymbol(hint.match)}
             </span>
@@ -143,20 +143,20 @@ export function DailyPlayerGame() {
 
   return (
     <Card>
-      <p className="text-[11px] font-semibold uppercase tracking-widest text-[#f5c542]">
+      <p className="text-xs font-semibold uppercase tracking-widest text-[#f5c542] md:text-[11px]">
         Daily player
       </p>
-      <p className="mt-1 font-spartan text-sm text-white/55">
+      <p className="mt-1 font-spartan text-base text-white/55 md:text-sm">
         Name a footballer — each guess shows how hot or cold you are. One
         puzzle per day.
       </p>
 
       {state.solved && state.answer ? (
         <div className="mt-4 space-y-1">
-          <p className="font-spartan text-sm font-semibold text-[#f5c542] md:text-base">
+          <p className="font-spartan text-base font-semibold text-[#f5c542]">
             Solved — {state.answer}
           </p>
-          <p className="font-spartan text-xs text-white/40">
+          <p className="font-spartan text-sm text-white/40 md:text-xs">
             {state.guesses.length} guess{state.guesses.length === 1 ? "" : "es"}.
             New player tomorrow.
           </p>
@@ -183,13 +183,13 @@ export function DailyPlayerGame() {
             type="button"
             onClick={() => void handleSubmit()}
             disabled={isSubmitting}
-            className="inline-flex min-h-10 w-full items-center justify-center rounded-xl border border-[#f5c542]/50 bg-[#f5c542]/15 px-4 py-2 font-spartan text-sm font-semibold tracking-wide text-[#f5c542] transition hover:border-[#f5c542]/70 hover:bg-[#f5c542]/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/40 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50"
+            className="inline-flex min-h-11 w-full items-center justify-center rounded-xl border border-[#f5c542]/50 bg-[#f5c542]/15 px-4 py-2.5 font-spartan text-base font-semibold tracking-wide text-[#f5c542] transition hover:border-[#f5c542]/70 hover:bg-[#f5c542]/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/40 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
           >
             {isSubmitting ? "Checking..." : "Guess"}
           </button>
 
           {feedback && (
-            <p className="font-spartan text-sm font-semibold text-red-400">
+            <p className="font-spartan text-base font-semibold text-red-400 md:text-sm">
               {feedback}
             </p>
           )}

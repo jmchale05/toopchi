@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useMobileGameViewport } from "../hooks/useMobileGameViewport";
 import { Navigate } from "react-router-dom";
 import {
   TenableDesktopSidebar,
@@ -30,6 +31,7 @@ import type { ScoreAnimation } from "../components/AnimatedPlayerScore";
 import { isTenableSession } from "../types/session";
 
 export function TenableGamePage() {
+  useMobileGameViewport();
   const { session, updateSession } = useSession();
   const [error, setError] = useState<string | null>(null);
   const [revealRank, setRevealRank] = useState<number | null>(null);
@@ -225,7 +227,7 @@ export function TenableGamePage() {
   }
 
   return (
-    <div className="fixed inset-0 flex flex-col overflow-hidden bg-navy-dark md:flex-row">
+    <div className="game-viewport-shell fixed inset-x-0 flex flex-col overflow-hidden bg-navy-dark md:inset-0 md:flex-row">
       <div className="shrink-0 md:hidden">
         <TenableHud
           list={tenableSession.list}
@@ -238,11 +240,11 @@ export function TenableGamePage() {
 
       <div
         ref={scrollContainerRef}
-        className="relative min-h-0 flex-1 overflow-y-auto"
+        className="relative min-h-0 flex-1 overflow-y-auto overscroll-y-none"
       >
         <div
           ref={boardRef}
-          className="py-4 pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:py-8 md:pb-8 md:flex md:min-h-full md:items-center md:justify-center"
+          className="py-4 md:py-8 md:flex md:min-h-full md:items-center md:justify-center"
         >
           <TopTenBoard
             list={tenableSession.list}

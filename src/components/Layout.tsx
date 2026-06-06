@@ -15,7 +15,7 @@ const NAV_LINKS = [
 ] as const;
 
 function navLinkClass(active: boolean) {
-  return `block px-4 py-3 font-spartan text-sm tracking-wide transition hover:bg-white/10 ${
+  return `block px-4 py-3 font-spartan text-base tracking-wide transition hover:bg-white/10 md:text-sm ${
     active ? "text-[#f5c542]" : "text-white/85"
   }`;
 }
@@ -104,7 +104,7 @@ function AppNavbar({
           <>
             <Link
               to={backTo}
-              className="btn-link shrink-0 text-sm text-white/70 md:text-lg"
+              className="btn-link shrink-0 text-base text-white/70 md:text-lg"
             >
               ← Back
             </Link>

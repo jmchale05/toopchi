@@ -130,11 +130,11 @@ h3 {
   }
 
   .btn-ghost {
-    @apply inline-flex min-h-10 w-full items-center justify-center rounded-xl border border-white/12 bg-white/[0.03] px-5 py-2.5 font-spartan text-sm font-medium leading-none tracking-wide text-white/60 transition-all duration-200 select-none hover:border-white/25 hover:bg-white/[0.06] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-dark active:scale-[0.98] md:min-h-11 md:py-3 md:text-base;
+    @apply inline-flex min-h-10 w-full items-center justify-center rounded-xl border border-white/12 bg-white/[0.03] px-5 py-2.5 font-spartan text-base font-medium leading-none tracking-wide text-white/60 transition-all duration-200 select-none hover:border-white/25 hover:bg-white/[0.06] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-dark active:scale-[0.98] md:min-h-11 md:py-3;
   }
 
   .btn-ghost-compact {
-    @apply inline-flex items-center justify-center rounded-lg border border-white/15 bg-white/[0.05] px-4 py-2 font-spartan text-sm font-medium tracking-wide text-white/70 backdrop-blur-sm transition hover:border-white/25 hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/25;
+    @apply inline-flex items-center justify-center rounded-lg border border-white/15 bg-white/[0.05] px-4 py-2 font-spartan text-base font-medium tracking-wide text-white/70 backdrop-blur-sm transition hover:border-white/25 hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/25 md:text-sm;
   }
 
   .btn-skip {
@@ -146,35 +146,35 @@ h3 {
   }
 
   .tenable-mobile-footer {
-    @apply fixed inset-x-0 bottom-0 z-20 border-t border-white/10 bg-[#0a1628]/96 pb-[env(safe-area-inset-bottom)] backdrop-blur-md;
+    @apply relative z-20 shrink-0 border-t border-white/10 bg-[#0a1628] pb-[env(safe-area-inset-bottom)] backdrop-blur-md;
   }
 
   .btn-team-active {
-    @apply rounded-xl border border-[#ffe082]/55 bg-[#f5c542] px-3 py-3 font-spartan text-sm font-semibold leading-none tracking-wide text-[#081220] shadow-[inset_0_1px_0_rgba(255,255,255,0.35),0_3px_16px_rgba(245,197,66,0.2)] transition-all duration-200 hover:bg-[#ffcf4d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/50 active:translate-y-px md:px-4 md:py-3.5 md:text-base;
+    @apply rounded-xl border border-[#ffe082]/55 bg-[#f5c542] px-3 py-3 font-spartan text-base font-semibold leading-none tracking-wide text-[#081220] shadow-[inset_0_1px_0_rgba(255,255,255,0.35),0_3px_16px_rgba(245,197,66,0.2)] transition-all duration-200 hover:bg-[#ffcf4d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/50 active:translate-y-px md:px-4 md:py-3.5;
   }
 
   .btn-team-idle {
-    @apply rounded-xl border border-white/12 bg-white/[0.05] px-3 py-3 font-spartan text-sm font-medium leading-none tracking-wide text-white/70 transition-all duration-200 hover:border-white/22 hover:bg-white/[0.08] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 active:scale-[0.98] md:px-4 md:py-3.5 md:text-base;
+    @apply rounded-xl border border-white/12 bg-white/[0.05] px-3 py-3 font-spartan text-base font-medium leading-none tracking-wide text-white/70 transition-all duration-200 hover:border-white/22 hover:bg-white/[0.08] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 active:scale-[0.98] md:px-4 md:py-3.5;
   }
 
   .btn-icon {
-    @apply inline-flex min-h-10 min-w-10 shrink-0 items-center justify-center rounded-xl border border-white/12 bg-white/[0.05] px-3 font-spartan text-sm font-medium tracking-wide text-white/75 transition-all hover:border-white/22 hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 active:scale-95 md:min-h-11 md:min-w-11 md:text-base;
+    @apply inline-flex min-h-10 min-w-10 shrink-0 items-center justify-center rounded-xl border border-white/12 bg-white/[0.05] px-3 font-spartan text-base font-medium tracking-wide text-white/75 transition-all hover:border-white/22 hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 active:scale-95 md:min-h-11 md:min-w-11 md:text-sm;
   }
 
   .btn-link {
-    @apply inline-flex w-fit items-center gap-1 rounded-lg px-2.5 py-1.5 font-spartan text-sm font-medium tracking-wide text-white/65 transition hover:bg-white/[0.05] hover:text-[#f5c542] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/40 md:text-base;
+    @apply inline-flex w-fit items-center gap-1 rounded-lg px-2.5 py-1.5 font-spartan text-base font-medium tracking-wide text-white/65 transition hover:bg-white/[0.05] hover:text-[#f5c542] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/40 md:text-sm;
   }
 
   .field-input {
-    @apply w-full rounded-xl border border-white/10 bg-[#0a1628] px-4 py-3 font-spartan text-base leading-normal tracking-wide text-white placeholder:text-white/35 outline-none transition focus:border-[#f5c542]/50 md:px-5 md:py-4 md:text-lg;
+    @apply w-full rounded-xl border border-white/10 bg-[#0a1628] px-4 py-3 font-spartan text-lg leading-normal tracking-wide text-white placeholder:text-white/35 outline-none transition focus:border-[#f5c542]/50 md:px-5 md:py-4;
   }
 
   .field-select {
-    @apply rounded-xl border border-white/10 bg-[#0a1628] px-4 py-3 font-spartan text-base leading-snug tracking-wide text-white outline-none transition focus-visible:border-[#f5c542]/50 focus-visible:ring-2 focus-visible:ring-[#f5c542]/30 md:px-5 md:py-4 md:text-lg;
+    @apply rounded-xl border border-white/10 bg-[#0a1628] px-4 py-3 font-spartan text-lg leading-snug tracking-wide text-white outline-none transition focus-visible:border-[#f5c542]/50 focus-visible:ring-2 focus-visible:ring-[#f5c542]/30 md:px-5 md:py-4;
   }
 
   .match-option {
-    @apply w-full rounded-xl px-4 py-3 text-left font-spartan leading-snug tracking-wide transition hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/40 md:text-lg;
+    @apply w-full rounded-xl px-4 py-3 text-left font-spartan text-lg leading-snug tracking-wide transition hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#f5c542]/40;
   }
 
   .match-option-active {
@@ -439,5 +439,12 @@ h3 {
   .score-gain-float {
     animation: none;
     opacity: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .game-viewport-shell {
+    top: var(--visual-viewport-offset-top, 0px);
+    height: var(--visual-viewport-height, 100dvh);
   }
 }

@@ -21,7 +21,7 @@ export function PlayerNameFields({
   return (
     <Card>
       <h2 className="font-bold md:text-xl">Players</h2>
-      <p className="mt-1 font-spartan text-sm text-white/50">
+      <p className="mt-1 font-spartan text-base text-white/50 md:text-sm">
         Letters only. Player names are required.
       </p>
 
@@ -31,7 +31,7 @@ export function PlayerNameFields({
           return (
             <div key={index}>
               <label className="block">
-                <span className="mb-1.5 flex items-center gap-1 font-spartan text-sm text-white/70">
+                <span className="mb-1.5 flex items-center gap-1 font-spartan text-base text-white/70 md:text-sm">
                   Player {index + 1}
                   {isRequired && (
                     <>

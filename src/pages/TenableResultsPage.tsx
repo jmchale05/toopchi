@@ -32,13 +32,13 @@ export function TenableResultsPage() {
     <Layout>
       <div className="space-y-5 md:space-y-6">
         <div className="text-center">
-          <p className="font-display text-sm uppercase tracking-[0.3em] text-[#f5c542] md:text-base">
+          <p className="font-display text-base uppercase tracking-[0.3em] text-[#f5c542]">
             Final whistle
           </p>
           <h1 className="mt-2 font-display text-4xl font-normal uppercase md:text-6xl">
             Results
           </h1>
-          <p className="mt-2 text-sm text-white/50 md:text-base">
+          <p className="mt-2 text-base text-white/50">
             {session.list.title}
           </p>
           <p className="mt-3 font-display text-lg text-[#f5c542] md:text-2xl">
@@ -59,7 +59,7 @@ export function TenableResultsPage() {
         {session.guessLog.length > 0 && (
           <Card>
             <h2 className="mb-3 font-bold md:text-xl">Guess log</h2>
-            <ul className="max-h-48 space-y-2 overflow-y-auto text-sm md:max-h-64 md:text-base">
+            <ul className="max-h-48 space-y-2 overflow-y-auto text-base md:max-h-64">
               {session.guessLog.map((entry, index) => (
                 <li
                   key={`${entry.playerName}-${index}`}
