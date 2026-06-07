@@ -1,4 +1,15 @@
 {
+  "2026-06-07": {
+    "id": "vitinha-psg",
+    "answer": "Vitinha",
+    "aliases": ["Vítor Machado Ferreira", "Vitor Machado Ferreira"],
+    "age": 26,
+    "position": "Midfielder",
+    "league": "Ligue 1",
+    "team": "Paris Saint-Germain",
+    "nationality": "Portugal",
+    "photo": "https://media.api-sports.io/football/players/128384.png"
+  },
   "2026-06-06": {
     "id": "beto-everton",
     "answer": "Beto",

@@ -53,6 +53,48 @@ function mergeCatalogEntry(catalogEntry, gameDoc) {
   };
 }
 
+function disambiguateSearchNameCollisions(entries) {
+  const groups = new Map();
+
+  for (const entry of entries) {
+    const key = entry.searchName;
+    if (!key) continue;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(entry);
+  }
+
+  let disambiguated = 0;
+
+  for (const [, group] of groups) {
+    if (group.length <= 1) continue;
+
+    const suffixFor = (entry) => {
+      const parts = String(entry.searchLastname ?? "")
+        .split(" ")
+        .filter(Boolean);
+      return parts.at(-1) ?? "";
+    };
+
+    const suffixCounts = new Map();
+    for (const entry of group) {
+      const suffix = suffixFor(entry);
+      suffixCounts.set(suffix, (suffixCounts.get(suffix) ?? 0) + 1);
+    }
+
+    for (const entry of group) {
+      let suffix = suffixFor(entry);
+      if (!suffix || (suffixCounts.get(suffix) ?? 0) > 1) {
+        suffix = String(entry.searchLastname ?? "").trim();
+      }
+      if (!suffix) continue;
+      entry.searchName = `${entry.searchName} ${suffix}`;
+      disambiguated += 1;
+    }
+  }
+
+  return disambiguated;
+}
+
 const byId = new Map();
 
 for (const player of players) {
@@ -93,10 +135,12 @@ const index = [...byId.values()].sort((left, right) =>
   left.name.localeCompare(right.name),
 );
 
+const disambiguated = disambiguateSearchNameCollisions(index);
+
 const publicDir = join(root, "public");
 mkdirSync(publicDir, { recursive: true });
 const outputPath = join(publicDir, "player-search-index.json");
 writeFileSync(outputPath, JSON.stringify(index));
 console.log(
-  `Wrote ${index.length} players to public/player-search-index.json (${merged} merged, ${added} unique local).`,
+  `Wrote ${index.length} players to public/player-search-index.json (${merged} merged, ${added} unique local, ${disambiguated} searchName disambiguations).`,
 );

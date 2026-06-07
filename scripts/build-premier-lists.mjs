@@ -8,6 +8,13 @@ const seasons = JSON.parse(
 );
 
 const EXTRA_ALIASES = {
+  "Alan Shearer": ["Shearer"],
+  "Wayne Rooney": ["Rooney"],
+  "Andy Cole": ["Cole"],
+  "Frank Lampard": ["Lampard"],
+  "Robbie Fowler": ["Fowler"],
+  "Jermain Defoe": ["Defoe"],
+  "Michael Owen": ["Owen"],
   "Erling Haaland": ["Haaland"],
   "Mohamed Salah": ["Salah"],
   "Son Heung-min": ["Son", "Heung-min Son"],
@@ -40,6 +47,13 @@ const EXTRA_ALIASES = {
   "Martin Ødegaard": ["Odegaard", "Ødegaard"],
   "Jean-Philippe Mateta": ["Mateta"],
   "Eli Junior Kroupi": ["Kroupi", "Eli Kroupi"],
+  "Ryan Giggs": ["Giggs"],
+  "Cesc Fàbregas": ["Fabregas", "Fàbregas"],
+  "Denis Bergkamp": ["Bergkamp"],
+  "David Silva": ["Silva"],
+  "Steven Gerrard": ["Gerrard"],
+  "James Milner": ["Milner"],
+  "Mesut Özil": ["Ozil", "Özil"],
 };
 
 function buildAliases(name) {
@@ -54,12 +68,20 @@ function buildAliases(name) {
 function buildList(season, type, players) {
   const id =
     type === "scorers"
-      ? `prem-top-scorers-${season.slug}`
-      : `prem-top-assists-${season.slug}`;
+      ? season.slug === "all-time"
+        ? "prem-all-time-scorers"
+        : `prem-top-scorers-${season.slug}`
+      : season.slug === "all-time"
+        ? "prem-all-time-assists"
+        : `prem-top-assists-${season.slug}`;
   const title =
     type === "scorers"
-      ? `Premier League Top 10 Scorers (${season.season})`
-      : `Premier League Top 10 Assists (${season.season})`;
+      ? season.slug === "all-time"
+        ? "Premier League Top 10 Goal Scorers (All time)"
+        : `Premier League Top 10 Scorers (${season.season})`
+      : season.slug === "all-time"
+        ? "Premier League Top 10 Assists (All time)"
+        : `Premier League Top 10 Assists (${season.season})`;
 
   return {
     id,
@@ -76,10 +98,13 @@ function buildList(season, type, players) {
   };
 }
 
-const lists = seasons.flatMap((season) => [
-  buildList(season, "scorers", season.scorers),
-  buildList(season, "assists", season.assists),
-]);
+const lists = seasons.flatMap((season) => {
+  const scorerList = buildList(season, "scorers", season.scorers);
+  if (!season.assists?.length) {
+    return [scorerList];
+  }
+  return [scorerList, buildList(season, "assists", season.assists)];
+});
 
 writeFileSync(
   join(root, "src/data/premier-league-lists.json"),

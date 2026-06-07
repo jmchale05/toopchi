@@ -4,25 +4,10 @@ import {
   getPlayerSuggestionName,
   type PlayerSuggestion,
 } from "../hooks/usePlayerSearch";
+import { NationFlag } from "./NationFlag";
 
-function formatPlayerMeta(
-  player: PlayerRecord,
-  showTeam: boolean,
-): string | null {
-  const parts: string[] = [];
-
-  if (typeof player.age === "number") {
-    parts.push(String(player.age));
-  }
-
-  if (showTeam) {
-    const club = player.club ?? player.team;
-    if (club) {
-      parts.push(club);
-    }
-  }
-
-  return parts.length > 0 ? parts.join(" · ") : null;
+function formatPlayerMeta(player: PlayerRecord): string | null {
+  return player.position?.trim() || null;
 }
 
 export function PlayerSuggestionList({
@@ -34,7 +19,6 @@ export function PlayerSuggestionList({
   onLoadMore,
   disabled,
   variant = "dropdown",
-  showTeam = true,
   showMeta = true,
 }: {
   suggestions: PlayerSuggestion[];
@@ -45,7 +29,6 @@ export function PlayerSuggestionList({
   onLoadMore: () => void;
   disabled?: boolean;
   variant?: "dropdown" | "popover" | "popover-up" | "popover-up-tenable" | "stack";
-  showTeam?: boolean;
   showMeta?: boolean;
 }) {
   if (suggestions.length === 0 && !isLoading) {
@@ -73,7 +56,7 @@ export function PlayerSuggestionList({
       {suggestions.map((item) => {
         const name = getPlayerSuggestionName(item);
         const subtitle = showMeta
-          ? formatPlayerMeta(item.result.player, showTeam)
+          ? formatPlayerMeta(item.result.player)
           : null;
 
         return (
@@ -82,11 +65,21 @@ export function PlayerSuggestionList({
               type="button"
               onClick={() => onSelect(name)}
               disabled={disabled}
-              className={buttonClassName}
+              className={`${buttonClassName} flex items-center gap-2.5`}
             >
-              <span className="block truncate">{name}</span>
+              {item.result.player.nationality ? (
+                <NationFlag
+                  nation={item.result.player.nationality}
+                  size={18}
+                  compact
+                  className="shrink-0"
+                />
+              ) : (
+                <span className="h-[14px] w-[18px] shrink-0" aria-hidden />
+              )}
+              <span className="min-w-0 flex-1 truncate text-left">{name}</span>
               {subtitle && (
-                <span className="block truncate text-sm text-white/40 md:text-xs">
+                <span className="shrink-0 text-sm text-white/40 md:text-xs">
                   {subtitle}
                 </span>
               )}

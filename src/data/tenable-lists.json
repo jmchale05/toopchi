@@ -1,21 +1,5 @@
 [
   {
-    "id": "ucl-all-time-scorers",
-    "title": "Champions League Top 10 Goal Scorers",
-    "items": [
-      { "rank": 1, "answer": "Cristiano Ronaldo", "aliases": ["Ronaldo", "CR7"], "nation": "Portugal" },
-      { "rank": 2, "answer": "Lionel Messi", "aliases": ["Messi"], "nation": "Argentina" },
-      { "rank": 3, "answer": "Robert Lewandowski", "aliases": ["Lewandowski", "Lewa"], "nation": "Poland" },
-      { "rank": 4, "answer": "Karim Benzema", "aliases": ["Benzema"], "nation": "France" },
-      { "rank": 5, "answer": "Raúl", "aliases": ["Raul"], "nation": "Spain" },
-      { "rank": 6, "answer": "Ruud van Nistelrooy", "aliases": ["Van Nistelrooy", "Nistelrooy"], "nation": "Netherlands" },
-      { "rank": 7, "answer": "Thomas Müller", "aliases": ["Muller", "Müller"], "nation": "Germany" },
-      { "rank": 8, "answer": "Thierry Henry", "aliases": ["Henry"], "nation": "France" },
-      { "rank": 9, "answer": "Filippo Inzaghi", "aliases": ["Inzaghi"], "nation": "Italy" },
-      { "rank": 10, "answer": "Andriy Shevchenko", "aliases": ["Shevchenko", "Sheva"], "nation": "Ukraine" }
-    ]
-  },
-  {
     "id": "ballon-dor-2024-25",
     "title": "Ballon d'Or Top 10 (2024/25)",
     "items": [

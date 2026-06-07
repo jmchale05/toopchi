@@ -254,6 +254,7 @@ export function TopTenBoard({
   disabled = false,
   activePlayerScore,
   onRequestReveal,
+  fullWidth = false,
 }: {
   list: TenableList;
   slots: Array<string | null>;
@@ -265,6 +266,7 @@ export function TopTenBoard({
   disabled?: boolean;
   activePlayerScore?: number;
   onRequestReveal?: (rank: number) => void;
+  fullWidth?: boolean;
 }) {
   const sortedItems = [...list.items].sort((a, b) => a.rank - b.rank);
   const nationState = revealedNations ?? Array.from({ length: 10 }, () => false);
@@ -274,7 +276,13 @@ export function TopTenBoard({
       : activePlayerScore >= NATION_REVEAL_COST;
 
   return (
-    <div className="mx-auto w-full max-w-md space-y-2 px-4 md:max-w-lg md:space-y-2 md:px-6 lg:max-w-xl">
+    <div
+      className={
+        fullWidth
+          ? "w-full space-y-2"
+          : "mx-auto w-full max-w-md space-y-2 px-4 md:max-w-lg md:space-y-2 md:px-6 lg:max-w-xl"
+      }
+    >
       {sortedItems.map((item) => (
         <BoardRow
           key={item.rank}

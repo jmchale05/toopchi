@@ -7,6 +7,8 @@ export type TenableItem = {
   nation?: string;
   /** Goals, assists, or other stat shown as (n) beside the name when revealed */
   value?: number;
+  /** Disambiguates duplicate names in players.json */
+  sourcePlayerId?: string;
 };
 
 export type TenableValueFormat = {

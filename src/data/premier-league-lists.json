@@ -1,5 +1,107 @@
 [
   {
+    "id": "prem-all-time-scorers",
+    "title": "Premier League Top 10 Goal Scorers (All time)",
+    "category": "prem-scorers",
+    "season": "All time",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Alan Shearer",
+        "aliases": [
+          "Shearer"
+        ],
+        "nation": "England",
+        "value": 260
+      },
+      {
+        "rank": 2,
+        "answer": "Harry Kane",
+        "aliases": [
+          "Kane",
+          "H. Kane"
+        ],
+        "nation": "England",
+        "value": 213
+      },
+      {
+        "rank": 3,
+        "answer": "Wayne Rooney",
+        "aliases": [
+          "Rooney"
+        ],
+        "nation": "England",
+        "value": 208
+      },
+      {
+        "rank": 4,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 193
+      },
+      {
+        "rank": 5,
+        "answer": "Andy Cole",
+        "aliases": [
+          "Cole"
+        ],
+        "nation": "England",
+        "value": 187
+      },
+      {
+        "rank": 6,
+        "answer": "Sergio Agüero",
+        "aliases": [
+          "Aguero",
+          "Agüero",
+          "S. Agüero",
+          "S. Aguero"
+        ],
+        "nation": "Argentina",
+        "value": 184
+      },
+      {
+        "rank": 7,
+        "answer": "Frank Lampard",
+        "aliases": [
+          "Lampard"
+        ],
+        "nation": "England",
+        "value": 177
+      },
+      {
+        "rank": 8,
+        "answer": "Thierry Henry",
+        "aliases": [
+          "Henry"
+        ],
+        "nation": "France",
+        "value": 175
+      },
+      {
+        "rank": 9,
+        "answer": "Robbie Fowler",
+        "aliases": [
+          "Fowler"
+        ],
+        "nation": "England",
+        "value": 163
+      },
+      {
+        "rank": 10,
+        "answer": "Jermain Defoe",
+        "aliases": [
+          "Defoe"
+        ],
+        "nation": "England",
+        "value": 163
+      }
+    ]
+  },
+  {
     "id": "prem-top-scorers-2025-26",
     "title": "Premier League Top 10 Scorers (2025/26)",
     "category": "prem-scorers",
@@ -43,16 +145,6 @@
       },
       {
         "rank": 5,
-        "answer": "Morgan Gibbs-White",
-        "aliases": [
-          "Gibbs-White",
-          "Gibbs White"
-        ],
-        "nation": "England",
-        "value": 15
-      },
-      {
-        "rank": 6,
         "answer": "João Pedro",
         "aliases": [
           "Joao Pedro",
@@ -62,17 +154,17 @@
         "value": 15
       },
       {
-        "rank": 7,
-        "answer": "Dominic Calvert-Lewin",
+        "rank": 6,
+        "answer": "Morgan Gibbs-White",
         "aliases": [
-          "Calvert-Lewin",
-          "DCL"
+          "Gibbs-White",
+          "Gibbs White"
         ],
         "nation": "England",
-        "value": 14
+        "value": 15
       },
       {
-        "rank": 8,
+        "rank": 7,
         "answer": "Viktor Gyökeres",
         "aliases": [
           "Gyokeres",
@@ -82,122 +174,32 @@
         "value": 14
       },
       {
-        "rank": 9,
-        "answer": "Eli Junior Kroupi",
+        "rank": 8,
+        "answer": "Dominic Calvert-Lewin",
         "aliases": [
-          "Kroupi",
-          "Eli Kroupi"
+          "Calvert-Lewin",
+          "DCL"
         ],
-        "nation": "France",
-        "value": 13
+        "nation": "England",
+        "value": 14
       },
       {
-        "rank": 10,
+        "rank": 9,
         "answer": "Danny Welbeck",
         "aliases": [
           "Welbeck"
         ],
         "nation": "England",
         "value": 13
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2025-26",
-    "title": "Premier League Top 10 Assists (2025/26)",
-    "category": "prem-assists",
-    "season": "2025/26",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Bruno Fernandes",
-        "aliases": [
-          "Fernandes"
-        ],
-        "nation": "Portugal",
-        "value": 21
-      },
-      {
-        "rank": 2,
-        "answer": "Rayan Cherki",
-        "aliases": [
-          "Cherki"
-        ],
-        "nation": "France",
-        "value": 12
-      },
-      {
-        "rank": 3,
-        "answer": "Jarrod Bowen",
-        "aliases": [
-          "Bowen"
-        ],
-        "nation": "England",
-        "value": 11
-      },
-      {
-        "rank": 4,
-        "answer": "Dango Ouattara",
-        "aliases": [
-          "Ouattara"
-        ],
-        "nation": "Burkina Faso",
-        "value": 8
-      },
-      {
-        "rank": 5,
-        "answer": "Martin Ødegaard",
-        "aliases": [
-          "Odegaard",
-          "Ødegaard"
-        ],
-        "nation": "Norway",
-        "value": 8
-      },
-      {
-        "rank": 6,
-        "answer": "Mohamed Salah",
-        "aliases": [
-          "Salah"
-        ],
-        "nation": "Egypt",
-        "value": 8
-      },
-      {
-        "rank": 7,
-        "answer": "Jérémy Doku",
-        "aliases": [
-          "Doku"
-        ],
-        "nation": "Belgium",
-        "value": 7
-      },
-      {
-        "rank": 8,
-        "answer": "Bukayo Saka",
-        "aliases": [
-          "Saka"
-        ],
-        "nation": "England",
-        "value": 7
-      },
-      {
-        "rank": 9,
-        "answer": "Omari Hutchinson",
-        "aliases": [
-          "Hutchinson"
-        ],
-        "nation": "England",
-        "value": 7
       },
       {
         "rank": 10,
-        "answer": "Harry Wilson",
+        "answer": "Junior Kroupi",
         "aliases": [
-          "Wilson"
+          "Kroupi"
         ],
-        "nation": "Wales",
-        "value": 7
+        "nation": "France",
+        "value": 13
       }
     ]
   },
@@ -272,20 +274,20 @@
       },
       {
         "rank": 8,
-        "answer": "Matheus Cunha",
-        "aliases": [
-          "Cunha"
-        ],
-        "nation": "Brazil",
-        "value": 15
-      },
-      {
-        "rank": 9,
         "answer": "Cole Palmer",
         "aliases": [
           "Palmer"
         ],
         "nation": "England",
+        "value": 15
+      },
+      {
+        "rank": 9,
+        "answer": "Matheus Cunha",
+        "aliases": [
+          "Cunha"
+        ],
+        "nation": "Brazil",
         "value": 15
       },
       {
@@ -297,107 +299,6 @@
         ],
         "nation": "Norway",
         "value": 14
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2024-25",
-    "title": "Premier League Top 10 Assists (2024/25)",
-    "category": "prem-assists",
-    "season": "2024/25",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Mohamed Salah",
-        "aliases": [
-          "Salah"
-        ],
-        "nation": "Egypt",
-        "value": 18
-      },
-      {
-        "rank": 2,
-        "answer": "Jacob Murphy",
-        "aliases": [
-          "Murphy"
-        ],
-        "nation": "England",
-        "value": 12
-      },
-      {
-        "rank": 3,
-        "answer": "Bukayo Saka",
-        "aliases": [
-          "Saka"
-        ],
-        "nation": "England",
-        "value": 11
-      },
-      {
-        "rank": 4,
-        "answer": "Bruno Fernandes",
-        "aliases": [
-          "Fernandes"
-        ],
-        "nation": "Portugal",
-        "value": 11
-      },
-      {
-        "rank": 5,
-        "answer": "Morgan Rogers",
-        "aliases": [
-          "Rogers"
-        ],
-        "nation": "England",
-        "value": 11
-      },
-      {
-        "rank": 6,
-        "answer": "Mikkel Damsgaard",
-        "aliases": [
-          "Damsgaard"
-        ],
-        "nation": "Denmark",
-        "value": 11
-      },
-      {
-        "rank": 7,
-        "answer": "Anthony Elanga",
-        "aliases": [
-          "Elanga"
-        ],
-        "nation": "Sweden",
-        "value": 11
-      },
-      {
-        "rank": 8,
-        "answer": "Son Heung-min",
-        "aliases": [
-          "Son",
-          "Heung-min Son",
-          "Heung-min"
-        ],
-        "nation": "South Korea",
-        "value": 10
-      },
-      {
-        "rank": 9,
-        "answer": "Jarrod Bowen",
-        "aliases": [
-          "Bowen"
-        ],
-        "nation": "England",
-        "value": 10
-      },
-      {
-        "rank": 10,
-        "answer": "Morgan Gibbs-White",
-        "aliases": [
-          "Gibbs-White",
-          "Gibbs White"
-        ],
-        "nation": "England",
-        "value": 10
       }
     ]
   },
@@ -436,6 +337,15 @@
       },
       {
         "rank": 4,
+        "answer": "Ollie Watkins",
+        "aliases": [
+          "Watkins"
+        ],
+        "nation": "England",
+        "value": 19
+      },
+      {
+        "rank": 5,
         "answer": "Phil Foden",
         "aliases": [
           "Foden"
@@ -444,19 +354,10 @@
         "value": 19
       },
       {
-        "rank": 5,
+        "rank": 6,
         "answer": "Dominic Solanke",
         "aliases": [
           "Solanke"
-        ],
-        "nation": "England",
-        "value": 19
-      },
-      {
-        "rank": 6,
-        "answer": "Ollie Watkins",
-        "aliases": [
-          "Watkins"
         ],
         "nation": "England",
         "value": 19
@@ -472,20 +373,18 @@
       },
       {
         "rank": 8,
-        "answer": "Son Heung-min",
+        "answer": "Heung-min Son",
         "aliases": [
-          "Son",
-          "Heung-min Son",
-          "Heung-min"
+          "Son"
         ],
         "nation": "South Korea",
         "value": 17
       },
       {
         "rank": 9,
-        "answer": "Jarrod Bowen",
+        "answer": "Bukayo Saka",
         "aliases": [
-          "Bowen"
+          "Saka"
         ],
         "nation": "England",
         "value": 16
@@ -498,107 +397,6 @@
         ],
         "nation": "France",
         "value": 16
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2023-24",
-    "title": "Premier League Top 10 Assists (2023/24)",
-    "category": "prem-assists",
-    "season": "2023/24",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Anthony Gordon",
-        "aliases": [
-          "Gordon"
-        ],
-        "nation": "England",
-        "value": 15
-      },
-      {
-        "rank": 2,
-        "answer": "Pedro Neto",
-        "aliases": [
-          "Neto"
-        ],
-        "nation": "Portugal",
-        "value": 15
-      },
-      {
-        "rank": 3,
-        "answer": "Bukayo Saka",
-        "aliases": [
-          "Saka"
-        ],
-        "nation": "England",
-        "value": 12
-      },
-      {
-        "rank": 4,
-        "answer": "Cole Palmer",
-        "aliases": [
-          "Palmer"
-        ],
-        "nation": "England",
-        "value": 12
-      },
-      {
-        "rank": 5,
-        "answer": "Martin Ødegaard",
-        "aliases": [
-          "Odegaard",
-          "Ødegaard"
-        ],
-        "nation": "Norway",
-        "value": 11
-      },
-      {
-        "rank": 6,
-        "answer": "Brennan Johnson",
-        "aliases": [
-          "Johnson"
-        ],
-        "nation": "Wales",
-        "value": 11
-      },
-      {
-        "rank": 7,
-        "answer": "Pascal Groß",
-        "aliases": [
-          "Groß"
-        ],
-        "nation": "Germany",
-        "value": 11
-      },
-      {
-        "rank": 8,
-        "answer": "Kevin De Bruyne",
-        "aliases": [
-          "De Bruyne",
-          "KDB",
-          "Bruyne"
-        ],
-        "nation": "Belgium",
-        "value": 11
-      },
-      {
-        "rank": 9,
-        "answer": "James Maddison",
-        "aliases": [
-          "Maddison"
-        ],
-        "nation": "England",
-        "value": 10
-      },
-      {
-        "rank": 10,
-        "answer": "Jérémy Doku",
-        "aliases": [
-          "Doku"
-        ],
-        "nation": "Belgium",
-        "value": 10
       }
     ]
   },
@@ -665,15 +463,6 @@
       },
       {
         "rank": 7,
-        "answer": "Gabriel Martinelli",
-        "aliases": [
-          "Martinelli"
-        ],
-        "nation": "Brazil",
-        "value": 15
-      },
-      {
-        "rank": 8,
         "answer": "Martin Ødegaard",
         "aliases": [
           "Odegaard",
@@ -683,7 +472,7 @@
         "value": 15
       },
       {
-        "rank": 9,
+        "rank": 8,
         "answer": "Ollie Watkins",
         "aliases": [
           "Watkins"
@@ -692,114 +481,22 @@
         "value": 15
       },
       {
+        "rank": 9,
+        "answer": "Gabriel Martinelli",
+        "aliases": [
+          "Martinelli"
+        ],
+        "nation": "Brazil",
+        "value": 15
+      },
+      {
         "rank": 10,
-        "answer": "Aleksandar Mitrović",
-        "aliases": [
-          "Mitrovic",
-          "Mitrović"
-        ],
-        "nation": "Serbia",
-        "value": 14
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2022-23",
-    "title": "Premier League Top 10 Assists (2022/23)",
-    "category": "prem-assists",
-    "season": "2022/23",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Kevin De Bruyne",
-        "aliases": [
-          "De Bruyne",
-          "KDB",
-          "Bruyne"
-        ],
-        "nation": "Belgium",
-        "value": 18
-      },
-      {
-        "rank": 2,
-        "answer": "Leandro Trossard",
-        "aliases": [
-          "Trossard"
-        ],
-        "nation": "Belgium",
-        "value": 13
-      },
-      {
-        "rank": 3,
-        "answer": "Mohamed Salah",
-        "aliases": [
-          "Salah"
-        ],
-        "nation": "Egypt",
-        "value": 12
-      },
-      {
-        "rank": 4,
         "answer": "Bukayo Saka",
         "aliases": [
           "Saka"
         ],
         "nation": "England",
-        "value": 12
-      },
-      {
-        "rank": 5,
-        "answer": "Michael Olise",
-        "aliases": [
-          "Olise"
-        ],
-        "nation": "France",
-        "value": 11
-      },
-      {
-        "rank": 6,
-        "answer": "Riyad Mahrez",
-        "aliases": [
-          "Mahrez"
-        ],
-        "nation": "Algeria",
-        "value": 10
-      },
-      {
-        "rank": 7,
-        "answer": "James Maddison",
-        "aliases": [
-          "Maddison"
-        ],
-        "nation": "England",
-        "value": 10
-      },
-      {
-        "rank": 8,
-        "answer": "Solly March",
-        "aliases": [
-          "March"
-        ],
-        "nation": "England",
-        "value": 9
-      },
-      {
-        "rank": 9,
-        "answer": "Christian Eriksen",
-        "aliases": [
-          "Eriksen"
-        ],
-        "nation": "Denmark",
-        "value": 9
-      },
-      {
-        "rank": 10,
-        "answer": "Ivan Perišić",
-        "aliases": [
-          "Perišić"
-        ],
-        "nation": "Croatia",
-        "value": 8
+        "value": 14
       }
     ]
   },
@@ -820,11 +517,9 @@
       },
       {
         "rank": 2,
-        "answer": "Son Heung-min",
+        "answer": "Heung-min Son",
         "aliases": [
-          "Son",
-          "Heung-min Son",
-          "Heung-min"
+          "Son"
         ],
         "nation": "South Korea",
         "value": 23
@@ -908,108 +603,6 @@
     ]
   },
   {
-    "id": "prem-top-assists-2021-22",
-    "title": "Premier League Top 10 Assists (2021/22)",
-    "category": "prem-assists",
-    "season": "2021/22",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Mohamed Salah",
-        "aliases": [
-          "Salah"
-        ],
-        "nation": "Egypt",
-        "value": 13
-      },
-      {
-        "rank": 2,
-        "answer": "Jarrod Bowen",
-        "aliases": [
-          "Bowen"
-        ],
-        "nation": "England",
-        "value": 12
-      },
-      {
-        "rank": 3,
-        "answer": "Mason Mount",
-        "aliases": [
-          "Mount"
-        ],
-        "nation": "England",
-        "value": 12
-      },
-      {
-        "rank": 4,
-        "answer": "Harvey Barnes",
-        "aliases": [
-          "Barnes"
-        ],
-        "nation": "England",
-        "value": 10
-      },
-      {
-        "rank": 5,
-        "answer": "Paul Pogba",
-        "aliases": [
-          "Pogba"
-        ],
-        "nation": "France",
-        "value": 10
-      },
-      {
-        "rank": 6,
-        "answer": "Son Heung-min",
-        "aliases": [
-          "Son",
-          "Heung-min Son",
-          "Heung-min"
-        ],
-        "nation": "South Korea",
-        "value": 10
-      },
-      {
-        "rank": 7,
-        "answer": "Dejan Kulusevski",
-        "aliases": [
-          "Kulusevski"
-        ],
-        "nation": "Sweden",
-        "value": 9
-      },
-      {
-        "rank": 8,
-        "answer": "Kevin De Bruyne",
-        "aliases": [
-          "De Bruyne",
-          "KDB",
-          "Bruyne"
-        ],
-        "nation": "Belgium",
-        "value": 9
-      },
-      {
-        "rank": 9,
-        "answer": "James Maddison",
-        "aliases": [
-          "Maddison"
-        ],
-        "nation": "England",
-        "value": 9
-      },
-      {
-        "rank": 10,
-        "answer": "Bryan Mbeumo",
-        "aliases": [
-          "Mbeumo"
-        ],
-        "nation": "Cameroon",
-        "value": 9
-      }
-    ]
-  },
-  {
     "id": "prem-top-scorers-2020-21",
     "title": "Premier League Top 10 Scorers (2020/21)",
     "category": "prem-scorers",
@@ -1045,22 +638,20 @@
       },
       {
         "rank": 4,
+        "answer": "Heung-min Son",
+        "aliases": [
+          "Son"
+        ],
+        "nation": "South Korea",
+        "value": 17
+      },
+      {
+        "rank": 5,
         "answer": "Patrick Bamford",
         "aliases": [
           "Bamford"
         ],
         "nation": "England",
-        "value": 17
-      },
-      {
-        "rank": 5,
-        "answer": "Son Heung-min",
-        "aliases": [
-          "Son",
-          "Heung-min Son",
-          "Heung-min"
-        ],
-        "nation": "South Korea",
         "value": 17
       },
       {
@@ -1109,108 +700,6 @@
         ],
         "nation": "France",
         "value": 13
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2020-21",
-    "title": "Premier League Top 10 Assists (2020/21)",
-    "category": "prem-assists",
-    "season": "2020/21",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Marcus Rashford",
-        "aliases": [
-          "Rashford"
-        ],
-        "nation": "England",
-        "value": 14
-      },
-      {
-        "rank": 2,
-        "answer": "Kevin De Bruyne",
-        "aliases": [
-          "De Bruyne",
-          "KDB",
-          "Bruyne"
-        ],
-        "nation": "Belgium",
-        "value": 13
-      },
-      {
-        "rank": 3,
-        "answer": "Jack Grealish",
-        "aliases": [
-          "Grealish"
-        ],
-        "nation": "England",
-        "value": 12
-      },
-      {
-        "rank": 4,
-        "answer": "Son Heung-min",
-        "aliases": [
-          "Son",
-          "Heung-min Son",
-          "Heung-min"
-        ],
-        "nation": "South Korea",
-        "value": 12
-      },
-      {
-        "rank": 5,
-        "answer": "Bruno Fernandes",
-        "aliases": [
-          "Fernandes"
-        ],
-        "nation": "Portugal",
-        "value": 12
-      },
-      {
-        "rank": 6,
-        "answer": "Raheem Sterling",
-        "aliases": [
-          "Sterling"
-        ],
-        "nation": "England",
-        "value": 11
-      },
-      {
-        "rank": 7,
-        "answer": "Pascal Groß",
-        "aliases": [
-          "Groß"
-        ],
-        "nation": "Germany",
-        "value": 11
-      },
-      {
-        "rank": 8,
-        "answer": "Sadio Mané",
-        "aliases": [
-          "Mané"
-        ],
-        "nation": "Senegal",
-        "value": 10
-      },
-      {
-        "rank": 9,
-        "answer": "Jack Harrison",
-        "aliases": [
-          "Harrison"
-        ],
-        "nation": "England",
-        "value": 9
-      },
-      {
-        "rank": 10,
-        "answer": "James Maddison",
-        "aliases": [
-          "Maddison"
-        ],
-        "nation": "England",
-        "value": 9
       }
     ]
   },
@@ -1267,6 +756,15 @@
       },
       {
         "rank": 6,
+        "answer": "Sadio Mané",
+        "aliases": [
+          "Mané"
+        ],
+        "nation": "Senegal",
+        "value": 18
+      },
+      {
+        "rank": 7,
         "answer": "Harry Kane",
         "aliases": [
           "Kane",
@@ -1276,21 +774,12 @@
         "value": 18
       },
       {
-        "rank": 7,
-        "answer": "Sadio Mané",
-        "aliases": [
-          "Mané"
-        ],
-        "nation": "Senegal",
-        "value": 18
-      },
-      {
         "rank": 8,
-        "answer": "Raúl Jiménez",
+        "answer": "Marcus Rashford",
         "aliases": [
-          "Jiménez"
+          "Rashford"
         ],
-        "nation": "Mexico",
+        "nation": "England",
         "value": 17
       },
       {
@@ -1304,114 +793,12 @@
       },
       {
         "rank": 10,
-        "answer": "Marcus Rashford",
+        "answer": "Raúl Jiménez",
         "aliases": [
-          "Rashford"
+          "Jiménez"
         ],
-        "nation": "England",
+        "nation": "Mexico",
         "value": 17
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2019-20",
-    "title": "Premier League Top 10 Assists (2019/20)",
-    "category": "prem-assists",
-    "season": "2019/20",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Kevin De Bruyne",
-        "aliases": [
-          "De Bruyne",
-          "KDB",
-          "Bruyne"
-        ],
-        "nation": "Belgium",
-        "value": 20
-      },
-      {
-        "rank": 2,
-        "answer": "Riyad Mahrez",
-        "aliases": [
-          "Mahrez"
-        ],
-        "nation": "Algeria",
-        "value": 13
-      },
-      {
-        "rank": 3,
-        "answer": "David Silva",
-        "aliases": [
-          "Silva"
-        ],
-        "nation": "Spain",
-        "value": 12
-      },
-      {
-        "rank": 4,
-        "answer": "Son Heung-min",
-        "aliases": [
-          "Son",
-          "Heung-min Son",
-          "Heung-min"
-        ],
-        "nation": "South Korea",
-        "value": 12
-      },
-      {
-        "rank": 5,
-        "answer": "Mohamed Salah",
-        "aliases": [
-          "Salah"
-        ],
-        "nation": "Egypt",
-        "value": 11
-      },
-      {
-        "rank": 6,
-        "answer": "Marcus Rashford",
-        "aliases": [
-          "Rashford"
-        ],
-        "nation": "England",
-        "value": 11
-      },
-      {
-        "rank": 7,
-        "answer": "Sadio Mané",
-        "aliases": [
-          "Mané"
-        ],
-        "nation": "Senegal",
-        "value": 10
-      },
-      {
-        "rank": 8,
-        "answer": "Adama Traoré",
-        "aliases": [
-          "Traoré"
-        ],
-        "nation": "Spain",
-        "value": 9
-      },
-      {
-        "rank": 9,
-        "answer": "Harvey Barnes",
-        "aliases": [
-          "Barnes"
-        ],
-        "nation": "England",
-        "value": 9
-      },
-      {
-        "rank": 10,
-        "answer": "Bruno Fernandes",
-        "aliases": [
-          "Fernandes"
-        ],
-        "nation": "Portugal",
-        "value": 9
       }
     ]
   },
@@ -1432,20 +819,20 @@
       },
       {
         "rank": 2,
-        "answer": "Sadio Mané",
-        "aliases": [
-          "Mané"
-        ],
-        "nation": "Senegal",
-        "value": 22
-      },
-      {
-        "rank": 3,
         "answer": "Pierre-Emerick Aubameyang",
         "aliases": [
           "Aubameyang"
         ],
         "nation": "Gabon",
+        "value": 22
+      },
+      {
+        "rank": 3,
+        "answer": "Sadio Mané",
+        "aliases": [
+          "Mané"
+        ],
+        "nation": "Senegal",
         "value": 22
       },
       {
@@ -1471,19 +858,19 @@
       },
       {
         "rank": 6,
-        "answer": "Harry Kane",
+        "answer": "Raheem Sterling",
         "aliases": [
-          "Kane",
-          "H. Kane"
+          "Sterling"
         ],
         "nation": "England",
         "value": 17
       },
       {
         "rank": 7,
-        "answer": "Raheem Sterling",
+        "answer": "Harry Kane",
         "aliases": [
-          "Sterling"
+          "Kane",
+          "H. Kane"
         ],
         "nation": "England",
         "value": 17
@@ -1515,105 +902,6 @@
         ],
         "nation": "France",
         "value": 13
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2018-19",
-    "title": "Premier League Top 10 Assists (2018/19)",
-    "category": "prem-assists",
-    "season": "2018/19",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Eden Hazard",
-        "aliases": [
-          "Hazard",
-          "E. Hazard"
-        ],
-        "nation": "Belgium",
-        "value": 15
-      },
-      {
-        "rank": 2,
-        "answer": "Ryan Fraser",
-        "aliases": [
-          "Fraser"
-        ],
-        "nation": "Scotland",
-        "value": 14
-      },
-      {
-        "rank": 3,
-        "answer": "Christian Eriksen",
-        "aliases": [
-          "Eriksen"
-        ],
-        "nation": "Denmark",
-        "value": 12
-      },
-      {
-        "rank": 4,
-        "answer": "Leroy Sané",
-        "aliases": [
-          "Sané"
-        ],
-        "nation": "Germany",
-        "value": 12
-      },
-      {
-        "rank": 5,
-        "answer": "Raheem Sterling",
-        "aliases": [
-          "Sterling"
-        ],
-        "nation": "England",
-        "value": 11
-      },
-      {
-        "rank": 6,
-        "answer": "Paul Pogba",
-        "aliases": [
-          "Pogba"
-        ],
-        "nation": "France",
-        "value": 11
-      },
-      {
-        "rank": 7,
-        "answer": "David Silva",
-        "aliases": [
-          "Silva"
-        ],
-        "nation": "Spain",
-        "value": 10
-      },
-      {
-        "rank": 8,
-        "answer": "Matt Ritchie",
-        "aliases": [
-          "Ritchie"
-        ],
-        "nation": "Scotland",
-        "value": 9
-      },
-      {
-        "rank": 9,
-        "answer": "João Moutinho",
-        "aliases": [
-          "Moutinho"
-        ],
-        "nation": "Portugal",
-        "value": 9
-      },
-      {
-        "rank": 10,
-        "answer": "Mohamed Salah",
-        "aliases": [
-          "Salah"
-        ],
-        "nation": "Egypt",
-        "value": 9
       }
     ]
   },
@@ -1711,114 +999,12 @@
       },
       {
         "rank": 10,
-        "answer": "Eden Hazard",
-        "aliases": [
-          "Hazard",
-          "E. Hazard"
-        ],
-        "nation": "Belgium",
-        "value": 12
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2017-18",
-    "title": "Premier League Top 10 Assists (2017/18)",
-    "category": "prem-assists",
-    "season": "2017/18",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Kevin De Bruyne",
-        "aliases": [
-          "De Bruyne",
-          "KDB",
-          "Bruyne"
-        ],
-        "nation": "Belgium",
-        "value": 16
-      },
-      {
-        "rank": 2,
-        "answer": "Leroy Sané",
-        "aliases": [
-          "Sané"
-        ],
-        "nation": "Germany",
-        "value": 15
-      },
-      {
-        "rank": 3,
-        "answer": "Raheem Sterling",
-        "aliases": [
-          "Sterling"
-        ],
-        "nation": "England",
-        "value": 12
-      },
-      {
-        "rank": 4,
-        "answer": "David Silva",
-        "aliases": [
-          "Silva"
-        ],
-        "nation": "Spain",
-        "value": 11
-      },
-      {
-        "rank": 5,
-        "answer": "Mohamed Salah",
-        "aliases": [
-          "Salah"
-        ],
-        "nation": "Egypt",
-        "value": 11
-      },
-      {
-        "rank": 6,
-        "answer": "Christian Eriksen",
-        "aliases": [
-          "Eriksen"
-        ],
-        "nation": "Denmark",
-        "value": 11
-      },
-      {
-        "rank": 7,
-        "answer": "Paul Pogba",
-        "aliases": [
-          "Pogba"
-        ],
-        "nation": "France",
-        "value": 10
-      },
-      {
-        "rank": 8,
         "answer": "Riyad Mahrez",
         "aliases": [
           "Mahrez"
         ],
         "nation": "Algeria",
-        "value": 10
-      },
-      {
-        "rank": 9,
-        "answer": "Dele Alli",
-        "aliases": [
-          "Alli",
-          "D. Alli"
-        ],
-        "nation": "England",
-        "value": 10
-      },
-      {
-        "rank": 10,
-        "answer": "Henrikh Mkhitaryan",
-        "aliases": [
-          "Mkhitaryan"
-        ],
-        "nation": "Armenia",
-        "value": 9
+        "value": 12
       }
     ]
   },
@@ -1862,6 +1048,15 @@
       },
       {
         "rank": 4,
+        "answer": "Diego Costa",
+        "aliases": [
+          "Costa"
+        ],
+        "nation": "Spain",
+        "value": 20
+      },
+      {
+        "rank": 5,
         "answer": "Sergio Agüero",
         "aliases": [
           "Aguero",
@@ -1870,15 +1065,6 @@
           "S. Aguero"
         ],
         "nation": "Argentina",
-        "value": 20
-      },
-      {
-        "rank": 5,
-        "answer": "Diego Costa",
-        "aliases": [
-          "Costa"
-        ],
-        "nation": "Spain",
         "value": 20
       },
       {
@@ -1905,16 +1091,6 @@
       },
       {
         "rank": 8,
-        "answer": "Joshua King",
-        "aliases": [
-          "King",
-          "J. King"
-        ],
-        "nation": "Norway",
-        "value": 16
-      },
-      {
-        "rank": 9,
         "answer": "Eden Hazard",
         "aliases": [
           "Hazard",
@@ -1924,118 +1100,23 @@
         "value": 16
       },
       {
-        "rank": 10,
-        "answer": "Fernando Llorente",
+        "rank": 9,
+        "answer": "Joshua King",
         "aliases": [
-          "Llorente"
+          "King",
+          "J. King"
         ],
-        "nation": "Spain",
-        "value": 15
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2016-17",
-    "title": "Premier League Top 10 Assists (2016/17)",
-    "category": "prem-assists",
-    "season": "2016/17",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Kevin De Bruyne",
-        "aliases": [
-          "De Bruyne",
-          "KDB",
-          "Bruyne"
-        ],
-        "nation": "Belgium",
-        "value": 18
-      },
-      {
-        "rank": 2,
-        "answer": "Christian Eriksen",
-        "aliases": [
-          "Eriksen"
-        ],
-        "nation": "Denmark",
+        "nation": "Norway",
         "value": 16
       },
       {
-        "rank": 3,
-        "answer": "Gylfi Sigurðsson",
+        "rank": 10,
+        "answer": "Jermain Defoe",
         "aliases": [
-          "Sigurdsson",
-          "Sigurðsson"
-        ],
-        "nation": "Iceland",
-        "value": 13
-      },
-      {
-        "rank": 4,
-        "answer": "Cesc Fàbregas",
-        "aliases": [
-          "Fàbregas"
-        ],
-        "nation": "Spain",
-        "value": 12
-      },
-      {
-        "rank": 5,
-        "answer": "Mesut Özil",
-        "aliases": [
-          "Özil"
-        ],
-        "nation": "Germany",
-        "value": 11
-      },
-      {
-        "rank": 6,
-        "answer": "Alexis Sánchez",
-        "aliases": [
-          "Sanchez",
-          "Sánchez",
-          "A. Sánchez",
-          "A. Sanchez"
-        ],
-        "nation": "Chile",
-        "value": 10
-      },
-      {
-        "rank": 7,
-        "answer": "Wilfried Zaha",
-        "aliases": [
-          "Zaha"
-        ],
-        "nation": "Ivory Coast",
-        "value": 9
-      },
-      {
-        "rank": 8,
-        "answer": "Georginio Wijnaldum",
-        "aliases": [
-          "Wijnaldum"
-        ],
-        "nation": "Netherlands",
-        "value": 9
-      },
-      {
-        "rank": 9,
-        "answer": "Dele Alli",
-        "aliases": [
-          "Alli",
-          "D. Alli"
+          "Defoe"
         ],
         "nation": "England",
-        "value": 9
-      },
-      {
-        "rank": 10,
-        "answer": "Matt Phillips",
-        "aliases": [
-          "Phillips"
-        ],
-        "nation": "Scotland",
-        "value": 9
+        "value": 15
       }
     ]
   },
@@ -2057,6 +1138,15 @@
       },
       {
         "rank": 2,
+        "answer": "Jamie Vardy",
+        "aliases": [
+          "Vardy"
+        ],
+        "nation": "England",
+        "value": 24
+      },
+      {
+        "rank": 3,
         "answer": "Sergio Agüero",
         "aliases": [
           "Aguero",
@@ -2065,15 +1155,6 @@
           "S. Aguero"
         ],
         "nation": "Argentina",
-        "value": 24
-      },
-      {
-        "rank": 3,
-        "answer": "Jamie Vardy",
-        "aliases": [
-          "Vardy"
-        ],
-        "nation": "England",
         "value": 24
       },
       {
@@ -2106,20 +1187,20 @@
       },
       {
         "rank": 7,
-        "answer": "Jermain Defoe",
-        "aliases": [
-          "Defoe"
-        ],
-        "nation": "England",
-        "value": 15
-      },
-      {
-        "rank": 8,
         "answer": "Odion Ighalo",
         "aliases": [
           "Ighalo"
         ],
         "nation": "Nigeria",
+        "value": 16
+      },
+      {
+        "rank": 8,
+        "answer": "Jermain Defoe",
+        "aliases": [
+          "Defoe"
+        ],
+        "nation": "England",
         "value": 15
       },
       {
@@ -2142,106 +1223,6 @@
         ],
         "nation": "Chile",
         "value": 13
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2015-16",
-    "title": "Premier League Top 10 Assists (2015/16)",
-    "category": "prem-assists",
-    "season": "2015/16",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Mesut Özil",
-        "aliases": [
-          "Özil"
-        ],
-        "nation": "Germany",
-        "value": 19
-      },
-      {
-        "rank": 2,
-        "answer": "Dušan Tadić",
-        "aliases": [
-          "Tadić"
-        ],
-        "nation": "Serbia",
-        "value": 14
-      },
-      {
-        "rank": 3,
-        "answer": "Christian Eriksen",
-        "aliases": [
-          "Eriksen"
-        ],
-        "nation": "Denmark",
-        "value": 14
-      },
-      {
-        "rank": 4,
-        "answer": "Dimitri Payet",
-        "aliases": [
-          "Payet"
-        ],
-        "nation": "France",
-        "value": 12
-      },
-      {
-        "rank": 5,
-        "answer": "David Silva",
-        "aliases": [
-          "Silva"
-        ],
-        "nation": "Spain",
-        "value": 11
-      },
-      {
-        "rank": 6,
-        "answer": "James Milner",
-        "aliases": [
-          "Milner"
-        ],
-        "nation": "England",
-        "value": 11
-      },
-      {
-        "rank": 7,
-        "answer": "Riyad Mahrez",
-        "aliases": [
-          "Mahrez"
-        ],
-        "nation": "Algeria",
-        "value": 10
-      },
-      {
-        "rank": 8,
-        "answer": "Kevin De Bruyne",
-        "aliases": [
-          "De Bruyne",
-          "KDB",
-          "Bruyne"
-        ],
-        "nation": "Belgium",
-        "value": 9
-      },
-      {
-        "rank": 9,
-        "answer": "Erik Lamela",
-        "aliases": [
-          "Lamela"
-        ],
-        "nation": "Argentina",
-        "value": 9
-      },
-      {
-        "rank": 10,
-        "answer": "Wes Hoolahan",
-        "aliases": [
-          "Hoolahan"
-        ],
-        "nation": "Ireland",
-        "value": 8
       }
     ]
   },
@@ -2305,11 +1286,12 @@
       },
       {
         "rank": 6,
-        "answer": "Saido Berahino",
+        "answer": "Eden Hazard",
         "aliases": [
-          "Berahino"
+          "Hazard",
+          "E. Hazard"
         ],
-        "nation": "England",
+        "nation": "Belgium",
         "value": 14
       },
       {
@@ -2323,12 +1305,11 @@
       },
       {
         "rank": 8,
-        "answer": "Eden Hazard",
+        "answer": "Saido Berahino",
         "aliases": [
-          "Hazard",
-          "E. Hazard"
+          "Berahino"
         ],
-        "nation": "Belgium",
+        "nation": "England",
         "value": 14
       },
       {
@@ -2342,113 +1323,12 @@
       },
       {
         "rank": 10,
-        "answer": "Graziano Pellè",
-        "aliases": [
-          "Pelle",
-          "Pellè"
-        ],
-        "nation": "Italy",
-        "value": 12
-      }
-    ]
-  },
-  {
-    "id": "prem-top-assists-2014-15",
-    "title": "Premier League Top 10 Assists (2014/15)",
-    "category": "prem-assists",
-    "season": "2014/15",
-    "items": [
-      {
-        "rank": 1,
-        "answer": "Cesc Fàbregas",
-        "aliases": [
-          "Fàbregas"
-        ],
-        "nation": "Spain",
-        "value": 18
-      },
-      {
-        "rank": 2,
-        "answer": "Santi Cazorla",
-        "aliases": [
-          "Cazorla"
-        ],
-        "nation": "Spain",
-        "value": 11
-      },
-      {
-        "rank": 3,
-        "answer": "Ángel Di María",
-        "aliases": [
-          "María"
-        ],
-        "nation": "Argentina",
-        "value": 10
-      },
-      {
-        "rank": 4,
         "answer": "David Silva",
         "aliases": [
           "Silva"
         ],
         "nation": "Spain",
-        "value": 10
-      },
-      {
-        "rank": 5,
-        "answer": "Gylfi Sigurðsson",
-        "aliases": [
-          "Sigurdsson",
-          "Sigurðsson"
-        ],
-        "nation": "Iceland",
-        "value": 10
-      },
-      {
-        "rank": 6,
-        "answer": "Chris Brunt",
-        "aliases": [
-          "Brunt"
-        ],
-        "nation": "Northern Ireland",
-        "value": 10
-      },
-      {
-        "rank": 7,
-        "answer": "Eden Hazard",
-        "aliases": [
-          "Hazard",
-          "E. Hazard"
-        ],
-        "nation": "Belgium",
-        "value": 10
-      },
-      {
-        "rank": 8,
-        "answer": "Jordan Henderson",
-        "aliases": [
-          "Henderson"
-        ],
-        "nation": "England",
-        "value": 9
-      },
-      {
-        "rank": 9,
-        "answer": "Matt Phillips",
-        "aliases": [
-          "Phillips"
-        ],
-        "nation": "Scotland",
-        "value": 9
-      },
-      {
-        "rank": 10,
-        "answer": "Jesús Navas",
-        "aliases": [
-          "Navas"
-        ],
-        "nation": "Spain",
-        "value": 8
+        "value": 12
       }
     ]
   }

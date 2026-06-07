@@ -1,13 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import {
-  DAILY_MAX_GUESSES,
-  getDailyPlayer,
-  getTodayKey,
-  loadDailyPlayerState,
-  saveDailyPlayerState,
-} from "../lib/dailyPlayer";
+import { DAILY_MAX_GUESSES, getDailyPlayer } from "../lib/dailyPlayer";
 import { submitDailyGuess } from "../lib/dailyPlayerApi";
 import { playerInitials } from "../lib/playerImages";
+import { useDailyPlayerState } from "../hooks/useDailyPlayerState";
 import { usePlayerSearch } from "../hooks/usePlayerSearch";
 import type {
   DailyAgeMatch,
@@ -356,8 +351,7 @@ function DailyGuessRow({
 }
 
 export function DailyPlayerGame() {
-  const dateKey = getTodayKey();
-  const [state, setState] = useState(() => loadDailyPlayerState(dateKey));
+  const { dateKey, state, persistState } = useDailyPlayerState();
   const [guess, setGuess] = useState("");
   const [feedback, setFeedback] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -388,7 +382,7 @@ export function DailyPlayerGame() {
     !gameOver && guessesUsed < DAILY_MAX_GUESSES && !isRevealing;
 
   async function submitGuess(value: string) {
-    if (!canGuess || isSubmitting) return;
+    if (!canGuess || isSubmitting || state.solved || state.failed) return;
 
     const trimmed = value.trim();
     if (!trimmed) {
@@ -410,17 +404,15 @@ export function DailyPlayerGame() {
         !result.correct && nextGuesses.length >= DAILY_MAX_GUESSES;
       const revealAnswer = result.correct || failed;
 
-      const nextState = {
+      persistState({
         dateKey,
         solved: result.correct,
         failed,
         guesses: nextGuesses,
         answer: revealAnswer ? dailyPlayer.answer : state.answer,
         photo: revealAnswer ? (dailyPlayer.photo ?? undefined) : undefined,
-      };
-
-      setState(nextState);
-      saveDailyPlayerState(nextState);
+        completedAt: revealAnswer ? Date.now() : undefined,
+      });
       setGuess("");
       setRevealLatestGuess(true);
       setIsRevealing(true);

@@ -11,6 +11,7 @@ import {
   type QueryDocumentSnapshot,
 } from "firebase/firestore";
 import { getPlayersDb, isFirebaseConfigured } from "../config/firebase";
+import { normalizeSearchText } from "./foldLatin";
 import type { PlayerRecord, PlayerSearchResult } from "../types/player";
 
 const SEARCH_FIELDS = [
@@ -35,7 +36,7 @@ const PER_FIELD_FETCH = 6;
 const PAGE_SIZE = 8;
 
 function normalizeTerm(raw: string): string {
-  return raw.trim().toLowerCase().replace(/\s+/g, " ");
+  return normalizeSearchText(raw);
 }
 
 function mapDoc(doc: QueryDocumentSnapshot<DocumentData>): PlayerRecord {
@@ -56,15 +57,53 @@ function mapDoc(doc: QueryDocumentSnapshot<DocumentData>): PlayerRecord {
   };
 }
 
+function scoreMultiTokenName(
+  firstname: string,
+  lastname: string,
+  term: string,
+): number {
+  const tokens = term.split(" ").filter(Boolean);
+  if (tokens.length < 2) return 0;
+
+  const firstToken = tokens[0];
+  const lastToken = tokens.at(-1) ?? "";
+  const lastnameParts = lastname.split(" ").filter(Boolean);
+
+  const firstMatches =
+    firstname.startsWith(firstToken) ||
+    (firstToken.length === 1 && firstname.startsWith(firstToken));
+
+  const lastMatches =
+    lastname.startsWith(lastToken) ||
+    lastnameParts.some(
+      (part) => part === lastToken || part.startsWith(lastToken),
+    );
+
+  if (!firstMatches || !lastMatches) return 0;
+
+  const penalty = firstname.length + lastname.length - term.length;
+  if (firstname.startsWith(firstToken) && lastname.startsWith(lastToken)) {
+    return 860 - penalty;
+  }
+
+  return 820 - penalty;
+}
+
 function scorePlayer(player: PlayerRecord, term: string): number {
   const name = player.searchName ?? player.name.toLowerCase();
   const lastname =
     player.searchLastname ?? (player.lastname ?? "").toLowerCase();
   const firstname =
     player.searchFirstname ?? (player.firstname ?? "").toLowerCase();
+  const displayName = normalizeSearchText(player.name);
 
-  if (name === term) return 1000;
+  if (displayName === term) return 1000;
+  if (name === term) return 990;
   if (lastname === term || firstname === term) return 900;
+
+  const multiTokenScore = scoreMultiTokenName(firstname, lastname, term);
+  if (multiTokenScore > 0) return multiTokenScore;
+
   if (name.startsWith(term)) return 800 - (name.length - term.length);
   if (lastname.startsWith(term)) return 700 - (lastname.length - term.length);
   if (firstname.startsWith(term)) return 650 - (firstname.length - term.length);

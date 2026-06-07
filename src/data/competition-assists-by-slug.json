@@ -1,0 +1,728 @@
+{
+  "ucl": {
+    "all-time": [
+      {
+        "name": "Cristiano Ronaldo",
+        "nation": "Portugal"
+      },
+      {
+        "name": "Lionel Messi",
+        "nation": "Argentina"
+      },
+      {
+        "name": "Thomas Müller",
+        "nation": "Germany"
+      },
+      {
+        "name": "Neymar",
+        "nation": "Brazil"
+      },
+      {
+        "name": "Ángel Di María",
+        "nation": "Argentina"
+      },
+      {
+        "name": "Karim Benzema",
+        "nation": "France"
+      },
+      {
+        "name": "Ryan Giggs",
+        "nation": "Wales"
+      },
+      {
+        "name": "Andrés Iniesta",
+        "nation": "Spain"
+      },
+      {
+        "name": "Luis Figo",
+        "nation": "Portugal"
+      },
+      {
+        "name": "Xavi",
+        "nation": "Spain"
+      }
+    ],
+    "2025-26": [
+      {
+        "name": "Raphinha",
+        "nation": "Brazil",
+        "value": 8
+      },
+      {
+        "name": "Lamine Yamal",
+        "nation": "Spain",
+        "value": 7
+      },
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "nation": "Georgia",
+        "value": 6
+      },
+      {
+        "name": "Vitinha",
+        "nation": "Portugal",
+        "value": 6,
+        "sourcePlayerId": "128384"
+      },
+      {
+        "name": "Julián Álvarez",
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 5
+      },
+      {
+        "name": "Phil Foden",
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "name": "Rodrygo",
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "name": "Jude Bellingham",
+        "nation": "England",
+        "value": 4
+      }
+    ],
+    "2024-25": [
+      {
+        "name": "Raphinha",
+        "nation": "Brazil",
+        "value": 9
+      },
+      {
+        "name": "Vitinha",
+        "nation": "Portugal",
+        "value": 7,
+        "sourcePlayerId": "128384"
+      },
+      {
+        "name": "Lamine Yamal",
+        "nation": "Spain",
+        "value": 7
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 6
+      },
+      {
+        "name": "Kylian Mbappé",
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "name": "Phil Foden",
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "name": "Julián Álvarez",
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "name": "Vinícius Júnior",
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "name": "Jude Bellingham",
+        "nation": "England",
+        "value": 4
+      }
+    ],
+    "2023-24": [
+      {
+        "name": "Phil Foden",
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "name": "Bernardo Silva",
+        "nation": "Portugal",
+        "value": 5
+      },
+      {
+        "name": "Rodrygo",
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "name": "Kylian Mbappé",
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 4
+      },
+      {
+        "name": "Raphinha",
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "name": "Antoine Griezmann",
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "name": "Vinícius Júnior",
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "name": "Jude Bellingham",
+        "nation": "England",
+        "value": 4
+      }
+    ],
+    "2022-23": [
+      {
+        "name": "Kevin De Bruyne",
+        "nation": "Belgium",
+        "value": 7
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 6
+      },
+      {
+        "name": "Vinícius Júnior",
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "name": "Leroy Sané",
+        "nation": "Germany",
+        "value": 5
+      },
+      {
+        "name": "Raphinha",
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "name": "Kylian Mbappé",
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "name": "Phil Foden",
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "name": "Rodrygo",
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "name": "Bruno Fernandes",
+        "nation": "Portugal",
+        "value": 4
+      },
+      {
+        "name": "Jude Bellingham",
+        "nation": "England",
+        "value": 4
+      }
+    ],
+    "2021-22": [
+      {
+        "name": "Leroy Sané",
+        "nation": "Germany",
+        "value": 7
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 6
+      },
+      {
+        "name": "Karim Benzema",
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "name": "Vinícius Júnior",
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "name": "Kylian Mbappé",
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "name": "Thomas Müller",
+        "nation": "Germany",
+        "value": 5
+      },
+      {
+        "name": "Riyad Mahrez",
+        "nation": "Algeria",
+        "value": 5
+      },
+      {
+        "name": "Neymar",
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "name": "Lionel Messi",
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "name": "Christopher Nkunku",
+        "nation": "France",
+        "value": 4
+      }
+    ],
+    "2020-21": [
+      {
+        "name": "Neymar",
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "name": "Kylian Mbappé",
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "name": "Bruno Fernandes",
+        "nation": "Portugal",
+        "value": 6
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 5
+      },
+      {
+        "name": "Karim Benzema",
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "name": "Leroy Sané",
+        "nation": "Germany",
+        "value": 5
+      },
+      {
+        "name": "Ángel Di María",
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "nation": "Belgium",
+        "value": 4
+      },
+      {
+        "name": "Riyad Mahrez",
+        "nation": "Algeria",
+        "value": 4
+      },
+      {
+        "name": "Thomas Müller",
+        "nation": "Germany",
+        "value": 4
+      }
+    ]
+  },
+  "uel": {
+    "all-time": [
+      {
+        "name": "Bruno Fernandes",
+        "nation": "Portugal"
+      },
+      {
+        "name": "James Milner",
+        "nation": "England"
+      },
+      {
+        "name": "Willian",
+        "nation": "Brazil"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "nation": "France"
+      },
+      {
+        "name": "Kevin Gameiro",
+        "nation": "France"
+      },
+      {
+        "name": "Olivier Giroud",
+        "nation": "France"
+      },
+      {
+        "name": "Ruslan Malinovskyi",
+        "nation": "Ukraine"
+      },
+      {
+        "name": "Ivan Rakitić",
+        "nation": "Croatia"
+      },
+      {
+        "name": "Neymar",
+        "nation": "Brazil"
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "nation": "Gabon"
+      }
+    ],
+    "2025-26": [
+      {
+        "name": "Kerem Aktürkoglu",
+        "nation": "Turkey",
+        "value": 6
+      },
+      {
+        "name": "Antony",
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "name": "Bilal El Khannouss",
+        "nation": "Morocco",
+        "value": 5
+      },
+      {
+        "name": "Federico Bernardeschi",
+        "nation": "Italy",
+        "value": 4
+      },
+      {
+        "name": "Olivier Giroud",
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "name": "Talisca",
+        "nation": "Brazil",
+        "value": 4,
+        "aliases": [
+          "Talisca"
+        ]
+      },
+      {
+        "name": "Corentin Tolisso",
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "name": "Donyell Malen",
+        "nation": "Netherlands",
+        "value": 4
+      },
+      {
+        "name": "Riccardo Orsolini",
+        "nation": "Italy",
+        "value": 3
+      },
+      {
+        "name": "Thijs Dallinga",
+        "nation": "Netherlands",
+        "value": 3
+      }
+    ],
+    "2024-25": [
+      {
+        "name": "Bruno Fernandes",
+        "nation": "Portugal",
+        "value": 7
+      },
+      {
+        "name": "Brennan Johnson",
+        "nation": "Wales",
+        "value": 5
+      },
+      {
+        "name": "Iñaki Williams",
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "name": "Nico Williams",
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "name": "Rayan Cherki",
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "name": "Malick Fofana",
+        "nation": "Belgium",
+        "value": 4
+      },
+      {
+        "name": "Dominic Solanke",
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "nation": "Spain",
+        "value": 4
+      },
+      {
+        "name": "Yunus Akgün",
+        "nation": "Turkey",
+        "value": 4
+      },
+      {
+        "name": "Kenneth Taylor",
+        "nation": "Netherlands",
+        "value": 4
+      }
+    ],
+    "2023-24": [
+      {
+        "name": "Ademola Lookman",
+        "nation": "Nigeria",
+        "value": 5
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 4
+      },
+      {
+        "name": "Mohammed Kudus",
+        "nation": "Ghana",
+        "value": 4
+      },
+      {
+        "name": "Florian Wirtz",
+        "nation": "Germany",
+        "value": 4
+      },
+      {
+        "name": "Ángel Di María",
+        "nation": "Argentina",
+        "value": 4
+      },
+      {
+        "name": "Vincenzo Grifo",
+        "nation": "Italy",
+        "value": 4
+      },
+      {
+        "name": "Cody Gakpo",
+        "nation": "Netherlands",
+        "value": 4
+      },
+      {
+        "name": "Ruben Loftus-Cheek",
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "name": "Romelu Lukaku",
+        "nation": "Belgium",
+        "value": 3
+      },
+      {
+        "name": "Victor Boniface",
+        "nation": "Nigeria",
+        "value": 3
+      }
+    ],
+    "2022-23": [
+      {
+        "name": "Marcus Rashford",
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "name": "Paulo Dybala",
+        "nation": "Argentina",
+        "value": 4
+      },
+      {
+        "name": "Lorenzo Pellegrini",
+        "nation": "Italy",
+        "value": 4
+      },
+      {
+        "name": "Cody Gakpo",
+        "nation": "Netherlands",
+        "value": 4
+      },
+      {
+        "name": "Moussa Diaby",
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "name": "Florian Wirtz",
+        "nation": "Germany",
+        "value": 4
+      },
+      {
+        "name": "Ángel Di María",
+        "nation": "Argentina",
+        "value": 3
+      },
+      {
+        "name": "Jarrod Bowen",
+        "nation": "England",
+        "value": 3
+      },
+      {
+        "name": "Filip Kostić",
+        "nation": "Serbia",
+        "value": 3
+      },
+      {
+        "name": "Victor Boniface",
+        "nation": "Nigeria",
+        "value": 3
+      }
+    ],
+    "2021-22": [
+      {
+        "name": "James Tavernier",
+        "nation": "Scotland",
+        "value": 7
+      },
+      {
+        "name": "Filip Kostić",
+        "nation": "Serbia",
+        "value": 5
+      },
+      {
+        "name": "Mislav Orsic",
+        "nation": "Croatia",
+        "value": 4
+      },
+      {
+        "name": "Jarrod Bowen",
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "name": "Ricardo Horta",
+        "nation": "Portugal",
+        "value": 4
+      },
+      {
+        "name": "Daichi Kamada",
+        "nation": "Japan",
+        "value": 4
+      },
+      {
+        "name": "Moussa Diaby",
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "name": "Florian Wirtz",
+        "nation": "Germany",
+        "value": 3
+      },
+      {
+        "name": "Ruslan Malinovskyi",
+        "nation": "Ukraine",
+        "value": 3
+      },
+      {
+        "name": "Karl Toko Ekambi",
+        "nation": "Cameroon",
+        "value": 3
+      }
+    ],
+    "2020-21": [
+      {
+        "name": "Bruno Fernandes",
+        "nation": "Portugal",
+        "value": 6
+      },
+      {
+        "name": "Gerard Moreno",
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "name": "Pizzi",
+        "nation": "Portugal",
+        "value": 5
+      },
+      {
+        "name": "Yusuf Yazıcı",
+        "nation": "Turkey",
+        "value": 4
+      },
+      {
+        "name": "Munas Dabbur",
+        "nation": "Israel",
+        "value": 4
+      },
+      {
+        "name": "Olivier Giroud",
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "name": "Borja Mayoral",
+        "nation": "Spain",
+        "value": 4
+      },
+      {
+        "name": "Carlos Vinícius",
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "name": "Alexander Sørloth",
+        "nation": "Norway",
+        "value": 3
+      },
+      {
+        "name": "Willian José",
+        "nation": "Brazil",
+        "value": 3
+      }
+    ]
+  },
+  "chmp": {
+    "all-time": [],
+    "2025-26": [],
+    "2024-25": [],
+    "2023-24": [],
+    "2022-23": [],
+    "2021-22": [],
+    "2020-21": []
+  }
+}

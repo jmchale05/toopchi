@@ -51,7 +51,7 @@ const NATION_CLOSE_GROUPS: readonly string[][] = [
     "North Macedonia",
   ],
   ["USA", "United States", "Mexico", "Canada"],
-  ["Japan", "South Korea", "Korea", "China"],
+  ["Japan", "South Korea", "Korea", "Korea Republic", "China"],
   ["Turkey", "Türkiye", "Greece"],
   ["Australia", "New Zealand"],
   [

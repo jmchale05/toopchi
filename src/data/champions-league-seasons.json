@@ -1,0 +1,124 @@
+[
+  {
+    "season": "All time",
+    "slug": "all-time",
+    "scorers": [
+      { "name": "Cristiano Ronaldo", "nation": "Portugal" },
+      { "name": "Lionel Messi", "nation": "Argentina" },
+      { "name": "Robert Lewandowski", "nation": "Poland" },
+      { "name": "Karim Benzema", "nation": "France" },
+      { "name": "Raúl", "nation": "Spain" },
+      { "name": "Ruud van Nistelrooy", "nation": "Netherlands" },
+      { "name": "Thomas Müller", "nation": "Germany" },
+      { "name": "Thierry Henry", "nation": "France" },
+      { "name": "Filippo Inzaghi", "nation": "Italy" },
+      { "name": "Andriy Shevchenko", "nation": "Ukraine" }
+    ]
+  },
+  {
+    "season": "2025/26",
+    "slug": "2025-26",
+    "scorers": [
+      { "name": "Kylian Mbappé", "nation": "France", "value": 15 },
+      { "name": "Harry Kane", "nation": "England", "value": 14 },
+      { "name": "Khvicha Kvaratskhelia", "nation": "Georgia", "value": 10 },
+      { "name": "Julián Álvarez", "nation": "Argentina", "value": 10 },
+      { "name": "Anthony Gordon", "nation": "England", "value": 10 },
+      { "name": "Erling Haaland", "nation": "Norway", "value": 8 },
+      { "name": "Ousmane Dembélé", "nation": "France", "value": 8 },
+      { "name": "Luis Díaz", "nation": "Colombia", "value": 7 },
+      { "name": "Victor Osimhen", "nation": "Nigeria", "value": 7 },
+      { "name": "Fermín López", "nation": "Spain", "value": 6 }
+    ]
+  },
+  {
+    "season": "2024/25",
+    "slug": "2024-25",
+    "scorers": [
+      { "name": "Serhou Guirassy", "nation": "Guinea", "value": 13 },
+      { "name": "Raphinha", "nation": "Brazil", "value": 13 },
+      { "name": "Harry Kane", "nation": "England", "value": 11 },
+      { "name": "Robert Lewandowski", "nation": "Poland", "value": 11 },
+      { "name": "Lautaro Martínez", "nation": "Argentina", "value": 9 },
+      { "name": "Ousmane Dembélé", "nation": "France", "value": 8 },
+      { "name": "Erling Haaland", "nation": "Norway", "value": 8 },
+      { "name": "Vinícius Júnior", "nation": "Brazil", "value": 8 },
+      { "name": "Lamine Yamal", "nation": "Spain", "value": 5 },
+      { "name": "Jude Bellingham", "nation": "England", "value": 5 }
+    ]
+  },
+  {
+    "season": "2023/24",
+    "slug": "2023-24",
+    "scorers": [
+      { "name": "Harry Kane", "nation": "England", "value": 8 },
+      { "name": "Kylian Mbappé", "nation": "France", "value": 8 },
+      { "name": "Antoine Griezmann", "nation": "France", "value": 6 },
+      { "name": "Erling Haaland", "nation": "Norway", "value": 6 },
+      { "name": "Vinícius Júnior", "nation": "Brazil", "value": 6 },
+      { "name": "Rodrygo", "nation": "Brazil", "value": 5 },
+      { "name": "Joselu", "nation": "Spain", "value": 5 },
+      { "name": "Álvaro Morata", "nation": "Spain", "value": 5 },
+      { "name": "Phil Foden", "nation": "England", "value": 5 },
+      { "name": "Rasmus Højlund", "nation": "Denmark", "value": 5 }
+    ]
+  },
+  {
+    "season": "2022/23",
+    "slug": "2022-23",
+    "scorers": [
+      { "name": "Erling Haaland", "nation": "Norway", "value": 12 },
+      { "name": "Mohamed Salah", "nation": "Egypt", "value": 8 },
+      { "name": "Vinícius Júnior", "nation": "Brazil", "value": 7 },
+      { "name": "Kylian Mbappé", "nation": "France", "value": 7 },
+      {
+        "name": "João Mário",
+        "nation": "Portugal",
+        "value": 6,
+        "sourcePlayerId": "206"
+      },
+      { "name": "Olivier Giroud", "nation": "France", "value": 5 },
+      { "name": "Robert Lewandowski", "nation": "Poland", "value": 5 },
+      { "name": "Victor Osimhen", "nation": "Nigeria", "value": 5 },
+      { "name": "Rodrygo", "nation": "Brazil", "value": 5 },
+      {
+        "name": "Rafa Silva",
+        "nation": "Portugal",
+        "value": 5,
+        "aliases": ["Rafa"]
+      }
+    ]
+  },
+  {
+    "season": "2021/22",
+    "slug": "2021-22",
+    "scorers": [
+      { "name": "Karim Benzema", "nation": "France", "value": 15 },
+      { "name": "Robert Lewandowski", "nation": "Poland", "value": 13 },
+      { "name": "Sébastien Haller", "nation": "Ivory Coast", "value": 11 },
+      { "name": "Mohamed Salah", "nation": "Egypt", "value": 8 },
+      { "name": "Riyad Mahrez", "nation": "Algeria", "value": 7 },
+      { "name": "Christopher Nkunku", "nation": "France", "value": 7 },
+      { "name": "Arnaut Danjuma", "nation": "Netherlands", "value": 6 },
+      { "name": "Leroy Sané", "nation": "Germany", "value": 6 },
+      { "name": "Kylian Mbappé", "nation": "France", "value": 6 },
+      { "name": "Cristiano Ronaldo", "nation": "Portugal", "value": 6 }
+    ]
+  },
+  {
+    "season": "2020/21",
+    "slug": "2020-21",
+    "scorers": [
+      { "name": "Erling Haaland", "nation": "Norway", "value": 10 },
+      { "name": "Kylian Mbappé", "nation": "France", "value": 8 },
+      { "name": "Karim Benzema", "nation": "France", "value": 6 },
+      { "name": "Youssef En-Nesyri", "nation": "Morocco", "value": 6 },
+      { "name": "Marcus Rashford", "nation": "England", "value": 6 },
+      { "name": "Mohamed Salah", "nation": "Egypt", "value": 6 },
+      { "name": "Álvaro Morata", "nation": "Spain", "value": 6 },
+      { "name": "Olivier Giroud", "nation": "France", "value": 6 },
+      { "name": "Neymar", "nation": "Brazil", "value": 6 },
+      { "name": "Alassane Pléa", "nation": "France", "value": 5 }
+    ]
+  }
+]

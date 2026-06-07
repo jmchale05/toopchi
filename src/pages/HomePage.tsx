@@ -8,19 +8,8 @@ export function HomePage() {
 
   return (
     <Layout contentClassName="min-h-0 flex-1 flex-col overflow-hidden pb-0 pt-4 md:max-w-6xl md:overflow-visible md:pt-4 md:pb-12 lg:pt-6 lg:pb-16">
-      {/* Mobile: scrollable game + button locked to bottom */}
-      <div className="flex min-h-0 flex-1 flex-col md:hidden">
-        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
-          <DailyPlayerGame />
-        </div>
-        <div className="shrink-0 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
-          <TryTopOrderButton onClick={() => navigate(START_GAME_PATH)} />
-        </div>
-      </div>
-
-      {/* Desktop */}
-      <div className="hidden flex-1 md:flex md:flex-col md:justify-start">
-        <div className="flex flex-col">
+      <div className="flex min-h-0 flex-1 flex-col">
+        <div className="hidden md:block">
           <p className="font-spartan text-lg text-[#f5c542] lg:text-xl">
             Local football quiz
           </p>
@@ -33,17 +22,17 @@ export function HomePage() {
             Pass-and-play with a mate. Name entries from ranked lists in Top
             Order.
           </p>
+        </div>
 
-          <div className="mt-8 max-w-xl">
-            <DailyPlayerGame />
-          </div>
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain md:mt-8 md:max-w-xl md:overflow-visible">
+          <DailyPlayerGame />
+        </div>
 
-          <div className="mt-8">
-            <TryTopOrderButton
-              className="w-auto min-w-[12.5rem]"
-              onClick={() => navigate(START_GAME_PATH)}
-            />
-          </div>
+        <div className="shrink-0 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] md:mt-8 md:pb-0">
+          <TryTopOrderButton
+            className="md:w-auto md:min-w-[12.5rem]"
+            onClick={() => navigate(START_GAME_PATH)}
+          />
         </div>
       </div>
     </Layout>

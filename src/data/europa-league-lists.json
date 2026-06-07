@@ -1,0 +1,1373 @@
+[
+  {
+    "id": "uel-all-time-scorers",
+    "title": "Europa League Top 10 Goal Scorers (All time)",
+    "category": "uel-scorers",
+    "season": "All time",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Pierre-Emerick Aubameyang",
+        "aliases": [
+          "Aubameyang"
+        ],
+        "nation": "Gabon"
+      },
+      {
+        "rank": 2,
+        "answer": "Radamel Falcao",
+        "aliases": [
+          "Falcao"
+        ],
+        "nation": "Colombia"
+      },
+      {
+        "rank": 3,
+        "answer": "Bruno Fernandes",
+        "aliases": [
+          "Fernandes"
+        ],
+        "nation": "Portugal"
+      },
+      {
+        "rank": 4,
+        "answer": "Romelu Lukaku",
+        "aliases": [
+          "Lukaku"
+        ],
+        "nation": "Belgium"
+      },
+      {
+        "rank": 5,
+        "answer": "Aritz Aduriz",
+        "aliases": [
+          "Aduriz"
+        ],
+        "nation": "Spain"
+      },
+      {
+        "rank": 6,
+        "answer": "Alexandre Lacazette",
+        "aliases": [
+          "Lacazette"
+        ],
+        "nation": "France"
+      },
+      {
+        "rank": 7,
+        "answer": "Munas Dabbur",
+        "aliases": [
+          "Dabbur"
+        ],
+        "nation": "Israel"
+      },
+      {
+        "rank": 8,
+        "answer": "Edin Džeko",
+        "aliases": [
+          "Dzeko",
+          "Džeko"
+        ],
+        "nation": "Bosnia and Herzegovina"
+      },
+      {
+        "rank": 9,
+        "answer": "Kevin Gameiro",
+        "aliases": [
+          "Gameiro"
+        ],
+        "nation": "France"
+      },
+      {
+        "rank": 10,
+        "answer": "Óscar Cardozo",
+        "aliases": [
+          "Oscar Cardozo",
+          "Cardozo"
+        ],
+        "nation": "Paraguay"
+      }
+    ]
+  },
+  {
+    "id": "uel-all-time-assists",
+    "title": "Europa League Top 10 Assists (All time)",
+    "category": "uel-assists",
+    "season": "All time",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Bruno Fernandes",
+        "aliases": [
+          "Fernandes"
+        ],
+        "nation": "Portugal"
+      },
+      {
+        "rank": 2,
+        "answer": "James Milner",
+        "aliases": [
+          "Milner"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 3,
+        "answer": "Willian",
+        "aliases": [],
+        "nation": "Brazil"
+      },
+      {
+        "rank": 4,
+        "answer": "Antoine Griezmann",
+        "aliases": [
+          "Griezmann"
+        ],
+        "nation": "France"
+      },
+      {
+        "rank": 5,
+        "answer": "Kevin Gameiro",
+        "aliases": [
+          "Gameiro"
+        ],
+        "nation": "France"
+      },
+      {
+        "rank": 6,
+        "answer": "Olivier Giroud",
+        "aliases": [
+          "Giroud"
+        ],
+        "nation": "France"
+      },
+      {
+        "rank": 7,
+        "answer": "Ruslan Malinovskyi",
+        "aliases": [
+          "Malinovskyi"
+        ],
+        "nation": "Ukraine"
+      },
+      {
+        "rank": 8,
+        "answer": "Ivan Rakitić",
+        "aliases": [
+          "Rakitic",
+          "Rakitić"
+        ],
+        "nation": "Croatia"
+      },
+      {
+        "rank": 9,
+        "answer": "Neymar",
+        "aliases": [],
+        "nation": "Brazil"
+      },
+      {
+        "rank": 10,
+        "answer": "Pierre-Emerick Aubameyang",
+        "aliases": [
+          "Aubameyang"
+        ],
+        "nation": "Gabon"
+      }
+    ]
+  },
+  {
+    "id": "uel-top-scorers-2025-26",
+    "title": "Europa League Top 10 Scorers (2025/26)",
+    "category": "uel-scorers",
+    "season": "2025/26",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Petar Stanic",
+        "aliases": [
+          "Stanic"
+        ],
+        "nation": "Serbia",
+        "value": 7
+      },
+      {
+        "rank": 2,
+        "answer": "Igor Jesus",
+        "aliases": [
+          "Jesus"
+        ],
+        "nation": "Brazil",
+        "value": 7
+      },
+      {
+        "rank": 3,
+        "answer": "Kerem Aktürkoglu",
+        "aliases": [
+          "Akturkoglu",
+          "Aktürkoglu"
+        ],
+        "nation": "Turkey",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Bilal El Khannouss",
+        "aliases": [
+          "El Khannouss",
+          "Khannouss"
+        ],
+        "nation": "Morocco",
+        "value": 5
+      },
+      {
+        "rank": 5,
+        "answer": "Federico Bernardeschi",
+        "aliases": [
+          "Bernardeschi"
+        ],
+        "nation": "Italy",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Antony",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Dion Drena Beljo",
+        "aliases": [
+          "Beljo"
+        ],
+        "nation": "Croatia",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Olivier Giroud",
+        "aliases": [
+          "Giroud"
+        ],
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Karol Swiderski",
+        "aliases": [
+          "Swiderski"
+        ],
+        "nation": "Poland",
+        "value": 4
+      },
+      {
+        "rank": 10,
+        "answer": "Daan Heymans",
+        "aliases": [
+          "Heymans"
+        ],
+        "nation": "Belgium",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "uel-top-assists-2025-26",
+    "title": "Europa League Top 10 Assists (2025/26)",
+    "category": "uel-assists",
+    "season": "2025/26",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Kerem Aktürkoglu",
+        "aliases": [
+          "Akturkoglu",
+          "Aktürkoglu"
+        ],
+        "nation": "Turkey",
+        "value": 6
+      },
+      {
+        "rank": 2,
+        "answer": "Antony",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "rank": 3,
+        "answer": "Bilal El Khannouss",
+        "aliases": [
+          "El Khannouss",
+          "Khannouss"
+        ],
+        "nation": "Morocco",
+        "value": 5
+      },
+      {
+        "rank": 4,
+        "answer": "Federico Bernardeschi",
+        "aliases": [
+          "Bernardeschi"
+        ],
+        "nation": "Italy",
+        "value": 4
+      },
+      {
+        "rank": 5,
+        "answer": "Olivier Giroud",
+        "aliases": [
+          "Giroud"
+        ],
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "rank": 6,
+        "answer": "Talisca",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "rank": 7,
+        "answer": "Corentin Tolisso",
+        "aliases": [
+          "Tolisso"
+        ],
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "rank": 8,
+        "answer": "Donyell Malen",
+        "aliases": [
+          "Malen"
+        ],
+        "nation": "Netherlands",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Riccardo Orsolini",
+        "aliases": [
+          "Orsolini"
+        ],
+        "nation": "Italy",
+        "value": 3
+      },
+      {
+        "rank": 10,
+        "answer": "Thijs Dallinga",
+        "aliases": [
+          "Dallinga"
+        ],
+        "nation": "Netherlands",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "uel-top-scorers-2024-25",
+    "title": "Europa League Top 10 Scorers (2024/25)",
+    "category": "uel-scorers",
+    "season": "2024/25",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Bruno Fernandes",
+        "aliases": [
+          "Fernandes"
+        ],
+        "nation": "Portugal",
+        "value": 7
+      },
+      {
+        "rank": 2,
+        "answer": "Ayoub El Kaabi",
+        "aliases": [
+          "El Kaabi",
+          "Kaabi"
+        ],
+        "nation": "Morocco",
+        "value": 7
+      },
+      {
+        "rank": 3,
+        "answer": "Kasper Høgh",
+        "aliases": [
+          "Hogh"
+        ],
+        "nation": "Norway",
+        "value": 7
+      },
+      {
+        "rank": 4,
+        "answer": "Václav Černý",
+        "aliases": [
+          "Cerny",
+          "Černý"
+        ],
+        "nation": "Czech Republic",
+        "value": 6
+      },
+      {
+        "rank": 5,
+        "answer": "Youssef En-Nesyri",
+        "aliases": [
+          "En-Nesyri",
+          "En Nesyri"
+        ],
+        "nation": "Morocco",
+        "value": 6
+      },
+      {
+        "rank": 6,
+        "answer": "Malick Fofana",
+        "aliases": [
+          "Fofana"
+        ],
+        "nation": "Belgium",
+        "value": 6
+      },
+      {
+        "rank": 7,
+        "answer": "Rasmus Højlund",
+        "aliases": [
+          "Hojlund",
+          "Højlund"
+        ],
+        "nation": "Denmark",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Victor Osimhen",
+        "aliases": [
+          "Osimhen"
+        ],
+        "nation": "Nigeria",
+        "value": 6
+      },
+      {
+        "rank": 9,
+        "answer": "Samu",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 10,
+        "answer": "Barnabás Varga",
+        "aliases": [
+          "Varga"
+        ],
+        "nation": "Hungary",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "id": "uel-top-assists-2024-25",
+    "title": "Europa League Top 10 Assists (2024/25)",
+    "category": "uel-assists",
+    "season": "2024/25",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Bruno Fernandes",
+        "aliases": [
+          "Fernandes"
+        ],
+        "nation": "Portugal",
+        "value": 7
+      },
+      {
+        "rank": 2,
+        "answer": "Brennan Johnson",
+        "aliases": [
+          "Johnson"
+        ],
+        "nation": "Wales",
+        "value": 5
+      },
+      {
+        "rank": 3,
+        "answer": "Iñaki Williams",
+        "aliases": [
+          "Inaki Williams",
+          "Williams"
+        ],
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "rank": 4,
+        "answer": "Nico Williams",
+        "aliases": [
+          "Williams"
+        ],
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "rank": 5,
+        "answer": "Rayan Cherki",
+        "aliases": [
+          "Cherki"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Malick Fofana",
+        "aliases": [
+          "Fofana"
+        ],
+        "nation": "Belgium",
+        "value": 4
+      },
+      {
+        "rank": 7,
+        "answer": "Dominic Solanke",
+        "aliases": [
+          "Solanke"
+        ],
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "rank": 8,
+        "answer": "Mikel Oyarzabal",
+        "aliases": [
+          "Oyarzabal"
+        ],
+        "nation": "Spain",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Yunus Akgün",
+        "aliases": [
+          "Akgun",
+          "Akgün"
+        ],
+        "nation": "Turkey",
+        "value": 4
+      },
+      {
+        "rank": 10,
+        "answer": "Kenneth Taylor",
+        "aliases": [
+          "Taylor"
+        ],
+        "nation": "Netherlands",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "uel-top-scorers-2023-24",
+    "title": "Europa League Top 10 Scorers (2023/24)",
+    "category": "uel-scorers",
+    "season": "2023/24",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Pierre-Emerick Aubameyang",
+        "aliases": [
+          "Aubameyang"
+        ],
+        "nation": "Gabon",
+        "value": 10
+      },
+      {
+        "rank": 2,
+        "answer": "Romelu Lukaku",
+        "aliases": [
+          "Lukaku"
+        ],
+        "nation": "Belgium",
+        "value": 7
+      },
+      {
+        "rank": 3,
+        "answer": "João Pedro",
+        "aliases": [
+          "Joao Pedro",
+          "Pedro"
+        ],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Gianluca Scamacca",
+        "aliases": [
+          "Scamacca"
+        ],
+        "nation": "Italy",
+        "value": 6
+      },
+      {
+        "rank": 5,
+        "answer": "Victor Boniface",
+        "aliases": [
+          "Boniface"
+        ],
+        "nation": "Nigeria",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Mohammed Kudus",
+        "aliases": [
+          "Kudus"
+        ],
+        "nation": "Ghana",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Ademola Lookman",
+        "aliases": [
+          "Lookman"
+        ],
+        "nation": "Nigeria",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Patrik Schick",
+        "aliases": [
+          "Schick"
+        ],
+        "nation": "Czech Republic",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Florian Wirtz",
+        "aliases": [
+          "Wirtz"
+        ],
+        "nation": "Germany",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "uel-top-assists-2023-24",
+    "title": "Europa League Top 10 Assists (2023/24)",
+    "category": "uel-assists",
+    "season": "2023/24",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Ademola Lookman",
+        "aliases": [
+          "Lookman"
+        ],
+        "nation": "Nigeria",
+        "value": 5
+      },
+      {
+        "rank": 2,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 4
+      },
+      {
+        "rank": 3,
+        "answer": "Mohammed Kudus",
+        "aliases": [
+          "Kudus"
+        ],
+        "nation": "Ghana",
+        "value": 4
+      },
+      {
+        "rank": 4,
+        "answer": "Florian Wirtz",
+        "aliases": [
+          "Wirtz"
+        ],
+        "nation": "Germany",
+        "value": 4
+      },
+      {
+        "rank": 5,
+        "answer": "Ángel Di María",
+        "aliases": [
+          "Di Maria",
+          "Di María",
+          "María"
+        ],
+        "nation": "Argentina",
+        "value": 4
+      },
+      {
+        "rank": 6,
+        "answer": "Vincenzo Grifo",
+        "aliases": [
+          "Grifo"
+        ],
+        "nation": "Italy",
+        "value": 4
+      },
+      {
+        "rank": 7,
+        "answer": "Cody Gakpo",
+        "aliases": [
+          "Gakpo"
+        ],
+        "nation": "Netherlands",
+        "value": 4
+      },
+      {
+        "rank": 8,
+        "answer": "Ruben Loftus-Cheek",
+        "aliases": [
+          "Loftus-Cheek"
+        ],
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Romelu Lukaku",
+        "aliases": [
+          "Lukaku"
+        ],
+        "nation": "Belgium",
+        "value": 3
+      },
+      {
+        "rank": 10,
+        "answer": "Victor Boniface",
+        "aliases": [
+          "Boniface"
+        ],
+        "nation": "Nigeria",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "uel-top-scorers-2022-23",
+    "title": "Europa League Top 10 Scorers (2022/23)",
+    "category": "uel-scorers",
+    "season": "2022/23",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Victor Boniface",
+        "aliases": [
+          "Boniface"
+        ],
+        "nation": "Nigeria",
+        "value": 6
+      },
+      {
+        "rank": 2,
+        "answer": "Marcus Rashford",
+        "aliases": [
+          "Rashford"
+        ],
+        "nation": "England",
+        "value": 6
+      },
+      {
+        "rank": 3,
+        "answer": "Paulo Dybala",
+        "aliases": [
+          "Dybala"
+        ],
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "rank": 4,
+        "answer": "Igor Thiago",
+        "aliases": [
+          "Thiago"
+        ],
+        "nation": "Brazil",
+        "value": 5,
+        "sourcePlayerId": "196156"
+      },
+      {
+        "rank": 5,
+        "answer": "Lorenzo Pellegrini",
+        "aliases": [
+          "Pellegrini"
+        ],
+        "nation": "Italy",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Wissam Ben Yedder",
+        "aliases": [
+          "Ben Yedder",
+          "Yedder"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Ángel Di María",
+        "aliases": [
+          "Di Maria",
+          "Di María",
+          "María"
+        ],
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Anastasios Bakasetas",
+        "aliases": [
+          "Bakasetas"
+        ],
+        "nation": "Greece",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Teddy Teuma",
+        "aliases": [
+          "Teuma"
+        ],
+        "nation": "Malta",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Ludovic Blas",
+        "aliases": [
+          "Blas"
+        ],
+        "nation": "France",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "uel-top-assists-2022-23",
+    "title": "Europa League Top 10 Assists (2022/23)",
+    "category": "uel-assists",
+    "season": "2022/23",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Marcus Rashford",
+        "aliases": [
+          "Rashford"
+        ],
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "rank": 2,
+        "answer": "Paulo Dybala",
+        "aliases": [
+          "Dybala"
+        ],
+        "nation": "Argentina",
+        "value": 4
+      },
+      {
+        "rank": 3,
+        "answer": "Lorenzo Pellegrini",
+        "aliases": [
+          "Pellegrini"
+        ],
+        "nation": "Italy",
+        "value": 4
+      },
+      {
+        "rank": 4,
+        "answer": "Cody Gakpo",
+        "aliases": [
+          "Gakpo"
+        ],
+        "nation": "Netherlands",
+        "value": 4
+      },
+      {
+        "rank": 5,
+        "answer": "Moussa Diaby",
+        "aliases": [
+          "Diaby"
+        ],
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "rank": 6,
+        "answer": "Florian Wirtz",
+        "aliases": [
+          "Wirtz"
+        ],
+        "nation": "Germany",
+        "value": 4
+      },
+      {
+        "rank": 7,
+        "answer": "Ángel Di María",
+        "aliases": [
+          "Di Maria",
+          "Di María",
+          "María"
+        ],
+        "nation": "Argentina",
+        "value": 3
+      },
+      {
+        "rank": 8,
+        "answer": "Jarrod Bowen",
+        "aliases": [
+          "Bowen"
+        ],
+        "nation": "England",
+        "value": 3
+      },
+      {
+        "rank": 9,
+        "answer": "Filip Kostić",
+        "aliases": [
+          "Kostic",
+          "Kostić"
+        ],
+        "nation": "Serbia",
+        "value": 3
+      },
+      {
+        "rank": 10,
+        "answer": "Victor Boniface",
+        "aliases": [
+          "Boniface"
+        ],
+        "nation": "Nigeria",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "uel-top-scorers-2021-22",
+    "title": "Europa League Top 10 Scorers (2021/22)",
+    "category": "uel-scorers",
+    "season": "2021/22",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "James Tavernier",
+        "aliases": [
+          "Tavernier"
+        ],
+        "nation": "Scotland",
+        "value": 7
+      },
+      {
+        "rank": 2,
+        "answer": "Victor Boniface",
+        "aliases": [
+          "Boniface"
+        ],
+        "nation": "Nigeria",
+        "value": 6
+      },
+      {
+        "rank": 3,
+        "answer": "Karl Toko Ekambi",
+        "aliases": [
+          "Toko Ekambi",
+          "Ekambi"
+        ],
+        "nation": "Cameroon",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Daichi Kamada",
+        "aliases": [
+          "Kamada"
+        ],
+        "nation": "Japan",
+        "value": 6
+      },
+      {
+        "rank": 5,
+        "answer": "Ricardo Horta",
+        "aliases": [
+          "Horta"
+        ],
+        "nation": "Portugal",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Mislav Orsic",
+        "aliases": [
+          "Orsic"
+        ],
+        "nation": "Croatia",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Moussa Diaby",
+        "aliases": [
+          "Diaby"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Eljif Elmas",
+        "aliases": [
+          "Elmas"
+        ],
+        "nation": "North Macedonia",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Filip Kostić",
+        "aliases": [
+          "Kostic",
+          "Kostić"
+        ],
+        "nation": "Serbia",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Florian Wirtz",
+        "aliases": [
+          "Wirtz"
+        ],
+        "nation": "Germany",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "uel-top-assists-2021-22",
+    "title": "Europa League Top 10 Assists (2021/22)",
+    "category": "uel-assists",
+    "season": "2021/22",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "James Tavernier",
+        "aliases": [
+          "Tavernier"
+        ],
+        "nation": "Scotland",
+        "value": 7
+      },
+      {
+        "rank": 2,
+        "answer": "Filip Kostić",
+        "aliases": [
+          "Kostic",
+          "Kostić"
+        ],
+        "nation": "Serbia",
+        "value": 5
+      },
+      {
+        "rank": 3,
+        "answer": "Mislav Orsic",
+        "aliases": [
+          "Orsic"
+        ],
+        "nation": "Croatia",
+        "value": 4
+      },
+      {
+        "rank": 4,
+        "answer": "Jarrod Bowen",
+        "aliases": [
+          "Bowen"
+        ],
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "rank": 5,
+        "answer": "Ricardo Horta",
+        "aliases": [
+          "Horta"
+        ],
+        "nation": "Portugal",
+        "value": 4
+      },
+      {
+        "rank": 6,
+        "answer": "Daichi Kamada",
+        "aliases": [
+          "Kamada"
+        ],
+        "nation": "Japan",
+        "value": 4
+      },
+      {
+        "rank": 7,
+        "answer": "Moussa Diaby",
+        "aliases": [
+          "Diaby"
+        ],
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "rank": 8,
+        "answer": "Florian Wirtz",
+        "aliases": [
+          "Wirtz"
+        ],
+        "nation": "Germany",
+        "value": 3
+      },
+      {
+        "rank": 9,
+        "answer": "Ruslan Malinovskyi",
+        "aliases": [
+          "Malinovskyi"
+        ],
+        "nation": "Ukraine",
+        "value": 3
+      },
+      {
+        "rank": 10,
+        "answer": "Karl Toko Ekambi",
+        "aliases": [
+          "Toko Ekambi",
+          "Ekambi"
+        ],
+        "nation": "Cameroon",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "uel-top-scorers-2020-21",
+    "title": "Europa League Top 10 Scorers (2020/21)",
+    "category": "uel-scorers",
+    "season": "2020/21",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Gerard Moreno",
+        "aliases": [
+          "Moreno"
+        ],
+        "nation": "Spain",
+        "value": 7
+      },
+      {
+        "rank": 2,
+        "answer": "Pizzi",
+        "aliases": [],
+        "nation": "Portugal",
+        "value": 7
+      },
+      {
+        "rank": 3,
+        "answer": "Borja Mayoral",
+        "aliases": [
+          "Mayoral"
+        ],
+        "nation": "Spain",
+        "value": 7
+      },
+      {
+        "rank": 4,
+        "answer": "Yusuf Yazıcı",
+        "aliases": [
+          "Yazici",
+          "Yazıcı"
+        ],
+        "nation": "Turkey",
+        "value": 7
+      },
+      {
+        "rank": 5,
+        "answer": "Munas Dabbur",
+        "aliases": [
+          "Dabbur"
+        ],
+        "nation": "Israel",
+        "value": 6
+      },
+      {
+        "rank": 6,
+        "answer": "Carlos Vinícius",
+        "aliases": [
+          "Carlos Vinicius",
+          "Vinícius"
+        ],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 7,
+        "answer": "Willian José",
+        "aliases": [
+          "Willian Jose",
+          "José"
+        ],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Alexander Sørloth",
+        "aliases": [
+          "Sorloth",
+          "Sørloth"
+        ],
+        "nation": "Norway",
+        "value": 6
+      },
+      {
+        "rank": 9,
+        "answer": "Bruno Fernandes",
+        "aliases": [
+          "Fernandes"
+        ],
+        "nation": "Portugal",
+        "value": 6
+      },
+      {
+        "rank": 10,
+        "answer": "Olivier Giroud",
+        "aliases": [
+          "Giroud"
+        ],
+        "nation": "France",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "id": "uel-top-assists-2020-21",
+    "title": "Europa League Top 10 Assists (2020/21)",
+    "category": "uel-assists",
+    "season": "2020/21",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Bruno Fernandes",
+        "aliases": [
+          "Fernandes"
+        ],
+        "nation": "Portugal",
+        "value": 6
+      },
+      {
+        "rank": 2,
+        "answer": "Gerard Moreno",
+        "aliases": [
+          "Moreno"
+        ],
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "rank": 3,
+        "answer": "Pizzi",
+        "aliases": [],
+        "nation": "Portugal",
+        "value": 5
+      },
+      {
+        "rank": 4,
+        "answer": "Yusuf Yazıcı",
+        "aliases": [
+          "Yazici",
+          "Yazıcı"
+        ],
+        "nation": "Turkey",
+        "value": 4
+      },
+      {
+        "rank": 5,
+        "answer": "Munas Dabbur",
+        "aliases": [
+          "Dabbur"
+        ],
+        "nation": "Israel",
+        "value": 4
+      },
+      {
+        "rank": 6,
+        "answer": "Olivier Giroud",
+        "aliases": [
+          "Giroud"
+        ],
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "rank": 7,
+        "answer": "Borja Mayoral",
+        "aliases": [
+          "Mayoral"
+        ],
+        "nation": "Spain",
+        "value": 4
+      },
+      {
+        "rank": 8,
+        "answer": "Carlos Vinícius",
+        "aliases": [
+          "Carlos Vinicius",
+          "Vinícius"
+        ],
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Alexander Sørloth",
+        "aliases": [
+          "Sorloth",
+          "Sørloth"
+        ],
+        "nation": "Norway",
+        "value": 3
+      },
+      {
+        "rank": 10,
+        "answer": "Willian José",
+        "aliases": [
+          "Willian Jose",
+          "José"
+        ],
+        "nation": "Brazil",
+        "value": 3
+      }
+    ]
+  }
+]

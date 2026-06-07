@@ -46,6 +46,7 @@ export type DailyPlayerState = {
   guesses: DailyGuessEntry[];
   answer?: string;
   photo?: string;
+  completedAt?: number;
 };
 
 export type DailyPlayer = {

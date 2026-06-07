@@ -1,0 +1,403 @@
+[
+  {
+    "season": "All time",
+    "slug": "all-time",
+    "scorers": [
+      {
+        "name": "Billy Sharp",
+        "nation": "England",
+        "value": 130
+      },
+      {
+        "name": "Jordan Rhodes",
+        "nation": "Scotland",
+        "value": 123
+      },
+      {
+        "name": "David Nugent",
+        "nation": "England",
+        "value": 121
+      },
+      {
+        "name": "Ross McCormack",
+        "nation": "Scotland",
+        "value": 120
+      },
+      {
+        "name": "Chris Martin",
+        "nation": "England",
+        "value": 114,
+        "aliases": [
+          "Martin"
+        ]
+      },
+      {
+        "name": "Lewis Grabban",
+        "nation": "England",
+        "value": 112
+      },
+      {
+        "name": "Nahki Wells",
+        "nation": "Bermuda",
+        "value": 111
+      },
+      {
+        "name": "Lukas Jutkiewicz",
+        "nation": "England",
+        "value": 98
+      },
+      {
+        "name": "Tom Ince",
+        "nation": "England",
+        "value": 98
+      },
+      {
+        "name": "Troy Deeney",
+        "nation": "England",
+        "value": 95
+      }
+    ]
+  },
+  {
+    "season": "2025/26",
+    "slug": "2025-26",
+    "scorers": [
+      {
+        "name": "Zan Vipotnik",
+        "nation": "Slovenia",
+        "value": 23
+      },
+      {
+        "name": "Oli McBurnie",
+        "nation": "Scotland",
+        "value": 17
+      },
+      {
+        "name": "Haji Wright",
+        "nation": "United States",
+        "value": 17
+      },
+      {
+        "name": "Jack Clarke",
+        "nation": "England",
+        "value": 16
+      },
+      {
+        "name": "Josh Windass",
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "name": "Morgan Whittaker",
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "name": "Joe Gelhardt",
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "name": "Tommy Conway",
+        "nation": "Scotland",
+        "value": 13
+      },
+      {
+        "name": "Brandon Thomas-Asante",
+        "nation": "Ghana",
+        "value": 13
+      },
+      {
+        "name": "Ellis Simms",
+        "nation": "England",
+        "value": 13
+      }
+    ]
+  },
+  {
+    "season": "2024/25",
+    "slug": "2024-25",
+    "scorers": [
+      {
+        "name": "Joël Piroe",
+        "nation": "Netherlands",
+        "value": 19
+      },
+      {
+        "name": "Josh Brownhill",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Borja Sainz",
+        "nation": "Spain",
+        "value": 18
+      },
+      {
+        "name": "Josh Sargent",
+        "nation": "United States",
+        "value": 15
+      },
+      {
+        "name": "Josh Windass",
+        "nation": "England",
+        "value": 13
+      },
+      {
+        "name": "Tommy Conway",
+        "nation": "England",
+        "value": 13
+      },
+      {
+        "name": "Finn Azaz",
+        "nation": "England",
+        "value": 12
+      },
+      {
+        "name": "Daniel James",
+        "nation": "Wales",
+        "value": 12
+      },
+      {
+        "name": "Zian Flemming",
+        "nation": "Netherlands",
+        "value": 12
+      },
+      {
+        "name": "Emil Riis",
+        "nation": "Denmark",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "season": "2023/24",
+    "slug": "2023-24",
+    "scorers": [
+      {
+        "name": "Sammie Szmodics",
+        "nation": "Ireland",
+        "value": 27
+      },
+      {
+        "name": "Adam Armstrong",
+        "nation": "England",
+        "value": 21
+      },
+      {
+        "name": "Crysencio Summerville",
+        "nation": "Netherlands",
+        "value": 19
+      },
+      {
+        "name": "Morgan Whittaker",
+        "nation": "England",
+        "value": 19
+      },
+      {
+        "name": "Jamie Vardy",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Haji Wright",
+        "nation": "United States",
+        "value": 16
+      },
+      {
+        "name": "Josh Sargent",
+        "nation": "United States",
+        "value": 16
+      },
+      {
+        "name": "Emmanuel Latte Lath",
+        "nation": "Finland",
+        "value": 16
+      },
+      {
+        "name": "Ché Adams",
+        "nation": "Scotland",
+        "value": 15
+      },
+      {
+        "name": "Jack Clarke",
+        "nation": "England",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "season": "2022/23",
+    "slug": "2022-23",
+    "scorers": [
+      {
+        "name": "Chuba Akpom",
+        "nation": "England",
+        "value": 28
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "nation": "Sweden",
+        "value": 21
+      },
+      {
+        "name": "Carlton Morris",
+        "nation": "England",
+        "value": 20
+      },
+      {
+        "name": "Joël Piroe",
+        "nation": "Netherlands",
+        "value": 19
+      },
+      {
+        "name": "Nathan Tella",
+        "nation": "Nigeria",
+        "value": 17
+      },
+      {
+        "name": "Tom Bradshaw",
+        "nation": "Wales",
+        "value": 16
+      },
+      {
+        "name": "Zian Flemming",
+        "nation": "Netherlands",
+        "value": 15
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "nation": "Senegal",
+        "value": 14
+      },
+      {
+        "name": "Ben Brereton Díaz",
+        "nation": "Chile",
+        "value": 14
+      },
+      {
+        "name": "Jerry Yates",
+        "nation": "England",
+        "value": 14
+      }
+    ]
+  },
+  {
+    "season": "2021/22",
+    "slug": "2021-22",
+    "scorers": [
+      {
+        "name": "Aleksandar Mitrović",
+        "nation": "Serbia",
+        "value": 43
+      },
+      {
+        "name": "Dominic Solanke",
+        "nation": "England",
+        "value": 29
+      },
+      {
+        "name": "Andreas Weimann",
+        "nation": "Austria",
+        "value": 22
+      },
+      {
+        "name": "Joël Piroe",
+        "nation": "Suriname",
+        "value": 22
+      },
+      {
+        "name": "Ben Brereton Díaz",
+        "nation": "Chile",
+        "value": 22
+      },
+      {
+        "name": "Karlan Grant",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "nation": "Sweden",
+        "value": 17
+      },
+      {
+        "name": "Brennan Johnson",
+        "nation": "Wales",
+        "value": 16
+      },
+      {
+        "name": "Emil Riis",
+        "nation": "Denmark",
+        "value": 16
+      },
+      {
+        "name": "Elijah Adebayo",
+        "nation": "England",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "season": "2020/21",
+    "slug": "2020-21",
+    "scorers": [
+      {
+        "name": "Ivan Toney",
+        "nation": "England",
+        "value": 31
+      },
+      {
+        "name": "Adam Armstrong",
+        "nation": "England",
+        "value": 28
+      },
+      {
+        "name": "Teemu Pukki",
+        "nation": "Finland",
+        "value": 26,
+        "aliases": [
+          "Pukki"
+        ]
+      },
+      {
+        "name": "Kieffer Moore",
+        "nation": "Wales",
+        "value": 20
+      },
+      {
+        "name": "Lucas João",
+        "nation": "Angola",
+        "value": 19
+      },
+      {
+        "name": "André Ayew",
+        "nation": "Ghana",
+        "value": 16
+      },
+      {
+        "name": "Emiliano Buendía",
+        "nation": "Argentina",
+        "value": 15
+      },
+      {
+        "name": "Dominic Solanke",
+        "nation": "England",
+        "value": 15,
+        "aliases": [
+          "Solanke"
+        ]
+      },
+      {
+        "name": "Arnaut Danjuma",
+        "nation": "Netherlands",
+        "value": 15
+      },
+      {
+        "name": "Jamal Lowe",
+        "nation": "Jamaica",
+        "value": 14
+      }
+    ]
+  }
+]

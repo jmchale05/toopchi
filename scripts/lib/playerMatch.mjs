@@ -1,12 +1,7 @@
+import { decodeHtmlEntities, normalizeSearchText } from "./foldLatin.mjs";
+
 export function normalizeName(value) {
-  if (!value) return "";
-  return String(value)
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+  return normalizeSearchText(value);
 }
 
 export function lastToken(value) {
@@ -38,9 +33,9 @@ export function buildSearchFields(player) {
 }
 
 export function buildPlayerDoc(player) {
-  const name = String(player.name ?? "").trim();
-  const firstname = String(player.firstname ?? "").trim();
-  const lastname = String(player.lastname ?? "").trim();
+  const name = decodeHtmlEntities(String(player.name ?? "").trim());
+  const firstname = decodeHtmlEntities(String(player.firstname ?? "").trim());
+  const lastname = decodeHtmlEntities(String(player.lastname ?? "").trim());
   const resolved = resolveClub(player.team ?? player.club);
   const club = player.club ?? resolved.club;
   const retired = player.retired ?? resolved.retired;

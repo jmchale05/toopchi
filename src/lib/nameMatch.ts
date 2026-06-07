@@ -1,13 +1,8 @@
 import type { Match } from "../types/match";
+import { normalizeSearchText } from "./foldLatin";
 
 export function normalizeName(value: string): string {
-  return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+  return normalizeSearchText(value);
 }
 
 function buildLookup(match: Match, team: "A" | "B"): Map<string, string> {

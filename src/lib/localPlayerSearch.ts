@@ -1,3 +1,4 @@
+import { decodeHtmlEntities, normalizeSearchText } from "./foldLatin";
 import type { PlayerRecord, PlayerSearchResult } from "../types/player";
 
 export type LocalSearchPage = {
@@ -24,20 +25,10 @@ type SearchIndexEntry = {
 let indexCache: SearchIndexEntry[] | null = null;
 let indexPromise: Promise<SearchIndexEntry[]> | null = null;
 
-function normalizeTerm(raw: string): string {
-  return raw
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function toPlayerRecord(entry: SearchIndexEntry): PlayerRecord {
   return {
     id: entry.id,
-    name: entry.name,
+    name: decodeHtmlEntities(entry.name),
     firstname: null,
     lastname: null,
     age: entry.age,
@@ -53,15 +44,51 @@ function toPlayerRecord(entry: SearchIndexEntry): PlayerRecord {
   };
 }
 
+function scoreMultiTokenName(
+  firstname: string,
+  lastname: string,
+  term: string,
+): number {
+  const tokens = term.split(" ").filter(Boolean);
+  if (tokens.length < 2) return 0;
+
+  const firstToken = tokens[0];
+  const lastToken = tokens.at(-1) ?? "";
+  const lastnameParts = lastname.split(" ").filter(Boolean);
+
+  const firstMatches =
+    firstname.startsWith(firstToken) ||
+    (firstToken.length === 1 && firstname.startsWith(firstToken));
+
+  const lastMatches =
+    lastname.startsWith(lastToken) ||
+    lastnameParts.some(
+      (part) => part === lastToken || part.startsWith(lastToken),
+    );
+
+  if (!firstMatches || !lastMatches) return 0;
+
+  const penalty = firstname.length + lastname.length - term.length;
+  if (firstname.startsWith(firstToken) && lastname.startsWith(lastToken)) {
+    return 860 - penalty;
+  }
+
+  return 820 - penalty;
+}
+
 function scorePlayer(entry: SearchIndexEntry, term: string): number {
   const name = entry.searchName;
   const lastname = entry.searchLastname;
   const firstname = entry.searchFirstname;
-  const displayName = normalizeTerm(entry.name);
+  const displayName = normalizeSearchText(entry.name);
 
   if (displayName === term) return 1000;
   if (name === term) return 990;
   if (lastname === term || firstname === term) return 900;
+
+  const multiTokenScore = scoreMultiTokenName(firstname, lastname, term);
+  if (multiTokenScore > 0) return multiTokenScore;
+
   if (name.startsWith(term)) return 800 - (name.length - term.length);
   if (lastname.startsWith(term)) return 700 - (lastname.length - term.length);
   if (firstname.startsWith(term)) return 650 - (firstname.length - term.length);
@@ -124,7 +151,7 @@ export async function searchPlayersLocal(
     limit?: number;
   },
 ): Promise<LocalSearchPage> {
-  const term = normalizeTerm(rawTerm);
+  const term = normalizeSearchText(rawTerm);
   if (term.length < 2) {
     return { results: [], hasMore: false };
   }
@@ -148,7 +175,7 @@ export async function lookupPlayersByNames(
   const seen = new Set<number | string>();
 
   for (const name of names) {
-    const term = normalizeTerm(name);
+    const term = normalizeSearchText(name);
     if (!term) continue;
 
     const ranked = rankPlayers(players, term);

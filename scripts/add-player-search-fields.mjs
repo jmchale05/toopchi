@@ -3,6 +3,7 @@ import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import { cert, initializeApp } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
+import { normalizeSearchText } from "./lib/foldLatin.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const credentialsPath =
@@ -32,9 +33,9 @@ function searchFields(player) {
   const lastname = String(player.lastname ?? "").trim();
 
   return {
-    searchName: name.toLowerCase(),
-    searchFirstname: firstname.toLowerCase(),
-    searchLastname: lastname.toLowerCase(),
+    searchName: normalizeSearchText(name),
+    searchFirstname: normalizeSearchText(firstname),
+    searchLastname: normalizeSearchText(lastname),
   };
 }
 

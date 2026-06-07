@@ -25,6 +25,7 @@ const NATION_FLAG_CODES: Record<string, string> = {
   wales: "gb-wls",
   "northern ireland": "gb-nir",
   ireland: "ie",
+  "republic of ireland": "ie",
   belgium: "be",
   croatia: "hr",
   denmark: "dk",
@@ -40,6 +41,8 @@ const NATION_FLAG_CODES: Record<string, string> = {
   japan: "jp",
   "south korea": "kr",
   korea: "kr",
+  "korea republic": "kr",
+  "republic of korea": "kr",
   morocco: "ma",
   senegal: "sn",
   nigeria: "ng",
@@ -84,6 +87,17 @@ const NATION_FLAG_CODES: Record<string, string> = {
   panama: "pa",
   jamaica: "jm",
   haiti: "ht",
+  armenia: "am",
+  bermuda: "bm",
+  "burkina faso": "bf",
+  "dr congo": "cd",
+  "democratic republic of the congo": "cd",
+  gabon: "ga",
+  guinea: "gn",
+  malta: "mt",
+  "new zealand": "nz",
+  "north macedonia": "mk",
+  suriname: "sr",
 };
 
 export function getNationFlagCode(nation: string): string | null {
@@ -91,14 +105,32 @@ export function getNationFlagCode(nation: string): string | null {
   return NATION_FLAG_CODES[key] ?? null;
 }
 
-const FLAG_WIDTHS = [20, 40, 80, 160, 320, 640, 1280, 2560];
+const FLAG_URL_CACHE = new Map<string, string>();
+const PRELOADED_FLAGS = new Set<string>();
 
-function getSupportedFlagWidth(width: number): number {
-  return FLAG_WIDTHS.find((flagWidth) => flagWidth >= width) ?? 40;
-}
-
-export function getNationFlagUrl(nation: string, width = 20): string | null {
+export function getNationFlagUrl(nation: string, _width = 20): string | null {
   const code = getNationFlagCode(nation);
   if (!code) return null;
-  return `https://flagcdn.com/w${getSupportedFlagWidth(width)}/${code}.png`;
+
+  if (!FLAG_URL_CACHE.has(code)) {
+    FLAG_URL_CACHE.set(code, `/flags/${code}.png`);
+  }
+
+  return FLAG_URL_CACHE.get(code) ?? null;
+}
+
+export function preloadNationFlag(nation: string): void {
+  const url = getNationFlagUrl(nation);
+  if (!url || PRELOADED_FLAGS.has(url)) return;
+
+  PRELOADED_FLAGS.add(url);
+  const image = new Image();
+  image.decoding = "async";
+  image.src = url;
+}
+
+export function preloadNationFlags(nations: string[]): void {
+  for (const nation of nations) {
+    preloadNationFlag(nation);
+  }
 }

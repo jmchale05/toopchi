@@ -1,338 +1,743 @@
 [
   {
+    "season": "All time",
+    "slug": "all-time",
+    "scorers": [
+      {
+        "name": "Alan Shearer",
+        "nation": "England",
+        "value": 260
+      },
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 213
+      },
+      {
+        "name": "Wayne Rooney",
+        "nation": "England",
+        "value": 208
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 193
+      },
+      {
+        "name": "Andy Cole",
+        "nation": "England",
+        "value": 187
+      },
+      {
+        "name": "Sergio Agüero",
+        "nation": "Argentina",
+        "value": 184
+      },
+      {
+        "name": "Frank Lampard",
+        "nation": "England",
+        "value": 177
+      },
+      {
+        "name": "Thierry Henry",
+        "nation": "France",
+        "value": 175
+      },
+      {
+        "name": "Robbie Fowler",
+        "nation": "England",
+        "value": 163
+      },
+      {
+        "name": "Jermain Defoe",
+        "nation": "England",
+        "value": 163
+      }
+    ],
+    "assists": []
+  },
+  {
     "season": "2025/26",
     "slug": "2025-26",
     "scorers": [
-      { "name": "Erling Haaland", "nation": "Norway", "value": 27 },
-      { "name": "Igor Thiago", "nation": "Brazil", "value": 22 },
-      { "name": "Antoine Semenyo", "nation": "Ghana", "value": 17 },
-      { "name": "Ollie Watkins", "nation": "England", "value": 16 },
-      { "name": "Morgan Gibbs-White", "nation": "England", "value": 15 },
-      { "name": "João Pedro", "nation": "Brazil", "value": 15 },
-      { "name": "Dominic Calvert-Lewin", "nation": "England", "value": 14 },
-      { "name": "Viktor Gyökeres", "nation": "Sweden", "value": 14 },
-      { "name": "Eli Junior Kroupi", "nation": "France", "value": 13 },
-      { "name": "Danny Welbeck", "nation": "England", "value": 13 }
+      {
+        "name": "Erling Haaland",
+        "nation": "Norway",
+        "value": 27
+      },
+      {
+        "name": "Igor Thiago",
+        "nation": "Brazil",
+        "value": 22
+      },
+      {
+        "name": "Antoine Semenyo",
+        "nation": "Ghana",
+        "value": 17
+      },
+      {
+        "name": "Ollie Watkins",
+        "nation": "England",
+        "value": 16
+      },
+      {
+        "name": "João Pedro",
+        "nation": "Brazil",
+        "value": 15
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "nation": "Sweden",
+        "value": 14
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "name": "Danny Welbeck",
+        "nation": "England",
+        "value": 13
+      },
+      {
+        "name": "Junior Kroupi",
+        "nation": "France",
+        "value": 13
+      }
     ],
-    "assists": [
-      { "name": "Bruno Fernandes", "nation": "Portugal", "value": 21 },
-      { "name": "Rayan Cherki", "nation": "France", "value": 12 },
-      { "name": "Jarrod Bowen", "nation": "England", "value": 11 },
-      { "name": "Dango Ouattara", "nation": "Burkina Faso", "value": 8 },
-      { "name": "Martin Ødegaard", "nation": "Norway", "value": 8 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 8 },
-      { "name": "Jérémy Doku", "nation": "Belgium", "value": 7 },
-      { "name": "Bukayo Saka", "nation": "England", "value": 7 },
-      { "name": "Omari Hutchinson", "nation": "England", "value": 7 },
-      { "name": "Harry Wilson", "nation": "Wales", "value": 7 }
-    ]
+    "assists": []
   },
   {
     "season": "2024/25",
     "slug": "2024-25",
     "scorers": [
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 29 },
-      { "name": "Alexander Isak", "nation": "Sweden", "value": 23 },
-      { "name": "Erling Haaland", "nation": "Norway", "value": 22 },
-      { "name": "Bryan Mbeumo", "nation": "Cameroon", "value": 20 },
-      { "name": "Chris Wood", "nation": "New Zealand", "value": 20 },
-      { "name": "Yoane Wissa", "nation": "DR Congo", "value": 19 },
-      { "name": "Ollie Watkins", "nation": "England", "value": 16 },
-      { "name": "Matheus Cunha", "nation": "Brazil", "value": 15 },
-      { "name": "Cole Palmer", "nation": "England", "value": 15 },
-      { "name": "Jørgen Strand Larsen", "nation": "Norway", "value": 14 }
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 29
+      },
+      {
+        "name": "Alexander Isak",
+        "nation": "Sweden",
+        "value": 23
+      },
+      {
+        "name": "Erling Haaland",
+        "nation": "Norway",
+        "value": 22
+      },
+      {
+        "name": "Bryan Mbeumo",
+        "nation": "Cameroon",
+        "value": 20
+      },
+      {
+        "name": "Chris Wood",
+        "nation": "New Zealand",
+        "value": 20
+      },
+      {
+        "name": "Yoane Wissa",
+        "nation": "DR Congo",
+        "value": 19
+      },
+      {
+        "name": "Ollie Watkins",
+        "nation": "England",
+        "value": 16
+      },
+      {
+        "name": "Cole Palmer",
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "name": "Matheus Cunha",
+        "nation": "Brazil",
+        "value": 15
+      },
+      {
+        "name": "Jørgen Strand Larsen",
+        "nation": "Norway",
+        "value": 14
+      }
     ],
-    "assists": [
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 18 },
-      { "name": "Jacob Murphy", "nation": "England", "value": 12 },
-      { "name": "Bukayo Saka", "nation": "England", "value": 11 },
-      { "name": "Bruno Fernandes", "nation": "Portugal", "value": 11 },
-      { "name": "Morgan Rogers", "nation": "England", "value": 11 },
-      { "name": "Mikkel Damsgaard", "nation": "Denmark", "value": 11 },
-      { "name": "Anthony Elanga", "nation": "Sweden", "value": 11 },
-      { "name": "Son Heung-min", "nation": "South Korea", "value": 10 },
-      { "name": "Jarrod Bowen", "nation": "England", "value": 10 },
-      { "name": "Morgan Gibbs-White", "nation": "England", "value": 10 }
-    ]
+    "assists": []
   },
   {
     "season": "2023/24",
     "slug": "2023-24",
     "scorers": [
-      { "name": "Erling Haaland", "nation": "Norway", "value": 27 },
-      { "name": "Cole Palmer", "nation": "England", "value": 22 },
-      { "name": "Alexander Isak", "nation": "Sweden", "value": 21 },
-      { "name": "Phil Foden", "nation": "England", "value": 19 },
-      { "name": "Dominic Solanke", "nation": "England", "value": 19 },
-      { "name": "Ollie Watkins", "nation": "England", "value": 19 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 18 },
-      { "name": "Son Heung-min", "nation": "South Korea", "value": 17 },
-      { "name": "Jarrod Bowen", "nation": "England", "value": 16 },
-      { "name": "Jean-Philippe Mateta", "nation": "France", "value": 16 }
+      {
+        "name": "Erling Haaland",
+        "nation": "Norway",
+        "value": 27
+      },
+      {
+        "name": "Cole Palmer",
+        "nation": "England",
+        "value": 22
+      },
+      {
+        "name": "Alexander Isak",
+        "nation": "Sweden",
+        "value": 21
+      },
+      {
+        "name": "Ollie Watkins",
+        "nation": "England",
+        "value": 19
+      },
+      {
+        "name": "Phil Foden",
+        "nation": "England",
+        "value": 19
+      },
+      {
+        "name": "Dominic Solanke",
+        "nation": "England",
+        "value": 19
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 18
+      },
+      {
+        "name": "Heung-min Son",
+        "nation": "South Korea",
+        "value": 17
+      },
+      {
+        "name": "Bukayo Saka",
+        "nation": "England",
+        "value": 16
+      },
+      {
+        "name": "Jean-Philippe Mateta",
+        "nation": "France",
+        "value": 16
+      }
     ],
-    "assists": [
-      { "name": "Anthony Gordon", "nation": "England", "value": 15 },
-      { "name": "Pedro Neto", "nation": "Portugal", "value": 15 },
-      { "name": "Bukayo Saka", "nation": "England", "value": 12 },
-      { "name": "Cole Palmer", "nation": "England", "value": 12 },
-      { "name": "Martin Ødegaard", "nation": "Norway", "value": 11 },
-      { "name": "Brennan Johnson", "nation": "Wales", "value": 11 },
-      { "name": "Pascal Groß", "nation": "Germany", "value": 11 },
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 11 },
-      { "name": "James Maddison", "nation": "England", "value": 10 },
-      { "name": "Jérémy Doku", "nation": "Belgium", "value": 10 }
-    ]
+    "assists": []
   },
   {
     "season": "2022/23",
     "slug": "2022-23",
     "scorers": [
-      { "name": "Erling Haaland", "nation": "Norway", "value": 36 },
-      { "name": "Harry Kane", "nation": "England", "value": 30 },
-      { "name": "Ivan Toney", "nation": "England", "value": 20 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 19 },
-      { "name": "Callum Wilson", "nation": "England", "value": 18 },
-      { "name": "Marcus Rashford", "nation": "England", "value": 17 },
-      { "name": "Gabriel Martinelli", "nation": "Brazil", "value": 15 },
-      { "name": "Martin Ødegaard", "nation": "Norway", "value": 15 },
-      { "name": "Ollie Watkins", "nation": "England", "value": 15 },
-      { "name": "Aleksandar Mitrović", "nation": "Serbia", "value": 14 }
+      {
+        "name": "Erling Haaland",
+        "nation": "Norway",
+        "value": 36
+      },
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 30
+      },
+      {
+        "name": "Ivan Toney",
+        "nation": "England",
+        "value": 20
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 19
+      },
+      {
+        "name": "Callum Wilson",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Marcus Rashford",
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "name": "Martin Ødegaard",
+        "nation": "Norway",
+        "value": 15
+      },
+      {
+        "name": "Ollie Watkins",
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "nation": "Brazil",
+        "value": 15
+      },
+      {
+        "name": "Bukayo Saka",
+        "nation": "England",
+        "value": 14
+      }
     ],
-    "assists": [
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 18 },
-      { "name": "Leandro Trossard", "nation": "Belgium", "value": 13 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 12 },
-      { "name": "Bukayo Saka", "nation": "England", "value": 12 },
-      { "name": "Michael Olise", "nation": "France", "value": 11 },
-      { "name": "Riyad Mahrez", "nation": "Algeria", "value": 10 },
-      { "name": "James Maddison", "nation": "England", "value": 10 },
-      { "name": "Solly March", "nation": "England", "value": 9 },
-      { "name": "Christian Eriksen", "nation": "Denmark", "value": 9 },
-      { "name": "Ivan Perišić", "nation": "Croatia", "value": 8 }
-    ]
+    "assists": []
   },
   {
     "season": "2021/22",
     "slug": "2021-22",
     "scorers": [
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 23 },
-      { "name": "Son Heung-min", "nation": "South Korea", "value": 23 },
-      { "name": "Cristiano Ronaldo", "nation": "Portugal", "value": 18 },
-      { "name": "Harry Kane", "nation": "England", "value": 17 },
-      { "name": "Sadio Mané", "nation": "Senegal", "value": 16 },
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 15 },
-      { "name": "Diogo Jota", "nation": "Portugal", "value": 15 },
-      { "name": "Jamie Vardy", "nation": "England", "value": 15 },
-      { "name": "Wilfried Zaha", "nation": "Ivory Coast", "value": 14 },
-      { "name": "Raheem Sterling", "nation": "England", "value": 13 }
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 23
+      },
+      {
+        "name": "Heung-min Son",
+        "nation": "South Korea",
+        "value": 23
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "nation": "Portugal",
+        "value": 18
+      },
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "name": "Sadio Mané",
+        "nation": "Senegal",
+        "value": 16
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "nation": "Belgium",
+        "value": 15
+      },
+      {
+        "name": "Diogo Jota",
+        "nation": "Portugal",
+        "value": 15
+      },
+      {
+        "name": "Jamie Vardy",
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "name": "Wilfried Zaha",
+        "nation": "Ivory Coast",
+        "value": 14
+      },
+      {
+        "name": "Raheem Sterling",
+        "nation": "England",
+        "value": 13
+      }
     ],
-    "assists": [
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 13 },
-      { "name": "Jarrod Bowen", "nation": "England", "value": 12 },
-      { "name": "Mason Mount", "nation": "England", "value": 12 },
-      { "name": "Harvey Barnes", "nation": "England", "value": 10 },
-      { "name": "Paul Pogba", "nation": "France", "value": 10 },
-      { "name": "Son Heung-min", "nation": "South Korea", "value": 10 },
-      { "name": "Dejan Kulusevski", "nation": "Sweden", "value": 9 },
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 9 },
-      { "name": "James Maddison", "nation": "England", "value": 9 },
-      { "name": "Bryan Mbeumo", "nation": "Cameroon", "value": 9 }
-    ]
+    "assists": []
   },
   {
     "season": "2020/21",
     "slug": "2020-21",
     "scorers": [
-      { "name": "Harry Kane", "nation": "England", "value": 23 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 22 },
-      { "name": "Bruno Fernandes", "nation": "Portugal", "value": 18 },
-      { "name": "Patrick Bamford", "nation": "England", "value": 17 },
-      { "name": "Son Heung-min", "nation": "South Korea", "value": 17 },
-      { "name": "Dominic Calvert-Lewin", "nation": "England", "value": 16 },
-      { "name": "Jamie Vardy", "nation": "England", "value": 15 },
-      { "name": "Ollie Watkins", "nation": "England", "value": 14 },
-      { "name": "İlkay Gündoğan", "nation": "Germany", "value": 13 },
-      { "name": "Alexandre Lacazette", "nation": "France", "value": 13 }
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 23
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 22
+      },
+      {
+        "name": "Bruno Fernandes",
+        "nation": "Portugal",
+        "value": 18
+      },
+      {
+        "name": "Heung-min Son",
+        "nation": "South Korea",
+        "value": 17
+      },
+      {
+        "name": "Patrick Bamford",
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "nation": "England",
+        "value": 16
+      },
+      {
+        "name": "Jamie Vardy",
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "name": "Ollie Watkins",
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "name": "İlkay Gündoğan",
+        "nation": "Germany",
+        "value": 13
+      },
+      {
+        "name": "Alexandre Lacazette",
+        "nation": "France",
+        "value": 13
+      }
     ],
-    "assists": [
-      { "name": "Marcus Rashford", "nation": "England", "value": 14 },
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 13 },
-      { "name": "Jack Grealish", "nation": "England", "value": 12 },
-      { "name": "Son Heung-min", "nation": "South Korea", "value": 12 },
-      { "name": "Bruno Fernandes", "nation": "Portugal", "value": 12 },
-      { "name": "Raheem Sterling", "nation": "England", "value": 11 },
-      { "name": "Pascal Groß", "nation": "Germany", "value": 11 },
-      { "name": "Sadio Mané", "nation": "Senegal", "value": 10 },
-      { "name": "Jack Harrison", "nation": "England", "value": 9 },
-      { "name": "James Maddison", "nation": "England", "value": 9 }
-    ]
+    "assists": []
   },
   {
     "season": "2019/20",
     "slug": "2019-20",
     "scorers": [
-      { "name": "Jamie Vardy", "nation": "England", "value": 23 },
-      { "name": "Pierre-Emerick Aubameyang", "nation": "Gabon", "value": 22 },
-      { "name": "Danny Ings", "nation": "England", "value": 22 },
-      { "name": "Raheem Sterling", "nation": "England", "value": 20 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 19 },
-      { "name": "Harry Kane", "nation": "England", "value": 18 },
-      { "name": "Sadio Mané", "nation": "Senegal", "value": 18 },
-      { "name": "Raúl Jiménez", "nation": "Mexico", "value": 17 },
-      { "name": "Anthony Martial", "nation": "France", "value": 17 },
-      { "name": "Marcus Rashford", "nation": "England", "value": 17 }
+      {
+        "name": "Jamie Vardy",
+        "nation": "England",
+        "value": 23
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "nation": "Gabon",
+        "value": 22
+      },
+      {
+        "name": "Danny Ings",
+        "nation": "England",
+        "value": 22
+      },
+      {
+        "name": "Raheem Sterling",
+        "nation": "England",
+        "value": 20
+      },
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 19
+      },
+      {
+        "name": "Sadio Mané",
+        "nation": "Senegal",
+        "value": 18
+      },
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Marcus Rashford",
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "name": "Anthony Martial",
+        "nation": "France",
+        "value": 17
+      },
+      {
+        "name": "Raúl Jiménez",
+        "nation": "Mexico",
+        "value": 17
+      }
     ],
-    "assists": [
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 20 },
-      { "name": "Riyad Mahrez", "nation": "Algeria", "value": 13 },
-      { "name": "David Silva", "nation": "Spain", "value": 12 },
-      { "name": "Son Heung-min", "nation": "South Korea", "value": 12 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 11 },
-      { "name": "Marcus Rashford", "nation": "England", "value": 11 },
-      { "name": "Sadio Mané", "nation": "Senegal", "value": 10 },
-      { "name": "Adama Traoré", "nation": "Spain", "value": 9 },
-      { "name": "Harvey Barnes", "nation": "England", "value": 9 },
-      { "name": "Bruno Fernandes", "nation": "Portugal", "value": 9 }
-    ]
+    "assists": []
   },
   {
     "season": "2018/19",
     "slug": "2018-19",
     "scorers": [
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 22 },
-      { "name": "Sadio Mané", "nation": "Senegal", "value": 22 },
-      { "name": "Pierre-Emerick Aubameyang", "nation": "Gabon", "value": 22 },
-      { "name": "Sergio Agüero", "nation": "Argentina", "value": 21 },
-      { "name": "Jamie Vardy", "nation": "England", "value": 18 },
-      { "name": "Harry Kane", "nation": "England", "value": 17 },
-      { "name": "Raheem Sterling", "nation": "England", "value": 17 },
-      { "name": "Eden Hazard", "nation": "Belgium", "value": 16 },
-      { "name": "Callum Wilson", "nation": "England", "value": 14 },
-      { "name": "Alexandre Lacazette", "nation": "France", "value": 13 }
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 22
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "nation": "Gabon",
+        "value": 22
+      },
+      {
+        "name": "Sadio Mané",
+        "nation": "Senegal",
+        "value": 22
+      },
+      {
+        "name": "Sergio Agüero",
+        "nation": "Argentina",
+        "value": 21
+      },
+      {
+        "name": "Jamie Vardy",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Raheem Sterling",
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "name": "Eden Hazard",
+        "nation": "Belgium",
+        "value": 16
+      },
+      {
+        "name": "Callum Wilson",
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "name": "Alexandre Lacazette",
+        "nation": "France",
+        "value": 13
+      }
     ],
-    "assists": [
-      { "name": "Eden Hazard", "nation": "Belgium", "value": 15 },
-      { "name": "Ryan Fraser", "nation": "Scotland", "value": 14 },
-      { "name": "Christian Eriksen", "nation": "Denmark", "value": 12 },
-      { "name": "Leroy Sané", "nation": "Germany", "value": 12 },
-      { "name": "Raheem Sterling", "nation": "England", "value": 11 },
-      { "name": "Paul Pogba", "nation": "France", "value": 11 },
-      { "name": "David Silva", "nation": "Spain", "value": 10 },
-      { "name": "Matt Ritchie", "nation": "Scotland", "value": 9 },
-      { "name": "João Moutinho", "nation": "Portugal", "value": 9 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 9 }
-    ]
+    "assists": []
   },
   {
     "season": "2017/18",
     "slug": "2017-18",
     "scorers": [
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 32 },
-      { "name": "Harry Kane", "nation": "England", "value": 30 },
-      { "name": "Sergio Agüero", "nation": "Argentina", "value": 21 },
-      { "name": "Jamie Vardy", "nation": "England", "value": 20 },
-      { "name": "Raheem Sterling", "nation": "England", "value": 18 },
-      { "name": "Romelu Lukaku", "nation": "Belgium", "value": 16 },
-      { "name": "Roberto Firmino", "nation": "Brazil", "value": 15 },
-      { "name": "Alexandre Lacazette", "nation": "France", "value": 14 },
-      { "name": "Gabriel Jesus", "nation": "Brazil", "value": 13 },
-      { "name": "Eden Hazard", "nation": "Belgium", "value": 12 }
+      {
+        "name": "Mohamed Salah",
+        "nation": "Egypt",
+        "value": 32
+      },
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 30
+      },
+      {
+        "name": "Sergio Agüero",
+        "nation": "Argentina",
+        "value": 21
+      },
+      {
+        "name": "Jamie Vardy",
+        "nation": "England",
+        "value": 20
+      },
+      {
+        "name": "Raheem Sterling",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Romelu Lukaku",
+        "nation": "Belgium",
+        "value": 16
+      },
+      {
+        "name": "Roberto Firmino",
+        "nation": "Brazil",
+        "value": 15
+      },
+      {
+        "name": "Alexandre Lacazette",
+        "nation": "France",
+        "value": 14
+      },
+      {
+        "name": "Gabriel Jesus",
+        "nation": "Brazil",
+        "value": 13
+      },
+      {
+        "name": "Riyad Mahrez",
+        "nation": "Algeria",
+        "value": 12
+      }
     ],
-    "assists": [
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 16 },
-      { "name": "Leroy Sané", "nation": "Germany", "value": 15 },
-      { "name": "Raheem Sterling", "nation": "England", "value": 12 },
-      { "name": "David Silva", "nation": "Spain", "value": 11 },
-      { "name": "Mohamed Salah", "nation": "Egypt", "value": 11 },
-      { "name": "Christian Eriksen", "nation": "Denmark", "value": 11 },
-      { "name": "Paul Pogba", "nation": "France", "value": 10 },
-      { "name": "Riyad Mahrez", "nation": "Algeria", "value": 10 },
-      { "name": "Dele Alli", "nation": "England", "value": 10 },
-      { "name": "Henrikh Mkhitaryan", "nation": "Armenia", "value": 9 }
-    ]
+    "assists": []
   },
   {
     "season": "2016/17",
     "slug": "2016-17",
     "scorers": [
-      { "name": "Harry Kane", "nation": "England", "value": 29 },
-      { "name": "Romelu Lukaku", "nation": "Belgium", "value": 25 },
-      { "name": "Alexis Sánchez", "nation": "Chile", "value": 24 },
-      { "name": "Sergio Agüero", "nation": "Argentina", "value": 20 },
-      { "name": "Diego Costa", "nation": "Spain", "value": 20 },
-      { "name": "Dele Alli", "nation": "England", "value": 18 },
-      { "name": "Zlatan Ibrahimović", "nation": "Sweden", "value": 17 },
-      { "name": "Joshua King", "nation": "Norway", "value": 16 },
-      { "name": "Eden Hazard", "nation": "Belgium", "value": 16 },
-      { "name": "Fernando Llorente", "nation": "Spain", "value": 15 }
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 29
+      },
+      {
+        "name": "Romelu Lukaku",
+        "nation": "Belgium",
+        "value": 25
+      },
+      {
+        "name": "Alexis Sánchez",
+        "nation": "Chile",
+        "value": 24
+      },
+      {
+        "name": "Diego Costa",
+        "nation": "Spain",
+        "value": 20
+      },
+      {
+        "name": "Sergio Agüero",
+        "nation": "Argentina",
+        "value": 20
+      },
+      {
+        "name": "Dele Alli",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Zlatan Ibrahimović",
+        "nation": "Sweden",
+        "value": 17
+      },
+      {
+        "name": "Eden Hazard",
+        "nation": "Belgium",
+        "value": 16
+      },
+      {
+        "name": "Joshua King",
+        "nation": "Norway",
+        "value": 16
+      },
+      {
+        "name": "Jermain Defoe",
+        "nation": "England",
+        "value": 15
+      }
     ],
-    "assists": [
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 18 },
-      { "name": "Christian Eriksen", "nation": "Denmark", "value": 16 },
-      { "name": "Gylfi Sigurðsson", "nation": "Iceland", "value": 13 },
-      { "name": "Cesc Fàbregas", "nation": "Spain", "value": 12 },
-      { "name": "Mesut Özil", "nation": "Germany", "value": 11 },
-      { "name": "Alexis Sánchez", "nation": "Chile", "value": 10 },
-      { "name": "Wilfried Zaha", "nation": "Ivory Coast", "value": 9 },
-      { "name": "Georginio Wijnaldum", "nation": "Netherlands", "value": 9 },
-      { "name": "Dele Alli", "nation": "England", "value": 9 },
-      { "name": "Matt Phillips", "nation": "Scotland", "value": 9 }
-    ]
+    "assists": []
   },
   {
     "season": "2015/16",
     "slug": "2015-16",
     "scorers": [
-      { "name": "Harry Kane", "nation": "England", "value": 25 },
-      { "name": "Sergio Agüero", "nation": "Argentina", "value": 24 },
-      { "name": "Jamie Vardy", "nation": "England", "value": 24 },
-      { "name": "Romelu Lukaku", "nation": "Belgium", "value": 18 },
-      { "name": "Riyad Mahrez", "nation": "Algeria", "value": 17 },
-      { "name": "Olivier Giroud", "nation": "France", "value": 16 },
-      { "name": "Jermain Defoe", "nation": "England", "value": 15 },
-      { "name": "Odion Ighalo", "nation": "Nigeria", "value": 15 },
-      { "name": "Troy Deeney", "nation": "England", "value": 13 },
-      { "name": "Alexis Sánchez", "nation": "Chile", "value": 13 }
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 25
+      },
+      {
+        "name": "Jamie Vardy",
+        "nation": "England",
+        "value": 24
+      },
+      {
+        "name": "Sergio Agüero",
+        "nation": "Argentina",
+        "value": 24
+      },
+      {
+        "name": "Romelu Lukaku",
+        "nation": "Belgium",
+        "value": 18
+      },
+      {
+        "name": "Riyad Mahrez",
+        "nation": "Algeria",
+        "value": 17
+      },
+      {
+        "name": "Olivier Giroud",
+        "nation": "France",
+        "value": 16
+      },
+      {
+        "name": "Odion Ighalo",
+        "nation": "Nigeria",
+        "value": 16
+      },
+      {
+        "name": "Jermain Defoe",
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "name": "Troy Deeney",
+        "nation": "England",
+        "value": 13
+      },
+      {
+        "name": "Alexis Sánchez",
+        "nation": "Chile",
+        "value": 13
+      }
     ],
-    "assists": [
-      { "name": "Mesut Özil", "nation": "Germany", "value": 19 },
-      { "name": "Dušan Tadić", "nation": "Serbia", "value": 14 },
-      { "name": "Christian Eriksen", "nation": "Denmark", "value": 14 },
-      { "name": "Dimitri Payet", "nation": "France", "value": 12 },
-      { "name": "David Silva", "nation": "Spain", "value": 11 },
-      { "name": "James Milner", "nation": "England", "value": 11 },
-      { "name": "Riyad Mahrez", "nation": "Algeria", "value": 10 },
-      { "name": "Kevin De Bruyne", "nation": "Belgium", "value": 9 },
-      { "name": "Erik Lamela", "nation": "Argentina", "value": 9 },
-      { "name": "Wes Hoolahan", "nation": "Ireland", "value": 8 }
-    ]
+    "assists": []
   },
   {
     "season": "2014/15",
     "slug": "2014-15",
     "scorers": [
-      { "name": "Sergio Agüero", "nation": "Argentina", "value": 26 },
-      { "name": "Harry Kane", "nation": "England", "value": 21 },
-      { "name": "Diego Costa", "nation": "Spain", "value": 20 },
-      { "name": "Charlie Austin", "nation": "England", "value": 18 },
-      { "name": "Alexis Sánchez", "nation": "Chile", "value": 16 },
-      { "name": "Saido Berahino", "nation": "England", "value": 14 },
-      { "name": "Olivier Giroud", "nation": "France", "value": 14 },
-      { "name": "Eden Hazard", "nation": "Belgium", "value": 14 },
-      { "name": "Christian Benteke", "nation": "Belgium", "value": 13 },
-      { "name": "Graziano Pellè", "nation": "Italy", "value": 12 }
+      {
+        "name": "Sergio Agüero",
+        "nation": "Argentina",
+        "value": 26
+      },
+      {
+        "name": "Harry Kane",
+        "nation": "England",
+        "value": 21
+      },
+      {
+        "name": "Diego Costa",
+        "nation": "Spain",
+        "value": 20
+      },
+      {
+        "name": "Charlie Austin",
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "name": "Alexis Sánchez",
+        "nation": "Chile",
+        "value": 16
+      },
+      {
+        "name": "Eden Hazard",
+        "nation": "Belgium",
+        "value": 14
+      },
+      {
+        "name": "Olivier Giroud",
+        "nation": "France",
+        "value": 14
+      },
+      {
+        "name": "Saido Berahino",
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "name": "Christian Benteke",
+        "nation": "Belgium",
+        "value": 13
+      },
+      {
+        "name": "David Silva",
+        "nation": "Spain",
+        "value": 12
+      }
     ],
-    "assists": [
-      { "name": "Cesc Fàbregas", "nation": "Spain", "value": 18 },
-      { "name": "Santi Cazorla", "nation": "Spain", "value": 11 },
-      { "name": "Ángel Di María", "nation": "Argentina", "value": 10 },
-      { "name": "David Silva", "nation": "Spain", "value": 10 },
-      { "name": "Gylfi Sigurðsson", "nation": "Iceland", "value": 10 },
-      { "name": "Chris Brunt", "nation": "Northern Ireland", "value": 10 },
-      { "name": "Eden Hazard", "nation": "Belgium", "value": 10 },
-      { "name": "Jordan Henderson", "nation": "England", "value": 9 },
-      { "name": "Matt Phillips", "nation": "Scotland", "value": 9 },
-      { "name": "Jesús Navas", "nation": "Spain", "value": 8 }
-    ]
+    "assists": []
   }
 ]

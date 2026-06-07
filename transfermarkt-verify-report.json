@@ -1,0 +1,5914 @@
+{
+  "checked": 68,
+  "issues": 311,
+  "passed": 3,
+  "reports": [
+    {
+      "label": "Premier League scorers All time",
+      "url": "https://www.transfermarkt.com/premier-league/ewigetorschuetzen/wettbewerb/GB1",
+      "ok": true,
+      "issues": [],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Alan Shearer",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Wayne Rooney",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Andy Cole",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Sergio Agüero",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Frank Lampard",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Thierry Henry",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Robbie Fowler",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Jermain Defoe",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists All time",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/0",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists All time",
+          "rank": 3,
+          "type": "name",
+          "expected": "Cesc Fàbregas",
+          "actual": "Frank Lampard",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists All time",
+          "rank": 4,
+          "type": "name",
+          "expected": "Wayne Rooney",
+          "actual": "Cesc Fàbregas",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists All time",
+          "rank": 5,
+          "type": "name",
+          "expected": "Frank Lampard",
+          "actual": "Wayne Rooney",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists All time",
+          "rank": 6,
+          "type": "name",
+          "expected": "Denis Bergkamp",
+          "actual": "David Silva",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists All time",
+          "rank": 7,
+          "type": "name",
+          "expected": "David Silva",
+          "actual": "Steven Gerrard",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists All time",
+          "rank": 8,
+          "type": "name",
+          "expected": "Mohamed Salah",
+          "actual": "Dennis Bergkamp",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists All time",
+          "rank": 9,
+          "type": "name",
+          "expected": "Steven Gerrard",
+          "actual": "Mohamed Salah",
+          "expectedValue": null,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Ryan Giggs",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Kevin De Bruyne",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Frank Lampard",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Cesc Fàbregas",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Wayne Rooney",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "David Silva",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Steven Gerrard",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Dennis Bergkamp",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "James Milner",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2025/26",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2025",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2025/26",
+          "rank": 5,
+          "type": "name",
+          "expected": "Morgan Gibbs-White",
+          "actual": "João Pedro",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2025/26",
+          "rank": 6,
+          "type": "name",
+          "expected": "João Pedro",
+          "actual": "Morgan Gibbs-White",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2025/26",
+          "rank": 7,
+          "type": "name",
+          "expected": "Dominic Calvert-Lewin",
+          "actual": "Viktor Gyökeres",
+          "expectedValue": 14,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2025/26",
+          "rank": 8,
+          "type": "name",
+          "expected": "Viktor Gyökeres",
+          "actual": "Dominic Calvert-Lewin",
+          "expectedValue": 14,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2025/26",
+          "rank": 9,
+          "type": "name",
+          "expected": "Eli Junior Kroupi",
+          "actual": "Danny Welbeck",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2025/26",
+          "rank": 10,
+          "type": "name",
+          "expected": "Danny Welbeck",
+          "actual": "Junior Kroupi",
+          "expectedValue": 13,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Igor Thiago",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Antoine Semenyo",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Ollie Watkins",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "João Pedro",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Morgan Gibbs-White",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Viktor Gyökeres",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Dominic Calvert-Lewin",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Danny Welbeck",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Junior Kroupi",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2025/26",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2025",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2025/26",
+          "rank": 5,
+          "type": "name",
+          "expected": "Martin Ødegaard",
+          "actual": "Erling Haaland",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2025/26",
+          "rank": 6,
+          "type": "name",
+          "expected": "Mohamed Salah",
+          "actual": "João Pedro",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2025/26",
+          "rank": 7,
+          "type": "name",
+          "expected": "Jérémy Doku",
+          "actual": "Martin Ødegaard",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2025/26",
+          "rank": 8,
+          "type": "name",
+          "expected": "Bukayo Saka",
+          "actual": "Mohamed Salah",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2025/26",
+          "rank": 9,
+          "type": "name",
+          "expected": "Omari Hutchinson",
+          "actual": "Jérémy Doku",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2025/26",
+          "rank": 10,
+          "type": "name",
+          "expected": "Harry Wilson",
+          "actual": "Bukayo Saka",
+          "expectedValue": 7,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Bruno Fernandes",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Rayan Cherki",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Jarrod Bowen",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Dango Ouattara",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "João Pedro",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Martin Ødegaard",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Jérémy Doku",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Bukayo Saka",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2024/25",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2024",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2024/25",
+          "rank": 8,
+          "type": "name",
+          "expected": "Matheus Cunha",
+          "actual": "Cole Palmer",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2024/25",
+          "rank": 9,
+          "type": "name",
+          "expected": "Cole Palmer",
+          "actual": "Matheus Cunha",
+          "expectedValue": 15,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Alexander Isak",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Bryan Mbeumo",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Chris Wood",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Yoane Wissa",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Ollie Watkins",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Cole Palmer",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Matheus Cunha",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Jørgen Strand Larsen",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2024/25",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2024",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2024/25",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 504 for https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2024"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Premier League scorers 2023/24",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2023",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2023/24",
+          "rank": 4,
+          "type": "name",
+          "expected": "Phil Foden",
+          "actual": "Ollie Watkins",
+          "expectedValue": 19,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2023/24",
+          "rank": 5,
+          "type": "name",
+          "expected": "Dominic Solanke",
+          "actual": "Phil Foden",
+          "expectedValue": 19,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2023/24",
+          "rank": 6,
+          "type": "name",
+          "expected": "Ollie Watkins",
+          "actual": "Dominic Solanke",
+          "expectedValue": 19,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2023/24",
+          "rank": 8,
+          "type": "name",
+          "expected": "Son Heung-min",
+          "actual": "Heung-min Son",
+          "expectedValue": 17,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2023/24",
+          "rank": 9,
+          "type": "name",
+          "expected": "Jarrod Bowen",
+          "actual": "Bukayo Saka",
+          "expectedValue": 16,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Cole Palmer",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Alexander Isak",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Ollie Watkins",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Phil Foden",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Dominic Solanke",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Heung-min Son",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Bukayo Saka",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Jean-Philippe Mateta",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2023/24",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2023",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2023/24",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 502 for https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2023"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Premier League scorers 2022/23",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2022",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2022/23",
+          "rank": 7,
+          "type": "name",
+          "expected": "Gabriel Martinelli",
+          "actual": "Martin Ødegaard",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2022/23",
+          "rank": 8,
+          "type": "name",
+          "expected": "Martin Ødegaard",
+          "actual": "Ollie Watkins",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2022/23",
+          "rank": 9,
+          "type": "name",
+          "expected": "Ollie Watkins",
+          "actual": "Gabriel Martinelli",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2022/23",
+          "rank": 10,
+          "type": "name",
+          "expected": "Aleksandar Mitrović",
+          "actual": "Bukayo Saka",
+          "expectedValue": 14,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Ivan Toney",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Callum Wilson",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Marcus Rashford",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Martin Ødegaard",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Ollie Watkins",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Gabriel Martinelli",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Bukayo Saka",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2022/23",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2022",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2022/23",
+          "rank": 7,
+          "type": "name",
+          "expected": "James Maddison",
+          "actual": "Trent Alexander-Arnold",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2022/23",
+          "rank": 8,
+          "type": "name",
+          "expected": "Solly March",
+          "actual": "James Maddison",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2022/23",
+          "rank": 9,
+          "type": "name",
+          "expected": "Christian Eriksen",
+          "actual": "Solly March",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2022/23",
+          "rank": 10,
+          "type": "name",
+          "expected": "Ivan Perišić",
+          "actual": "Christian Eriksen",
+          "expectedValue": 8,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Kevin De Bruyne",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Leandro Trossard",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Bukayo Saka",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Michael Olise",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Riyad Mahrez",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Trent Alexander-Arnold",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "James Maddison",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Solly March",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Christian Eriksen",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2021/22",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2021",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2021/22",
+          "rank": 2,
+          "type": "name",
+          "expected": "Son Heung-min",
+          "actual": "Heung-min Son",
+          "expectedValue": 23,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Heung-min Son",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Cristiano Ronaldo",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Sadio Mané",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Kevin De Bruyne",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Diogo Jota",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Jamie Vardy",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Wilfried Zaha",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Raheem Sterling",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2021/22",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2021",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 2,
+          "type": "name",
+          "expected": "Jarrod Bowen",
+          "actual": "Trent Alexander-Arnold",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 3,
+          "type": "name",
+          "expected": "Mason Mount",
+          "actual": "Jarrod Bowen",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 4,
+          "type": "name",
+          "expected": "Harvey Barnes",
+          "actual": "Andrew Robertson",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 5,
+          "type": "name",
+          "expected": "Paul Pogba",
+          "actual": "Mason Mount",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 6,
+          "type": "name",
+          "expected": "Son Heung-min",
+          "actual": "Harvey Barnes",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 7,
+          "type": "name",
+          "expected": "Dejan Kulusevski",
+          "actual": "Paul Pogba",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 8,
+          "type": "name",
+          "expected": "Kevin De Bruyne",
+          "actual": "Reece James",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 9,
+          "type": "name",
+          "expected": "James Maddison",
+          "actual": "Gabriel Jesus",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2021/22",
+          "rank": 10,
+          "type": "name",
+          "expected": "Bryan Mbeumo",
+          "actual": "Heung-min Son",
+          "expectedValue": 9,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Trent Alexander-Arnold",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Jarrod Bowen",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Andrew Robertson",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Mason Mount",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Harvey Barnes",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Paul Pogba",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Reece James",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Gabriel Jesus",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Heung-min Son",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2020/21",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2020",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2020/21",
+          "rank": 4,
+          "type": "name",
+          "expected": "Patrick Bamford",
+          "actual": "Heung-min Son",
+          "expectedValue": 17,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2020/21",
+          "rank": 5,
+          "type": "name",
+          "expected": "Son Heung-min",
+          "actual": "Patrick Bamford",
+          "expectedValue": 17,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Bruno Fernandes",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Heung-min Son",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Patrick Bamford",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Dominic Calvert-Lewin",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Jamie Vardy",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Ollie Watkins",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "İlkay Gündoğan",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Alexandre Lacazette",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2020/21",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2020",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2020/21",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 502 for https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2020"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Premier League scorers 2019/20",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2019",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2019/20",
+          "rank": 6,
+          "type": "name",
+          "expected": "Harry Kane",
+          "actual": "Sadio Mané",
+          "expectedValue": 18,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2019/20",
+          "rank": 7,
+          "type": "name",
+          "expected": "Sadio Mané",
+          "actual": "Harry Kane",
+          "expectedValue": 18,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2019/20",
+          "rank": 8,
+          "type": "name",
+          "expected": "Raúl Jiménez",
+          "actual": "Marcus Rashford",
+          "expectedValue": 17,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2019/20",
+          "rank": 10,
+          "type": "name",
+          "expected": "Marcus Rashford",
+          "actual": "Raúl Jiménez",
+          "expectedValue": 17,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Jamie Vardy",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Pierre-Emerick Aubameyang",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Danny Ings",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Raheem Sterling",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Sadio Mané",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Marcus Rashford",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Anthony Martial",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Raúl Jiménez",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2019/20",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2019",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 2,
+          "type": "name",
+          "expected": "Riyad Mahrez",
+          "actual": "Trent Alexander-Arnold",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 3,
+          "type": "name",
+          "expected": "David Silva",
+          "actual": "Riyad Mahrez",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 4,
+          "type": "name",
+          "expected": "Son Heung-min",
+          "actual": "Andrew Robertson",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 5,
+          "type": "name",
+          "expected": "Mohamed Salah",
+          "actual": "David Silva",
+          "expectedValue": 11,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 6,
+          "type": "name",
+          "expected": "Marcus Rashford",
+          "actual": "Heung-min Son",
+          "expectedValue": 11,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 7,
+          "type": "name",
+          "expected": "Sadio Mané",
+          "actual": "Mohamed Salah",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 8,
+          "type": "name",
+          "expected": "Adama Traoré",
+          "actual": "Marcus Rashford",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 9,
+          "type": "name",
+          "expected": "Harvey Barnes",
+          "actual": "Sadio Mané",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2019/20",
+          "rank": 10,
+          "type": "name",
+          "expected": "Bruno Fernandes",
+          "actual": "Adama Traoré",
+          "expectedValue": 9,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Kevin De Bruyne",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Trent Alexander-Arnold",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Riyad Mahrez",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Andrew Robertson",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "David Silva",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Heung-min Son",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Marcus Rashford",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Sadio Mané",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Adama Traoré",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2018/19",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2018",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2018/19",
+          "rank": 2,
+          "type": "name",
+          "expected": "Sadio Mané",
+          "actual": "Pierre-Emerick Aubameyang",
+          "expectedValue": 22,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2018/19",
+          "rank": 3,
+          "type": "name",
+          "expected": "Pierre-Emerick Aubameyang",
+          "actual": "Sadio Mané",
+          "expectedValue": 22,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2018/19",
+          "rank": 6,
+          "type": "name",
+          "expected": "Harry Kane",
+          "actual": "Raheem Sterling",
+          "expectedValue": 17,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2018/19",
+          "rank": 7,
+          "type": "name",
+          "expected": "Raheem Sterling",
+          "actual": "Harry Kane",
+          "expectedValue": 17,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Pierre-Emerick Aubameyang",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Sadio Mané",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Sergio Agüero",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Jamie Vardy",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Raheem Sterling",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Eden Hazard",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Callum Wilson",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Alexandre Lacazette",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2018/19",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2018",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2018/19",
+          "rank": 3,
+          "type": "name",
+          "expected": "Christian Eriksen",
+          "actual": "Trent Alexander-Arnold",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2018/19",
+          "rank": 4,
+          "type": "name",
+          "expected": "Leroy Sané",
+          "actual": "Christian Eriksen",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2018/19",
+          "rank": 5,
+          "type": "name",
+          "expected": "Raheem Sterling",
+          "actual": "Leroy Sané",
+          "expectedValue": 11,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2018/19",
+          "rank": 6,
+          "type": "name",
+          "expected": "Paul Pogba",
+          "actual": "Andrew Robertson",
+          "expectedValue": 11,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2018/19",
+          "rank": 7,
+          "type": "name",
+          "expected": "David Silva",
+          "actual": "Raheem Sterling",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2018/19",
+          "rank": 8,
+          "type": "name",
+          "expected": "Matt Ritchie",
+          "actual": "Callum Wilson",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2018/19",
+          "rank": 9,
+          "type": "name",
+          "expected": "João Moutinho",
+          "actual": "Alexandre Lacazette",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2018/19",
+          "rank": 10,
+          "type": "name",
+          "expected": "Mohamed Salah",
+          "actual": "Paul Pogba",
+          "expectedValue": 9,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Eden Hazard",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Ryan Fraser",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Trent Alexander-Arnold",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Christian Eriksen",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Leroy Sané",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Andrew Robertson",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Raheem Sterling",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Callum Wilson",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Alexandre Lacazette",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Paul Pogba",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2017/18",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2017",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2017/18",
+          "rank": 10,
+          "type": "name",
+          "expected": "Eden Hazard",
+          "actual": "Riyad Mahrez",
+          "expectedValue": 12,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Sergio Agüero",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Jamie Vardy",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Raheem Sterling",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Romelu Lukaku",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Roberto Firmino",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Alexandre Lacazette",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Gabriel Jesus",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Riyad Mahrez",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2017/18",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2017",
+      "ok": true,
+      "issues": [],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Kevin De Bruyne",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Leroy Sané",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Raheem Sterling",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "David Silva",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Christian Eriksen",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Paul Pogba",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Riyad Mahrez",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Dele Alli",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Henrikh Mkhitaryan",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2016/17",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2016",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2016/17",
+          "rank": 4,
+          "type": "name",
+          "expected": "Sergio Agüero",
+          "actual": "Diego Costa",
+          "expectedValue": 20,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2016/17",
+          "rank": 5,
+          "type": "name",
+          "expected": "Diego Costa",
+          "actual": "Sergio Agüero",
+          "expectedValue": 20,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2016/17",
+          "rank": 8,
+          "type": "name",
+          "expected": "Joshua King",
+          "actual": "Eden Hazard",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2016/17",
+          "rank": 9,
+          "type": "name",
+          "expected": "Eden Hazard",
+          "actual": "Joshua King",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2016/17",
+          "rank": 10,
+          "type": "name",
+          "expected": "Fernando Llorente",
+          "actual": "Jermain Defoe",
+          "expectedValue": 15,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Romelu Lukaku",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Alexis Sánchez",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Diego Costa",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Sergio Agüero",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Dele Alli",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Zlatan Ibrahimović",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Eden Hazard",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Joshua King",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Jermain Defoe",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2016/17",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2016",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2016/17",
+          "rank": 7,
+          "type": "name",
+          "expected": "Wilfried Zaha",
+          "actual": "Pedro",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2016/17",
+          "rank": 8,
+          "type": "name",
+          "expected": "Georginio Wijnaldum",
+          "actual": "Wilfried Zaha",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2016/17",
+          "rank": 9,
+          "type": "name",
+          "expected": "Dele Alli",
+          "actual": "Georginio Wijnaldum",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2016/17",
+          "rank": 10,
+          "type": "name",
+          "expected": "Matt Phillips",
+          "actual": "Dele Alli",
+          "expectedValue": 9,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Kevin De Bruyne",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Christian Eriksen",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Gylfi Sigurdsson",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Cesc Fàbregas",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Mesut Özil",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Alexis Sánchez",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Pedro",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Wilfried Zaha",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Georginio Wijnaldum",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Dele Alli",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2015/16",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2015",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2015/16",
+          "rank": 2,
+          "type": "name",
+          "expected": "Sergio Agüero",
+          "actual": "Jamie Vardy",
+          "expectedValue": 24,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2015/16",
+          "rank": 3,
+          "type": "name",
+          "expected": "Jamie Vardy",
+          "actual": "Sergio Agüero",
+          "expectedValue": 24,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2015/16",
+          "rank": 7,
+          "type": "name",
+          "expected": "Jermain Defoe",
+          "actual": "Odion Ighalo",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2015/16",
+          "rank": 8,
+          "type": "name",
+          "expected": "Odion Ighalo",
+          "actual": "Jermain Defoe",
+          "expectedValue": 15,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Jamie Vardy",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Sergio Agüero",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Romelu Lukaku",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Riyad Mahrez",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Olivier Giroud",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Odion Ighalo",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Jermain Defoe",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Troy Deeney",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Alexis Sánchez",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2015/16",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2015",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2015/16",
+          "rank": 10,
+          "type": "name",
+          "expected": "Wes Hoolahan",
+          "actual": "Gerard Deulofeu",
+          "expectedValue": 8,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Mesut Özil",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Dušan Tadić",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Christian Eriksen",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Dimitri Payet",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "David Silva",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "James Milner",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Riyad Mahrez",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Kevin De Bruyne",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Erik Lamela",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Gerard Deulofeu",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League scorers 2014/15",
+      "url": "https://www.transfermarkt.com/premier-league/torschuetzenliste/wettbewerb/GB1/saison_id/2014",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League scorers 2014/15",
+          "rank": 6,
+          "type": "name",
+          "expected": "Saido Berahino",
+          "actual": "Eden Hazard",
+          "expectedValue": 14,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2014/15",
+          "rank": 8,
+          "type": "name",
+          "expected": "Eden Hazard",
+          "actual": "Saido Berahino",
+          "expectedValue": 14,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League scorers 2014/15",
+          "rank": 10,
+          "type": "name",
+          "expected": "Graziano Pellè",
+          "actual": "David Silva",
+          "expectedValue": 12,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Sergio Agüero",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Diego Costa",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Charlie Austin",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Alexis Sánchez",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Eden Hazard",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Olivier Giroud",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Saido Berahino",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Christian Benteke",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "David Silva",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Premier League assists 2014/15",
+      "url": "https://www.transfermarkt.com/premier-league/assistliste/wettbewerb/GB1/saison_id/2014",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Premier League assists 2014/15",
+          "rank": 8,
+          "type": "name",
+          "expected": "Jordan Henderson",
+          "actual": "Leighton Baines",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2014/15",
+          "rank": 9,
+          "type": "name",
+          "expected": "Matt Phillips",
+          "actual": "Jordan Henderson",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Premier League assists 2014/15",
+          "rank": 10,
+          "type": "name",
+          "expected": "Jesús Navas",
+          "actual": "Matt Phillips",
+          "expectedValue": 8,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Cesc Fàbregas",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Santi Cazorla",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Ángel Di María",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "David Silva",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Gylfi Sigurdsson",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Chris Brunt",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Eden Hazard",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Leighton Baines",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Jordan Henderson",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Matt Phillips",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship scorers All time",
+      "url": "https://www.transfermarkt.com/championship/ewigetorschuetzen/wettbewerb/GB2",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship scorers All time",
+          "rank": 9,
+          "type": "name",
+          "expected": "Troy Deeney",
+          "actual": "Tom Ince",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers All time",
+          "rank": 10,
+          "type": "name",
+          "expected": "Tom Ince",
+          "actual": "Troy Deeney",
+          "expectedValue": null,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Billy Sharp",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Jordan Rhodes",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "David Nugent",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Ross McCormack",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Chris Martin",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Lewis Grabban",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Nahki Wells",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Lukas Jutkiewicz",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Tom Ince",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Troy Deeney",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship assists All time",
+      "url": "https://www.transfermarkt.com/championship/assistliste/wettbewerb/GB2/saison_id/0",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship assists All time",
+          "rank": 1,
+          "type": "name",
+          "expected": "Barry Bannan",
+          "actual": "Peter Whittingham",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 2,
+          "type": "name",
+          "expected": "Tom Ince",
+          "actual": "Ross Wallace",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 3,
+          "type": "name",
+          "expected": "James Milner",
+          "actual": "Albert Adomah",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 4,
+          "type": "name",
+          "expected": "Lewis Grabban",
+          "actual": "Chris Burke",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 5,
+          "type": "name",
+          "expected": "David Nugent",
+          "actual": "Paul Gallagher",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 6,
+          "type": "name",
+          "expected": "Chris Martin",
+          "actual": "Jed Wallace",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 7,
+          "type": "name",
+          "expected": "Ross McCormack",
+          "actual": "Tom Ince",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 8,
+          "type": "name",
+          "expected": "Jordan Rhodes",
+          "actual": "Ross McCormack",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 9,
+          "type": "name",
+          "expected": "Nahki Wells",
+          "actual": "David Nugent",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists All time",
+          "rank": 10,
+          "type": "name",
+          "expected": "Billy Sharp",
+          "actual": "Barry Bannan",
+          "expectedValue": null,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Peter Whittingham",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Ross Wallace",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Albert Adomah",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Chris Burke",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Paul Gallagher",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Jed Wallace",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Tom Ince",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Ross McCormack",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "David Nugent",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Barry Bannan",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship scorers 2025/26",
+      "url": "https://www.transfermarkt.com/championship/torschuetzenliste/wettbewerb/GB2/saison_id/2025",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 2,
+          "type": "name",
+          "expected": "Jack Clarke",
+          "actual": "Oli McBurnie",
+          "expectedValue": 17,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 3,
+          "type": "name",
+          "expected": "Josh Windass",
+          "actual": "Haji Wright",
+          "expectedValue": 17,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 4,
+          "type": "name",
+          "expected": "Morgan Whittaker",
+          "actual": "Jack Clarke",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 5,
+          "type": "name",
+          "expected": "Jaden Philogene",
+          "actual": "Josh Windass",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 6,
+          "type": "name",
+          "expected": "Finn Azaz",
+          "actual": "Morgan Whittaker",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 7,
+          "type": "name",
+          "expected": "Femi Azeez",
+          "actual": "Joe Gelhardt",
+          "expectedValue": 14,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 8,
+          "type": "name",
+          "expected": "Jordan James",
+          "actual": "Tommy Conway",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 9,
+          "type": "name",
+          "expected": "Sorba Thomas",
+          "actual": "Brandon Thomas-Asante",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2025/26",
+          "rank": 10,
+          "type": "name",
+          "expected": "Ephron Mason-Clark",
+          "actual": "Ellis Simms",
+          "expectedValue": 13,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Zan Vipotnik",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Oli McBurnie",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Haji Wright",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Jack Clarke",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Josh Windass",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Morgan Whittaker",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Joe Gelhardt",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Tommy Conway",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Brandon Thomas-Asante",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Ellis Simms",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship assists 2025/26",
+      "url": "https://www.transfermarkt.com/championship/assistliste/wettbewerb/GB2/saison_id/2025",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 1,
+          "type": "name",
+          "expected": "Jack Clarke",
+          "actual": "Gustavo Hamer",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 2,
+          "type": "name",
+          "expected": "Finn Azaz",
+          "actual": "Sorba Thomas",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 3,
+          "type": "name",
+          "expected": "Jaden Philogene",
+          "actual": "Léo Scienza",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 4,
+          "type": "name",
+          "expected": "Morgan Whittaker",
+          "actual": "Joe Ward",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 5,
+          "type": "name",
+          "expected": "Femi Azeez",
+          "actual": "Marcelino Núñez",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 6,
+          "type": "name",
+          "expected": "Josh Windass",
+          "actual": "Mikey Johnston",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 7,
+          "type": "name",
+          "expected": "Jordan James",
+          "actual": "Ryoya Morishita",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 8,
+          "type": "name",
+          "expected": "Sorba Thomas",
+          "actual": "Ephron Mason-Clark",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 9,
+          "type": "name",
+          "expected": "Scott Twine",
+          "actual": "Imrân Louza",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2025/26",
+          "rank": 10,
+          "type": "name",
+          "expected": "Anis Mehmeti",
+          "actual": "Milan van Ewijk",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Gustavo Hamer",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Sorba Thomas",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Léo Scienza",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Joe Ward",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Marcelino Núñez",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Mikey Johnston",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Ryoya Morishita",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Ephron Mason-Clark",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Imrân Louza",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Milan van Ewijk",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship scorers 2024/25",
+      "url": "https://www.transfermarkt.com/championship/torschuetzenliste/wettbewerb/GB2/saison_id/2024",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship scorers 2024/25",
+          "rank": 5,
+          "type": "name",
+          "expected": "Tommy Conway",
+          "actual": "Josh Windass",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2024/25",
+          "rank": 6,
+          "type": "name",
+          "expected": "Wilson Isidor",
+          "actual": "Tommy Conway",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2024/25",
+          "rank": 7,
+          "type": "name",
+          "expected": "Josh Windass",
+          "actual": "Finn Azaz",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2024/25",
+          "rank": 8,
+          "type": "name",
+          "expected": "Finn Azaz",
+          "actual": "Daniel James",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2024/25",
+          "rank": 9,
+          "type": "name",
+          "expected": "Daniel James",
+          "actual": "Zian Flemming",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2024/25",
+          "rank": 10,
+          "type": "name",
+          "expected": "Anis Mehmeti",
+          "actual": "Emil Riis",
+          "expectedValue": 12,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Joël Piroe",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Josh Brownhill",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Borja Sainz",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Josh Sargent",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Josh Windass",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Tommy Conway",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Finn Azaz",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Daniel James",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Zian Flemming",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Emil Riis",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship assists 2024/25",
+      "url": "https://www.transfermarkt.com/championship/assistliste/wettbewerb/GB2/saison_id/2024",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 1,
+          "type": "name",
+          "expected": "Morgan Rogers",
+          "actual": "Josh Murphy",
+          "expectedValue": 11,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 2,
+          "type": "name",
+          "expected": "Kiernan Dewsbury-Hall",
+          "actual": "Tom Fellows",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 3,
+          "type": "name",
+          "expected": "Morgan Gibbs-White",
+          "actual": "Manor Solomon",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 4,
+          "type": "name",
+          "expected": "Finn Azaz",
+          "actual": "Jack Rudoni",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 5,
+          "type": "name",
+          "expected": "Josh Brownhill",
+          "actual": "Finn Azaz",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 6,
+          "type": "name",
+          "expected": "Daniel James",
+          "actual": "Junior Firpo",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 7,
+          "type": "name",
+          "expected": "Jack Clarke",
+          "actual": "Daniel James",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 8,
+          "type": "name",
+          "expected": "Borja Sainz",
+          "actual": "Max Bird",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 9,
+          "type": "name",
+          "expected": "Anis Mehmeti",
+          "actual": "Ben Gannon-Doak",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2024/25",
+          "rank": 10,
+          "type": "name",
+          "expected": "Josh Windass",
+          "actual": "Todd Cantwell",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Josh Murphy",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Tom Fellows",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Manor Solomon",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Jack Rudoni",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Finn Azaz",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Junior Firpo",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Daniel James",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Max Bird",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Ben Gannon-Doak",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Todd Cantwell",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship scorers 2023/24",
+      "url": "https://www.transfermarkt.com/championship/torschuetzenliste/wettbewerb/GB2/saison_id/2023",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 2,
+          "type": "name",
+          "expected": "Crysencio Summerville",
+          "actual": "Adam Armstrong",
+          "expectedValue": 21,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 3,
+          "type": "name",
+          "expected": "Morgan Whittaker",
+          "actual": "Crysencio Summerville",
+          "expectedValue": 19,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 4,
+          "type": "name",
+          "expected": "Emmanuel Latte Lath",
+          "actual": "Morgan Whittaker",
+          "expectedValue": 19,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 5,
+          "type": "name",
+          "expected": "Jack Clarke",
+          "actual": "Jamie Vardy",
+          "expectedValue": 18,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 6,
+          "type": "name",
+          "expected": "Gabriel Sara",
+          "actual": "Haji Wright",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 7,
+          "type": "name",
+          "expected": "Conor Chaplin",
+          "actual": "Josh Sargent",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 8,
+          "type": "name",
+          "expected": "Daniel James",
+          "actual": "Emmanuel Latte Lath",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 9,
+          "type": "name",
+          "expected": "Nathan Broadhead",
+          "actual": "Ché Adams",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2023/24",
+          "rank": 10,
+          "type": "name",
+          "expected": "Kiernan Dewsbury-Hall",
+          "actual": "Jack Clarke",
+          "expectedValue": 15,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Sammie Szmodics",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Adam Armstrong",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Crysencio Summerville",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Morgan Whittaker",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Jamie Vardy",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Haji Wright",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Josh Sargent",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Emmanuel Latte Lath",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Ché Adams",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Jack Clarke",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship assists 2023/24",
+      "url": "https://www.transfermarkt.com/championship/assistliste/wettbewerb/GB2/saison_id/2023",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 1,
+          "type": "name",
+          "expected": "Kiernan Dewsbury-Hall",
+          "actual": "Leif Davis",
+          "expectedValue": 14,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 2,
+          "type": "name",
+          "expected": "Crysencio Summerville",
+          "actual": "Georginio Rutter",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 3,
+          "type": "name",
+          "expected": "Morgan Whittaker",
+          "actual": "Kiernan Dewsbury-Hall",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 4,
+          "type": "name",
+          "expected": "Gabriel Sara",
+          "actual": "Abdul Fatawu",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 5,
+          "type": "name",
+          "expected": "Sammie Szmodics",
+          "actual": "Adam Armstrong",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 6,
+          "type": "name",
+          "expected": "Jack Clarke",
+          "actual": "Gabriel Sara",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 7,
+          "type": "name",
+          "expected": "Daniel James",
+          "actual": "Finn Azaz",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 8,
+          "type": "name",
+          "expected": "Stephy Mavididi",
+          "actual": "Luke Ayling",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 9,
+          "type": "name",
+          "expected": "Jaden Philogene",
+          "actual": "Sorba Thomas",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2023/24",
+          "rank": 10,
+          "type": "name",
+          "expected": "Jonathan Rowe",
+          "actual": "Mads Frøkjær",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Leif Davis",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Georginio Rutter",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Kiernan Dewsbury-Hall",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Abdul Fatawu",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Adam Armstrong",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Gabriel Sara",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Finn Azaz",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Luke Ayling",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Sorba Thomas",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Mads Frøkjær",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship scorers 2022/23",
+      "url": "https://www.transfermarkt.com/championship/torschuetzenliste/wettbewerb/GB2/saison_id/2022",
+      "ok": true,
+      "issues": [],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Chuba Akpom",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Viktor Gyökeres",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Carlton Morris",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Joël Piroe",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Nathan Tella",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Tom Bradshaw",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Zian Flemming",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Iliman Ndiaye",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Ben Brereton Díaz",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Jerry Yates",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship assists 2022/23",
+      "url": "https://www.transfermarkt.com/championship/assistliste/wettbewerb/GB2/saison_id/2022",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 1,
+          "type": "name",
+          "expected": "Morgan Gibbs-White",
+          "actual": "Jack Clarke",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 2,
+          "type": "name",
+          "expected": "Iliman Ndiaye",
+          "actual": "Ryan Giles",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 3,
+          "type": "name",
+          "expected": "Viktor Gyökeres",
+          "actual": "Iliman Ndiaye",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 4,
+          "type": "name",
+          "expected": "Nathan Tella",
+          "actual": "Gustavo Hamer",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 5,
+          "type": "name",
+          "expected": "Joël Piroe",
+          "actual": "Ryan Manning",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 6,
+          "type": "name",
+          "expected": "Ben Brereton Díaz",
+          "actual": "Viktor Gyökeres",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 7,
+          "type": "name",
+          "expected": "Josh Sargent",
+          "actual": "Ilias Chair",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 8,
+          "type": "name",
+          "expected": "Zian Flemming",
+          "actual": "John Swift",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 9,
+          "type": "name",
+          "expected": "Amad Diallo",
+          "actual": "Dan Barlaser",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2022/23",
+          "rank": 10,
+          "type": "name",
+          "expected": "Carlton Morris",
+          "actual": "Ken Sema",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Jack Clarke",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Ryan Giles",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Iliman Ndiaye",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Gustavo Hamer",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Ryan Manning",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Viktor Gyökeres",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Ilias Chair",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "John Swift",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Dan Barlaser",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Ken Sema",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship scorers 2021/22",
+      "url": "https://www.transfermarkt.com/championship/torschuetzenliste/wettbewerb/GB2/saison_id/2021",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 2,
+          "type": "name",
+          "expected": "Ross Stewart",
+          "actual": "Dominic Solanke",
+          "expectedValue": 29,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 3,
+          "type": "name",
+          "expected": "Ben Brereton Díaz",
+          "actual": "Andreas Weimann",
+          "expectedValue": 22,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 4,
+          "type": "name",
+          "expected": "Kieffer Moore",
+          "actual": "Joël Piroe",
+          "expectedValue": 22,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 5,
+          "type": "name",
+          "expected": "Morgan Gibbs-White",
+          "actual": "Ben Brereton Díaz",
+          "expectedValue": 18,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 6,
+          "type": "name",
+          "expected": "John Swift",
+          "actual": "Karlan Grant",
+          "expectedValue": 17,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 7,
+          "type": "name",
+          "expected": "Brennan Johnson",
+          "actual": "Viktor Gyökeres",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 8,
+          "type": "name",
+          "expected": "Keane Lewis-Potter",
+          "actual": "Brennan Johnson",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 9,
+          "type": "name",
+          "expected": "Tom Lawrence",
+          "actual": "Emil Riis",
+          "expectedValue": 16,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2021/22",
+          "rank": 10,
+          "type": "name",
+          "expected": "Harry Wilson",
+          "actual": "Elijah Adebayo",
+          "expectedValue": 16,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Aleksandar Mitrović",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Dominic Solanke",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Andreas Weimann",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Joël Piroe",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Ben Brereton Díaz",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Karlan Grant",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Viktor Gyökeres",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Brennan Johnson",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Emil Riis",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Elijah Adebayo",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship assists 2021/22",
+      "url": "https://www.transfermarkt.com/championship/assistliste/wettbewerb/GB2/saison_id/2021",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 1,
+          "type": "name",
+          "expected": "Morgan Gibbs-White",
+          "actual": "Harry Wilson",
+          "expectedValue": 14,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 2,
+          "type": "name",
+          "expected": "Harry Wilson",
+          "actual": "John Swift",
+          "expectedValue": 11,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 3,
+          "type": "name",
+          "expected": "Brennan Johnson",
+          "actual": "Antoine Semenyo",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 4,
+          "type": "name",
+          "expected": "John Swift",
+          "actual": "Jed Wallace",
+          "expectedValue": 9,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 5,
+          "type": "name",
+          "expected": "Tom Lawrence",
+          "actual": "Sorba Thomas",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 6,
+          "type": "name",
+          "expected": "Keane Lewis-Potter",
+          "actual": "Chris Willock",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 7,
+          "type": "name",
+          "expected": "Ben Brereton Díaz",
+          "actual": "Ryan Giles",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 8,
+          "type": "name",
+          "expected": "Morgan Whittaker",
+          "actual": "Gustavo Hamer",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 9,
+          "type": "name",
+          "expected": "Ross Stewart",
+          "actual": "Philip Billing",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2021/22",
+          "rank": 10,
+          "type": "name",
+          "expected": "Kieffer Moore",
+          "actual": "Joe Rothwell",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Harry Wilson",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "John Swift",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Antoine Semenyo",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Jed Wallace",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Sorba Thomas",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Chris Willock",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Ryan Giles",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Gustavo Hamer",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Philip Billing",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Joe Rothwell",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship scorers 2020/21",
+      "url": "https://www.transfermarkt.com/championship/torschuetzenliste/wettbewerb/GB2/saison_id/2020",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship scorers 2020/21",
+          "rank": 3,
+          "type": "name",
+          "expected": "Josh Maupay",
+          "actual": "Teemu Pukki",
+          "expectedValue": 24,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2020/21",
+          "rank": 4,
+          "type": "name",
+          "expected": "Emiliano Buendía",
+          "actual": "Kieffer Moore",
+          "expectedValue": 15,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2020/21",
+          "rank": 5,
+          "type": "name",
+          "expected": "Teemu Pukki",
+          "actual": "Lucas João",
+          "expectedValue": 14,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2020/21",
+          "rank": 6,
+          "type": "name",
+          "expected": "James Collins",
+          "actual": "André Ayew",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2020/21",
+          "rank": 7,
+          "type": "name",
+          "expected": "Harry Wilson",
+          "actual": "Emiliano Buendía",
+          "expectedValue": 12,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2020/21",
+          "rank": 8,
+          "type": "name",
+          "expected": "Sergi Canós",
+          "actual": "Dominic Solanke",
+          "expectedValue": 11,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2020/21",
+          "rank": 9,
+          "type": "name",
+          "expected": "Callum Robinson",
+          "actual": "Arnaut Danjuma",
+          "expectedValue": 11,
+          "actualValue": null
+        },
+        {
+          "label": "Championship scorers 2020/21",
+          "rank": 10,
+          "type": "name",
+          "expected": "Dominic Solanke",
+          "actual": "Jamal Lowe",
+          "expectedValue": 11,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Ivan Toney",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Adam Armstrong",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Teemu Pukki",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Kieffer Moore",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Lucas João",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "André Ayew",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Emiliano Buendía",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Dominic Solanke",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Arnaut Danjuma",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Jamal Lowe",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Championship assists 2020/21",
+      "url": "https://www.transfermarkt.com/championship/assistliste/wettbewerb/GB2/saison_id/2020",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Championship assists 2020/21",
+          "rank": 3,
+          "type": "name",
+          "expected": "Ivan Toney",
+          "actual": "Michael Olise",
+          "expectedValue": 10,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2020/21",
+          "rank": 4,
+          "type": "name",
+          "expected": "Adam Armstrong",
+          "actual": "Harvey Elliott",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2020/21",
+          "rank": 5,
+          "type": "name",
+          "expected": "Sergi Canós",
+          "actual": "Bryan Mbeumo",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2020/21",
+          "rank": 6,
+          "type": "name",
+          "expected": "Morgan Gibbs-White",
+          "actual": "Ivan Toney",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2020/21",
+          "rank": 7,
+          "type": "name",
+          "expected": "Josh Maupay",
+          "actual": "Jake Bidwell",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2020/21",
+          "rank": 8,
+          "type": "name",
+          "expected": "Callum Robinson",
+          "actual": "Dominic Solanke",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2020/21",
+          "rank": 9,
+          "type": "name",
+          "expected": "Dominic Solanke",
+          "actual": "Sergi Canós",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Championship assists 2020/21",
+          "rank": 10,
+          "type": "name",
+          "expected": "Teemu Pukki",
+          "actual": "Iván Sánchez",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Emiliano Buendía",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Harry Wilson",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Michael Olise",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Harvey Elliott",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Bryan Mbeumo",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Ivan Toney",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Jake Bidwell",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Dominic Solanke",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Sergi Canós",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Iván Sánchez",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Champions League scorers All time",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/saison_id/0",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League scorers All time",
+          "rank": 6,
+          "type": "name",
+          "expected": "Ruud van Nistelrooy",
+          "actual": "Kylian Mbappé",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers All time",
+          "rank": 8,
+          "type": "name",
+          "expected": "Thierry Henry",
+          "actual": "Erling Haaland",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers All time",
+          "rank": 9,
+          "type": "name",
+          "expected": "Filippo Inzaghi",
+          "actual": "Ruud van Nistelrooy",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers All time",
+          "rank": 10,
+          "type": "name",
+          "expected": "Andriy Shevchenko",
+          "actual": "Harry Kane",
+          "expectedValue": null,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Cristiano Ronaldo",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Lionel Messi",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Robert Lewandowski",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Karim Benzema",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Raúl",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Kylian Mbappé",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Thomas Müller",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Ruud van Nistelrooy",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Harry Kane",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Champions League assists All time",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/0",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League assists All time",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/0"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Champions League scorers 2025/26",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/saison_id/2025",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League scorers 2025/26",
+          "rank": 6,
+          "type": "name",
+          "expected": "Erling Haaland",
+          "actual": "Ousmane Dembélé",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2025/26",
+          "rank": 7,
+          "type": "name",
+          "expected": "Ousmane Dembélé",
+          "actual": "Erling Haaland",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2025/26",
+          "rank": 10,
+          "type": "name",
+          "expected": "Fermín López",
+          "actual": "Harvey Barnes",
+          "expectedValue": 6,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Kylian Mbappé",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Khvicha Kvaratskhelia",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Julián Álvarez",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Anthony Gordon",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Ousmane Dembélé",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Luis Díaz",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Victor Osimhen",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Harvey Barnes",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Champions League assists 2025/26",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2025",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League assists 2025/26",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2025"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Champions League scorers 2024/25",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/saison_id/2024",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League scorers 2024/25",
+          "rank": 1,
+          "type": "name",
+          "expected": "Serhou Guirassy",
+          "actual": "Raphinha",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2024/25",
+          "rank": 2,
+          "type": "name",
+          "expected": "Raphinha",
+          "actual": "Serhou Guirassy",
+          "expectedValue": 13,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2024/25",
+          "rank": 7,
+          "type": "name",
+          "expected": "Erling Haaland",
+          "actual": "Vinicius Junior",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2024/25",
+          "rank": 8,
+          "type": "name",
+          "expected": "Vinícius Júnior",
+          "actual": "Erling Haaland",
+          "expectedValue": 8,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2024/25",
+          "rank": 9,
+          "type": "name",
+          "expected": "Lamine Yamal",
+          "actual": "Vangelis Pavlidis",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2024/25",
+          "rank": 10,
+          "type": "name",
+          "expected": "Jude Bellingham",
+          "actual": "Jonathan David",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Raphinha",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Serhou Guirassy",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Robert Lewandowski",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Lautaro Martínez",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Ousmane Dembélé",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Vinicius Junior",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Vangelis Pavlidis",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Jonathan David",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Champions League assists 2024/25",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2024",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League assists 2024/25",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2024"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Champions League scorers 2023/24",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/saison_id/2023",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League scorers 2023/24",
+          "rank": 3,
+          "type": "name",
+          "expected": "Antoine Griezmann",
+          "actual": "Vinicius Junior",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2023/24",
+          "rank": 4,
+          "type": "name",
+          "expected": "Erling Haaland",
+          "actual": "Antoine Griezmann",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2023/24",
+          "rank": 5,
+          "type": "name",
+          "expected": "Vinícius Júnior",
+          "actual": "Erling Haaland",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2023/24",
+          "rank": 6,
+          "type": "name",
+          "expected": "Rodrygo",
+          "actual": "Phil Foden",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2023/24",
+          "rank": 7,
+          "type": "name",
+          "expected": "Joselu",
+          "actual": "Rodrygo",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2023/24",
+          "rank": 8,
+          "type": "name",
+          "expected": "Álvaro Morata",
+          "actual": "Galeno",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2023/24",
+          "rank": 9,
+          "type": "name",
+          "expected": "Phil Foden",
+          "actual": "Julián Álvarez",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2023/24",
+          "rank": 10,
+          "type": "name",
+          "expected": "Rasmus Højlund",
+          "actual": "Álvaro Morata",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Harry Kane",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Kylian Mbappé",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Vinicius Junior",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Antoine Griezmann",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Phil Foden",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Rodrygo",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Galeno",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Julián Álvarez",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Álvaro Morata",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Champions League assists 2023/24",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2023",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League assists 2023/24",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2023"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Champions League scorers 2022/23",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/saison_id/2022",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League scorers 2022/23",
+          "rank": 7,
+          "type": "name",
+          "expected": "Robert Lewandowski",
+          "actual": "Rafa Silva",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2022/23",
+          "rank": 8,
+          "type": "name",
+          "expected": "Victor Osimhen",
+          "actual": "Mehdi Taremi",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2022/23",
+          "rank": 10,
+          "type": "name",
+          "expected": "Rafa Silva",
+          "actual": "Robert Lewandowski",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Vinicius Junior",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Kylian Mbappé",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "João Mário",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Olivier Giroud",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Rafa Silva",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Mehdi Taremi",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Rodrygo",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Robert Lewandowski",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Champions League assists 2022/23",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2022",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League assists 2022/23",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2022"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Champions League scorers 2021/22",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/saison_id/2021",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League scorers 2021/22",
+          "rank": 7,
+          "type": "name",
+          "expected": "Arnaut Danjuma",
+          "actual": "Leroy Sané",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2021/22",
+          "rank": 8,
+          "type": "name",
+          "expected": "Leroy Sané",
+          "actual": "Kylian Mbappé",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2021/22",
+          "rank": 9,
+          "type": "name",
+          "expected": "Kylian Mbappé",
+          "actual": "Arnaut Danjuma",
+          "expectedValue": 6,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Karim Benzema",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Robert Lewandowski",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Sébastien Haller",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Riyad Mahrez",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Christopher Nkunku",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Leroy Sané",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Kylian Mbappé",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Arnaut Danjuma",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Cristiano Ronaldo",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Champions League assists 2021/22",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2021",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League assists 2021/22",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2021"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Champions League scorers 2020/21",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/torschuetzenliste/pokalwettbewerb/CL/saison_id/2020",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League scorers 2020/21",
+          "rank": 3,
+          "type": "name",
+          "expected": "Karim Benzema",
+          "actual": "Neymar",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2020/21",
+          "rank": 4,
+          "type": "name",
+          "expected": "Youssef En-Nesyri",
+          "actual": "Álvaro Morata",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2020/21",
+          "rank": 5,
+          "type": "name",
+          "expected": "Marcus Rashford",
+          "actual": "Mohamed Salah",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2020/21",
+          "rank": 6,
+          "type": "name",
+          "expected": "Mohamed Salah",
+          "actual": "Marcus Rashford",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2020/21",
+          "rank": 7,
+          "type": "name",
+          "expected": "Álvaro Morata",
+          "actual": "Karim Benzema",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Champions League scorers 2020/21",
+          "rank": 9,
+          "type": "name",
+          "expected": "Neymar",
+          "actual": "Youssef En-Nesyri",
+          "expectedValue": 6,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Erling Haaland",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Kylian Mbappé",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Neymar",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Álvaro Morata",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Marcus Rashford",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Karim Benzema",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Olivier Giroud",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Youssef En-Nesyri",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Alassane Pléa",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Champions League assists 2020/21",
+      "url": "https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2020",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Champions League assists 2020/21",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-champions-league/assistliste/pokalwettbewerb/CL/saison_id/2020"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Europa League scorers All time",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/torschuetzenliste/pokalwettbewerb/EL/saison_id/0",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League scorers All time",
+          "rank": 2,
+          "type": "name",
+          "expected": "Radamel Falcao",
+          "actual": "Henrik Larsson",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers All time",
+          "rank": 3,
+          "type": "name",
+          "expected": "Bruno Fernandes",
+          "actual": "Klaas-Jan Huntelaar",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers All time",
+          "rank": 4,
+          "type": "name",
+          "expected": "Romelu Lukaku",
+          "actual": "Radamel Falcao",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers All time",
+          "rank": 5,
+          "type": "name",
+          "expected": "Aritz Aduriz",
+          "actual": "Dieter Müller",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers All time",
+          "rank": 6,
+          "type": "name",
+          "expected": "Alexandre Lacazette",
+          "actual": "Edin Dzeko",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers All time",
+          "rank": 7,
+          "type": "name",
+          "expected": "Munas Dabbur",
+          "actual": "Bruno Fernandes",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers All time",
+          "rank": 8,
+          "type": "name",
+          "expected": "Edin Džeko",
+          "actual": "Romelu Lukaku",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers All time",
+          "rank": 9,
+          "type": "name",
+          "expected": "Kevin Gameiro",
+          "actual": "Aritz Aduriz",
+          "expectedValue": null,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers All time",
+          "rank": 10,
+          "type": "name",
+          "expected": "Óscar Cardozo",
+          "actual": "Alexandre Lacazette",
+          "expectedValue": null,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Pierre-Emerick Aubameyang",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Henrik Larsson",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Klaas-Jan Huntelaar",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Radamel Falcao",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Dieter Müller",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Edin Dzeko",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Bruno Fernandes",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Romelu Lukaku",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Aritz Aduriz",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Alexandre Lacazette",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Europa League assists All time",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/0",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League assists All time",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/0"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Europa League scorers 2025/26",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/torschuetzenliste/pokalwettbewerb/EL/saison_id/2025",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 1,
+          "type": "name",
+          "expected": "Petar Stanic",
+          "actual": "Igor Jesus",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 2,
+          "type": "name",
+          "expected": "Igor Jesus",
+          "actual": "Petar Stanic",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 3,
+          "type": "name",
+          "expected": "Kerem Aktürkoglu",
+          "actual": "Antony",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 4,
+          "type": "name",
+          "expected": "Bilal El Khannouss",
+          "actual": "Kerem Aktürkoğlu",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 5,
+          "type": "name",
+          "expected": "Federico Bernardeschi",
+          "actual": "Vincenzo Grifo",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 6,
+          "type": "name",
+          "expected": "Antony",
+          "actual": "John McGinn",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 7,
+          "type": "name",
+          "expected": "Dion Drena Beljo",
+          "actual": "Ollie Watkins",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 8,
+          "type": "name",
+          "expected": "Olivier Giroud",
+          "actual": "Williot Swedberg",
+          "expectedValue": 4,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 9,
+          "type": "name",
+          "expected": "Karol Swiderski",
+          "actual": "Dion Beljo",
+          "expectedValue": 4,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2025/26",
+          "rank": 10,
+          "type": "name",
+          "expected": "Daan Heymans",
+          "actual": "Federico Bernardeschi",
+          "expectedValue": 4,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Igor Jesus",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Petar Stanic",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Antony",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Kerem Aktürkoğlu",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Vincenzo Grifo",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "John McGinn",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Ollie Watkins",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Williot Swedberg",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Dion Beljo",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Federico Bernardeschi",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Europa League assists 2025/26",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2025",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League assists 2025/26",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2025"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Europa League scorers 2024/25",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/torschuetzenliste/pokalwettbewerb/EL/saison_id/2024",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 2,
+          "type": "name",
+          "expected": "Ayoub El Kaabi",
+          "actual": "Kasper Høgh",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 3,
+          "type": "name",
+          "expected": "Kasper Høgh",
+          "actual": "Ayoub El Kaabi",
+          "expectedValue": 7,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 4,
+          "type": "name",
+          "expected": "Václav Černý",
+          "actual": "Rasmus Højlund",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 5,
+          "type": "name",
+          "expected": "Youssef En-Nesyri",
+          "actual": "Vaclav Cerny",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 6,
+          "type": "name",
+          "expected": "Malick Fofana",
+          "actual": "Victor Osimhen",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 7,
+          "type": "name",
+          "expected": "Rasmus Højlund",
+          "actual": "Malick Fofana",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 8,
+          "type": "name",
+          "expected": "Victor Osimhen",
+          "actual": "Barnabás Varga",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 9,
+          "type": "name",
+          "expected": "Samu",
+          "actual": "Youssef En-Nesyri",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2024/25",
+          "rank": 10,
+          "type": "name",
+          "expected": "Barnabás Varga",
+          "actual": "Samu Aghehowa",
+          "expectedValue": 6,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Bruno Fernandes",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Kasper Høgh",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Ayoub El Kaabi",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Rasmus Højlund",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Vaclav Cerny",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Victor Osimhen",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Malick Fofana",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Barnabás Varga",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Youssef En-Nesyri",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Samu Aghehowa",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Europa League assists 2024/25",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2024",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League assists 2024/25",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2024"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Europa League scorers 2023/24",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/torschuetzenliste/pokalwettbewerb/EL/saison_id/2023",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League scorers 2023/24",
+          "rank": 3,
+          "type": "name",
+          "expected": "João Pedro",
+          "actual": "Gianluca Scamacca",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2023/24",
+          "rank": 4,
+          "type": "name",
+          "expected": "Gianluca Scamacca",
+          "actual": "João Pedro",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2023/24",
+          "rank": 5,
+          "type": "name",
+          "expected": "Victor Boniface",
+          "actual": "Mohamed Salah",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2023/24",
+          "rank": 6,
+          "type": "name",
+          "expected": "Mohammed Kudus",
+          "actual": "Viktor Gyökeres",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2023/24",
+          "rank": 7,
+          "type": "name",
+          "expected": "Ademola Lookman",
+          "actual": "Juninho",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2023/24",
+          "rank": 8,
+          "type": "name",
+          "expected": "Mohamed Salah",
+          "actual": "Michael Gregoritsch",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2023/24",
+          "rank": 9,
+          "type": "name",
+          "expected": "Patrik Schick",
+          "actual": "Ademola Lookman",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2023/24",
+          "rank": 10,
+          "type": "name",
+          "expected": "Florian Wirtz",
+          "actual": "Darwin Núñez",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Pierre-Emerick Aubameyang",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Romelu Lukaku",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Gianluca Scamacca",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "João Pedro",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Mohamed Salah",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Viktor Gyökeres",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Juninho",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Michael Gregoritsch",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Ademola Lookman",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Darwin Núñez",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Europa League assists 2023/24",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2023",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League assists 2023/24",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2023"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Europa League scorers 2022/23",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/torschuetzenliste/pokalwettbewerb/EL/saison_id/2022",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League scorers 2022/23",
+          "rank": 1,
+          "type": "name",
+          "expected": "Victor Boniface",
+          "actual": "Marcus Rashford",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2022/23",
+          "rank": 2,
+          "type": "name",
+          "expected": "Marcus Rashford",
+          "actual": "Victor Boniface",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2022/23",
+          "rank": 4,
+          "type": "name",
+          "expected": "Igor Thiago",
+          "actual": "Santiago Gimenez",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2022/23",
+          "rank": 6,
+          "type": "name",
+          "expected": "Wissam Ben Yedder",
+          "actual": "Robin Knoche",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2022/23",
+          "rank": 7,
+          "type": "name",
+          "expected": "Ángel Di María",
+          "actual": "Wissam Ben Yedder",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2022/23",
+          "rank": 8,
+          "type": "name",
+          "expected": "Anastasios Bakasetas",
+          "actual": "Youssef En-Nesyri",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2022/23",
+          "rank": 9,
+          "type": "name",
+          "expected": "Teddy Teuma",
+          "actual": "Vitinha",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2022/23",
+          "rank": 10,
+          "type": "name",
+          "expected": "Ludovic Blas",
+          "actual": "Ángel Di María",
+          "expectedValue": 5,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Marcus Rashford",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Victor Boniface",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Paulo Dybala",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Santiago Gimenez",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Lorenzo Pellegrini",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Robin Knoche",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Wissam Ben Yedder",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Youssef En-Nesyri",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Vitinha",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Ángel Di María",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Europa League assists 2022/23",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2022",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League assists 2022/23",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2022"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Europa League scorers 2021/22",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/torschuetzenliste/pokalwettbewerb/EL/saison_id/2021",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League scorers 2021/22",
+          "rank": 2,
+          "type": "name",
+          "expected": "Victor Boniface",
+          "actual": "Karl Toko Ekambi",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2021/22",
+          "rank": 3,
+          "type": "name",
+          "expected": "Karl Toko Ekambi",
+          "actual": "Galeno",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2021/22",
+          "rank": 5,
+          "type": "name",
+          "expected": "Ricardo Horta",
+          "actual": "Patson Daka",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2021/22",
+          "rank": 6,
+          "type": "name",
+          "expected": "Mislav Orsic",
+          "actual": "Ricardo Horta",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2021/22",
+          "rank": 7,
+          "type": "name",
+          "expected": "Moussa Diaby",
+          "actual": "Mislav Orsic",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2021/22",
+          "rank": 8,
+          "type": "name",
+          "expected": "Eljif Elmas",
+          "actual": "Rafael Borré",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2021/22",
+          "rank": 9,
+          "type": "name",
+          "expected": "Filip Kostić",
+          "actual": "Moussa Diaby",
+          "expectedValue": 5,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2021/22",
+          "rank": 10,
+          "type": "name",
+          "expected": "Florian Wirtz",
+          "actual": "Ciro Immobile",
+          "expectedValue": 4,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "James Tavernier",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Karl Toko Ekambi",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Galeno",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Daichi Kamada",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Patson Daka",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Ricardo Horta",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Mislav Orsic",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Rafael Borré",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Moussa Diaby",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Ciro Immobile",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Europa League assists 2021/22",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2021",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League assists 2021/22",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2021"
+        }
+      ],
+      "transfermarkt": []
+    },
+    {
+      "label": "Europa League scorers 2020/21",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/torschuetzenliste/pokalwettbewerb/EL/saison_id/2020",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League scorers 2020/21",
+          "rank": 5,
+          "type": "name",
+          "expected": "Munas Dabbur",
+          "actual": "Nicolas Pépé",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2020/21",
+          "rank": 6,
+          "type": "name",
+          "expected": "Carlos Vinícius",
+          "actual": "Edinson Cavani",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2020/21",
+          "rank": 7,
+          "type": "name",
+          "expected": "Willian José",
+          "actual": "Carlos Vinícius",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2020/21",
+          "rank": 8,
+          "type": "name",
+          "expected": "Alexander Sørloth",
+          "actual": "Mislav Orsic",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2020/21",
+          "rank": 9,
+          "type": "name",
+          "expected": "Bruno Fernandes",
+          "actual": "Edin Dzeko",
+          "expectedValue": 6,
+          "actualValue": null
+        },
+        {
+          "label": "Europa League scorers 2020/21",
+          "rank": 10,
+          "type": "name",
+          "expected": "Olivier Giroud",
+          "actual": "Paco Alcácer",
+          "expectedValue": 6,
+          "actualValue": null
+        }
+      ],
+      "transfermarkt": [
+        {
+          "rank": 1,
+          "name": "Gerard Moreno",
+          "value": null
+        },
+        {
+          "rank": 2,
+          "name": "Pizzi",
+          "value": null
+        },
+        {
+          "rank": 3,
+          "name": "Borja Mayoral",
+          "value": null
+        },
+        {
+          "rank": 4,
+          "name": "Yusuf Yazıcı",
+          "value": null
+        },
+        {
+          "rank": 5,
+          "name": "Nicolas Pépé",
+          "value": null
+        },
+        {
+          "rank": 6,
+          "name": "Edinson Cavani",
+          "value": null
+        },
+        {
+          "rank": 7,
+          "name": "Carlos Vinícius",
+          "value": null
+        },
+        {
+          "rank": 8,
+          "name": "Mislav Orsic",
+          "value": null
+        },
+        {
+          "rank": 9,
+          "name": "Edin Dzeko",
+          "value": null
+        },
+        {
+          "rank": 10,
+          "name": "Paco Alcácer",
+          "value": null
+        }
+      ]
+    },
+    {
+      "label": "Europa League assists 2020/21",
+      "url": "https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2020",
+      "ok": false,
+      "issues": [
+        {
+          "label": "Europa League assists 2020/21",
+          "rank": 0,
+          "type": "fetch-error",
+          "expected": null,
+          "actual": "Transfermarkt 404 for https://www.transfermarkt.com/uefa-europa-league/assistliste/pokalwettbewerb/EL/saison_id/2020"
+        }
+      ],
+      "transfermarkt": []
+    }
+  ]
+}

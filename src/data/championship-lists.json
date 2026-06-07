@@ -1,0 +1,1377 @@
+[
+  {
+    "id": "chmp-all-time-scorers",
+    "title": "Championship Top 10 Goal Scorers (All time)",
+    "category": "chmp-scorers",
+    "season": "All time",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Billy Sharp",
+        "aliases": [
+          "Sharp"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 2,
+        "answer": "Jordan Rhodes",
+        "aliases": [
+          "Rhodes"
+        ],
+        "nation": "Scotland"
+      },
+      {
+        "rank": 3,
+        "answer": "David Nugent",
+        "aliases": [
+          "Nugent"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 4,
+        "answer": "Ross McCormack",
+        "aliases": [
+          "McCormack"
+        ],
+        "nation": "Scotland"
+      },
+      {
+        "rank": 5,
+        "answer": "Chris Martin",
+        "aliases": [
+          "Martin"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 6,
+        "answer": "Lewis Grabban",
+        "aliases": [
+          "Grabban"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 7,
+        "answer": "Nahki Wells",
+        "aliases": [
+          "Wells"
+        ],
+        "nation": "Bermuda"
+      },
+      {
+        "rank": 8,
+        "answer": "Lukas Jutkiewicz",
+        "aliases": [
+          "Jutkiewicz"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 9,
+        "answer": "Troy Deeney",
+        "aliases": [
+          "Deeney"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 10,
+        "answer": "Tom Ince",
+        "aliases": [
+          "Ince"
+        ],
+        "nation": "England"
+      }
+    ]
+  },
+  {
+    "id": "chmp-all-time-assists",
+    "title": "Championship Top 10 Assists (All time)",
+    "category": "chmp-assists",
+    "season": "All time",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Barry Bannan",
+        "aliases": [
+          "Bannan"
+        ],
+        "nation": "Scotland"
+      },
+      {
+        "rank": 2,
+        "answer": "Tom Ince",
+        "aliases": [
+          "Ince"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 3,
+        "answer": "James Milner",
+        "aliases": [
+          "Milner"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 4,
+        "answer": "Lewis Grabban",
+        "aliases": [
+          "Grabban"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 5,
+        "answer": "David Nugent",
+        "aliases": [
+          "Nugent"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 6,
+        "answer": "Chris Martin",
+        "aliases": [
+          "Martin"
+        ],
+        "nation": "England"
+      },
+      {
+        "rank": 7,
+        "answer": "Ross McCormack",
+        "aliases": [
+          "McCormack"
+        ],
+        "nation": "Scotland"
+      },
+      {
+        "rank": 8,
+        "answer": "Jordan Rhodes",
+        "aliases": [
+          "Rhodes"
+        ],
+        "nation": "Scotland"
+      },
+      {
+        "rank": 9,
+        "answer": "Nahki Wells",
+        "aliases": [
+          "Wells"
+        ],
+        "nation": "Bermuda"
+      },
+      {
+        "rank": 10,
+        "answer": "Billy Sharp",
+        "aliases": [
+          "Sharp"
+        ],
+        "nation": "England"
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-scorers-2025-26",
+    "title": "Championship Top 10 Scorers (2025/26)",
+    "category": "chmp-scorers",
+    "season": "2025/26",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Zan Vipotnik",
+        "aliases": [
+          "Vipotnik"
+        ],
+        "nation": "Slovenia",
+        "value": 23
+      },
+      {
+        "rank": 2,
+        "answer": "Jack Clarke",
+        "aliases": [
+          "Clarke"
+        ],
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "rank": 3,
+        "answer": "Josh Windass",
+        "aliases": [
+          "Windass"
+        ],
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "rank": 4,
+        "answer": "Morgan Whittaker",
+        "aliases": [
+          "Whittaker"
+        ],
+        "nation": "England",
+        "value": 16
+      },
+      {
+        "rank": 5,
+        "answer": "Jaden Philogene",
+        "aliases": [
+          "Philogene"
+        ],
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "rank": 6,
+        "answer": "Finn Azaz",
+        "aliases": [
+          "Azaz"
+        ],
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "rank": 7,
+        "answer": "Femi Azeez",
+        "aliases": [
+          "Azeez"
+        ],
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "rank": 8,
+        "answer": "Jordan James",
+        "aliases": [
+          "James"
+        ],
+        "nation": "Wales",
+        "value": 13
+      },
+      {
+        "rank": 9,
+        "answer": "Sorba Thomas",
+        "aliases": [
+          "Thomas"
+        ],
+        "nation": "England",
+        "value": 13
+      },
+      {
+        "rank": 10,
+        "answer": "Ephron Mason-Clark",
+        "aliases": [
+          "Mason-Clark"
+        ],
+        "nation": "England",
+        "value": 13
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-assists-2025-26",
+    "title": "Championship Top 10 Assists (2025/26)",
+    "category": "chmp-assists",
+    "season": "2025/26",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Jack Clarke",
+        "aliases": [
+          "Clarke"
+        ],
+        "nation": "England",
+        "value": 10
+      },
+      {
+        "rank": 2,
+        "answer": "Finn Azaz",
+        "aliases": [
+          "Azaz"
+        ],
+        "nation": "England",
+        "value": 9
+      },
+      {
+        "rank": 3,
+        "answer": "Jaden Philogene",
+        "aliases": [
+          "Philogene"
+        ],
+        "nation": "England",
+        "value": 8
+      },
+      {
+        "rank": 4,
+        "answer": "Morgan Whittaker",
+        "aliases": [
+          "Whittaker"
+        ],
+        "nation": "England",
+        "value": 7
+      },
+      {
+        "rank": 5,
+        "answer": "Femi Azeez",
+        "aliases": [
+          "Azeez"
+        ],
+        "nation": "England",
+        "value": 7
+      },
+      {
+        "rank": 6,
+        "answer": "Josh Windass",
+        "aliases": [
+          "Windass"
+        ],
+        "nation": "England",
+        "value": 6
+      },
+      {
+        "rank": 7,
+        "answer": "Jordan James",
+        "aliases": [
+          "James"
+        ],
+        "nation": "Wales",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Sorba Thomas",
+        "aliases": [
+          "Thomas"
+        ],
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Scott Twine",
+        "aliases": [
+          "Twine"
+        ],
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Anis Mehmeti",
+        "aliases": [
+          "Mehmeti"
+        ],
+        "nation": "Albania",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-scorers-2024-25",
+    "title": "Championship Top 10 Scorers (2024/25)",
+    "category": "chmp-scorers",
+    "season": "2024/25",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Joël Piroe",
+        "aliases": [
+          "Joel Piroe",
+          "Piroe"
+        ],
+        "nation": "Netherlands",
+        "value": 19
+      },
+      {
+        "rank": 2,
+        "answer": "Josh Brownhill",
+        "aliases": [
+          "Brownhill"
+        ],
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "rank": 3,
+        "answer": "Borja Sainz",
+        "aliases": [
+          "Sainz"
+        ],
+        "nation": "Spain",
+        "value": 18
+      },
+      {
+        "rank": 4,
+        "answer": "Josh Sargent",
+        "aliases": [
+          "Sargent"
+        ],
+        "nation": "United States",
+        "value": 15
+      },
+      {
+        "rank": 5,
+        "answer": "Tommy Conway",
+        "aliases": [
+          "Conway"
+        ],
+        "nation": "England",
+        "value": 13
+      },
+      {
+        "rank": 6,
+        "answer": "Wilson Isidor",
+        "aliases": [
+          "Isidor"
+        ],
+        "nation": "France",
+        "value": 13
+      },
+      {
+        "rank": 7,
+        "answer": "Josh Windass",
+        "aliases": [
+          "Windass"
+        ],
+        "nation": "England",
+        "value": 13
+      },
+      {
+        "rank": 8,
+        "answer": "Finn Azaz",
+        "aliases": [
+          "Azaz"
+        ],
+        "nation": "England",
+        "value": 12
+      },
+      {
+        "rank": 9,
+        "answer": "Daniel James",
+        "aliases": [
+          "James"
+        ],
+        "nation": "Wales",
+        "value": 12
+      },
+      {
+        "rank": 10,
+        "answer": "Anis Mehmeti",
+        "aliases": [
+          "Mehmeti"
+        ],
+        "nation": "Albania",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-assists-2024-25",
+    "title": "Championship Top 10 Assists (2024/25)",
+    "category": "chmp-assists",
+    "season": "2024/25",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Morgan Rogers",
+        "aliases": [
+          "Rogers"
+        ],
+        "nation": "England",
+        "value": 11
+      },
+      {
+        "rank": 2,
+        "answer": "Kiernan Dewsbury-Hall",
+        "aliases": [
+          "Dewsbury-Hall"
+        ],
+        "nation": "England",
+        "value": 10
+      },
+      {
+        "rank": 3,
+        "answer": "Morgan Gibbs-White",
+        "aliases": [
+          "Gibbs-White",
+          "Gibbs White"
+        ],
+        "nation": "England",
+        "value": 9
+      },
+      {
+        "rank": 4,
+        "answer": "Finn Azaz",
+        "aliases": [
+          "Azaz"
+        ],
+        "nation": "England",
+        "value": 8
+      },
+      {
+        "rank": 5,
+        "answer": "Josh Brownhill",
+        "aliases": [
+          "Brownhill"
+        ],
+        "nation": "England",
+        "value": 7
+      },
+      {
+        "rank": 6,
+        "answer": "Daniel James",
+        "aliases": [
+          "James"
+        ],
+        "nation": "Wales",
+        "value": 7
+      },
+      {
+        "rank": 7,
+        "answer": "Jack Clarke",
+        "aliases": [
+          "Clarke"
+        ],
+        "nation": "England",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Borja Sainz",
+        "aliases": [
+          "Sainz"
+        ],
+        "nation": "Spain",
+        "value": 6
+      },
+      {
+        "rank": 9,
+        "answer": "Anis Mehmeti",
+        "aliases": [
+          "Mehmeti"
+        ],
+        "nation": "Albania",
+        "value": 6
+      },
+      {
+        "rank": 10,
+        "answer": "Josh Windass",
+        "aliases": [
+          "Windass"
+        ],
+        "nation": "England",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-scorers-2023-24",
+    "title": "Championship Top 10 Scorers (2023/24)",
+    "category": "chmp-scorers",
+    "season": "2023/24",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Sammie Szmodics",
+        "aliases": [
+          "Szmodics"
+        ],
+        "nation": "Ireland",
+        "value": 27
+      },
+      {
+        "rank": 2,
+        "answer": "Crysencio Summerville",
+        "aliases": [
+          "Summerville"
+        ],
+        "nation": "Netherlands",
+        "value": 21
+      },
+      {
+        "rank": 3,
+        "answer": "Morgan Whittaker",
+        "aliases": [
+          "Whittaker"
+        ],
+        "nation": "England",
+        "value": 19
+      },
+      {
+        "rank": 4,
+        "answer": "Emmanuel Latte Lath",
+        "aliases": [
+          "Latte Lath",
+          "Lath"
+        ],
+        "nation": "Finland",
+        "value": 19
+      },
+      {
+        "rank": 5,
+        "answer": "Jack Clarke",
+        "aliases": [
+          "Clarke"
+        ],
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "rank": 6,
+        "answer": "Gabriel Sara",
+        "aliases": [
+          "Sara"
+        ],
+        "nation": "Brazil",
+        "value": 16
+      },
+      {
+        "rank": 7,
+        "answer": "Conor Chaplin",
+        "aliases": [
+          "Chaplin"
+        ],
+        "nation": "England",
+        "value": 16
+      },
+      {
+        "rank": 8,
+        "answer": "Daniel James",
+        "aliases": [
+          "James"
+        ],
+        "nation": "Wales",
+        "value": 16
+      },
+      {
+        "rank": 9,
+        "answer": "Nathan Broadhead",
+        "aliases": [
+          "Broadhead"
+        ],
+        "nation": "England",
+        "value": 15
+      },
+      {
+        "rank": 10,
+        "answer": "Kiernan Dewsbury-Hall",
+        "aliases": [
+          "Dewsbury-Hall"
+        ],
+        "nation": "England",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-assists-2023-24",
+    "title": "Championship Top 10 Assists (2023/24)",
+    "category": "chmp-assists",
+    "season": "2023/24",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Kiernan Dewsbury-Hall",
+        "aliases": [
+          "Dewsbury-Hall"
+        ],
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "rank": 2,
+        "answer": "Crysencio Summerville",
+        "aliases": [
+          "Summerville"
+        ],
+        "nation": "Netherlands",
+        "value": 9
+      },
+      {
+        "rank": 3,
+        "answer": "Morgan Whittaker",
+        "aliases": [
+          "Whittaker"
+        ],
+        "nation": "England",
+        "value": 8
+      },
+      {
+        "rank": 4,
+        "answer": "Gabriel Sara",
+        "aliases": [
+          "Sara"
+        ],
+        "nation": "Brazil",
+        "value": 8
+      },
+      {
+        "rank": 5,
+        "answer": "Sammie Szmodics",
+        "aliases": [
+          "Szmodics"
+        ],
+        "nation": "Ireland",
+        "value": 7
+      },
+      {
+        "rank": 6,
+        "answer": "Jack Clarke",
+        "aliases": [
+          "Clarke"
+        ],
+        "nation": "England",
+        "value": 7
+      },
+      {
+        "rank": 7,
+        "answer": "Daniel James",
+        "aliases": [
+          "James"
+        ],
+        "nation": "Wales",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Stephy Mavididi",
+        "aliases": [
+          "Mavididi"
+        ],
+        "nation": "England",
+        "value": 6
+      },
+      {
+        "rank": 9,
+        "answer": "Jaden Philogene",
+        "aliases": [
+          "Philogene"
+        ],
+        "nation": "England",
+        "value": 6
+      },
+      {
+        "rank": 10,
+        "answer": "Jonathan Rowe",
+        "aliases": [
+          "Rowe"
+        ],
+        "nation": "England",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-scorers-2022-23",
+    "title": "Championship Top 10 Scorers (2022/23)",
+    "category": "chmp-scorers",
+    "season": "2022/23",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Chuba Akpom",
+        "aliases": [
+          "Akpom"
+        ],
+        "nation": "England",
+        "value": 28
+      },
+      {
+        "rank": 2,
+        "answer": "Viktor Gyökeres",
+        "aliases": [
+          "Gyokeres",
+          "Gyökeres"
+        ],
+        "nation": "Sweden",
+        "value": 21
+      },
+      {
+        "rank": 3,
+        "answer": "Carlton Morris",
+        "aliases": [
+          "Morris"
+        ],
+        "nation": "England",
+        "value": 20
+      },
+      {
+        "rank": 4,
+        "answer": "Joël Piroe",
+        "aliases": [
+          "Joel Piroe",
+          "Piroe"
+        ],
+        "nation": "Netherlands",
+        "value": 19
+      },
+      {
+        "rank": 5,
+        "answer": "Nathan Tella",
+        "aliases": [
+          "Tella"
+        ],
+        "nation": "Nigeria",
+        "value": 17
+      },
+      {
+        "rank": 6,
+        "answer": "Tom Bradshaw",
+        "aliases": [
+          "Bradshaw"
+        ],
+        "nation": "Wales",
+        "value": 16
+      },
+      {
+        "rank": 7,
+        "answer": "Zian Flemming",
+        "aliases": [
+          "Flemming"
+        ],
+        "nation": "Netherlands",
+        "value": 15
+      },
+      {
+        "rank": 8,
+        "answer": "Iliman Ndiaye",
+        "aliases": [
+          "Ndiaye"
+        ],
+        "nation": "Senegal",
+        "value": 14
+      },
+      {
+        "rank": 9,
+        "answer": "Ben Brereton Díaz",
+        "aliases": [
+          "Brereton Diaz",
+          "Brereton Díaz",
+          "Díaz"
+        ],
+        "nation": "Chile",
+        "value": 14
+      },
+      {
+        "rank": 10,
+        "answer": "Jerry Yates",
+        "aliases": [
+          "Yates"
+        ],
+        "nation": "England",
+        "value": 14
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-assists-2022-23",
+    "title": "Championship Top 10 Assists (2022/23)",
+    "category": "chmp-assists",
+    "season": "2022/23",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Morgan Gibbs-White",
+        "aliases": [
+          "Gibbs-White",
+          "Gibbs White"
+        ],
+        "nation": "England",
+        "value": 10
+      },
+      {
+        "rank": 2,
+        "answer": "Iliman Ndiaye",
+        "aliases": [
+          "Ndiaye"
+        ],
+        "nation": "Senegal",
+        "value": 9
+      },
+      {
+        "rank": 3,
+        "answer": "Viktor Gyökeres",
+        "aliases": [
+          "Gyokeres",
+          "Gyökeres"
+        ],
+        "nation": "Sweden",
+        "value": 8
+      },
+      {
+        "rank": 4,
+        "answer": "Nathan Tella",
+        "aliases": [
+          "Tella"
+        ],
+        "nation": "Nigeria",
+        "value": 7
+      },
+      {
+        "rank": 5,
+        "answer": "Joël Piroe",
+        "aliases": [
+          "Joel Piroe",
+          "Piroe"
+        ],
+        "nation": "Netherlands",
+        "value": 7
+      },
+      {
+        "rank": 6,
+        "answer": "Ben Brereton Díaz",
+        "aliases": [
+          "Brereton Diaz",
+          "Brereton Díaz",
+          "Díaz"
+        ],
+        "nation": "Chile",
+        "value": 6
+      },
+      {
+        "rank": 7,
+        "answer": "Josh Sargent",
+        "aliases": [
+          "Sargent"
+        ],
+        "nation": "United States",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Zian Flemming",
+        "aliases": [
+          "Flemming"
+        ],
+        "nation": "Netherlands",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Amad Diallo",
+        "aliases": [
+          "Diallo"
+        ],
+        "nation": "Ivory Coast",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Carlton Morris",
+        "aliases": [
+          "Morris"
+        ],
+        "nation": "England",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-scorers-2021-22",
+    "title": "Championship Top 10 Scorers (2021/22)",
+    "category": "chmp-scorers",
+    "season": "2021/22",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Aleksandar Mitrović",
+        "aliases": [
+          "Mitrovic",
+          "Mitrović"
+        ],
+        "nation": "Serbia",
+        "value": 43
+      },
+      {
+        "rank": 2,
+        "answer": "Ross Stewart",
+        "aliases": [
+          "Stewart"
+        ],
+        "nation": "Scotland",
+        "value": 29
+      },
+      {
+        "rank": 3,
+        "answer": "Ben Brereton Díaz",
+        "aliases": [
+          "Brereton Diaz",
+          "Brereton Díaz",
+          "Díaz"
+        ],
+        "nation": "Chile",
+        "value": 22
+      },
+      {
+        "rank": 4,
+        "answer": "Kieffer Moore",
+        "aliases": [
+          "Moore"
+        ],
+        "nation": "Wales",
+        "value": 22
+      },
+      {
+        "rank": 5,
+        "answer": "Morgan Gibbs-White",
+        "aliases": [
+          "Gibbs-White",
+          "Gibbs White"
+        ],
+        "nation": "England",
+        "value": 18
+      },
+      {
+        "rank": 6,
+        "answer": "John Swift",
+        "aliases": [
+          "Swift"
+        ],
+        "nation": "England",
+        "value": 17
+      },
+      {
+        "rank": 7,
+        "answer": "Brennan Johnson",
+        "aliases": [
+          "Johnson"
+        ],
+        "nation": "Wales",
+        "value": 16
+      },
+      {
+        "rank": 8,
+        "answer": "Keane Lewis-Potter",
+        "aliases": [
+          "Lewis-Potter"
+        ],
+        "nation": "England",
+        "value": 16
+      },
+      {
+        "rank": 9,
+        "answer": "Tom Lawrence",
+        "aliases": [
+          "Lawrence"
+        ],
+        "nation": "Wales",
+        "value": 16
+      },
+      {
+        "rank": 10,
+        "answer": "Harry Wilson",
+        "aliases": [
+          "Wilson"
+        ],
+        "nation": "Wales",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-assists-2021-22",
+    "title": "Championship Top 10 Assists (2021/22)",
+    "category": "chmp-assists",
+    "season": "2021/22",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Morgan Gibbs-White",
+        "aliases": [
+          "Gibbs-White",
+          "Gibbs White"
+        ],
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "rank": 2,
+        "answer": "Harry Wilson",
+        "aliases": [
+          "Wilson"
+        ],
+        "nation": "Wales",
+        "value": 11
+      },
+      {
+        "rank": 3,
+        "answer": "Brennan Johnson",
+        "aliases": [
+          "Johnson"
+        ],
+        "nation": "Wales",
+        "value": 10
+      },
+      {
+        "rank": 4,
+        "answer": "John Swift",
+        "aliases": [
+          "Swift"
+        ],
+        "nation": "England",
+        "value": 9
+      },
+      {
+        "rank": 5,
+        "answer": "Tom Lawrence",
+        "aliases": [
+          "Lawrence"
+        ],
+        "nation": "Wales",
+        "value": 8
+      },
+      {
+        "rank": 6,
+        "answer": "Keane Lewis-Potter",
+        "aliases": [
+          "Lewis-Potter"
+        ],
+        "nation": "England",
+        "value": 7
+      },
+      {
+        "rank": 7,
+        "answer": "Ben Brereton Díaz",
+        "aliases": [
+          "Brereton Diaz",
+          "Brereton Díaz",
+          "Díaz"
+        ],
+        "nation": "Chile",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Morgan Whittaker",
+        "aliases": [
+          "Whittaker"
+        ],
+        "nation": "England",
+        "value": 6
+      },
+      {
+        "rank": 9,
+        "answer": "Ross Stewart",
+        "aliases": [
+          "Stewart"
+        ],
+        "nation": "Scotland",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Kieffer Moore",
+        "aliases": [
+          "Moore"
+        ],
+        "nation": "Wales",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-scorers-2020-21",
+    "title": "Championship Top 10 Scorers (2020/21)",
+    "category": "chmp-scorers",
+    "season": "2020/21",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Ivan Toney",
+        "aliases": [
+          "Toney"
+        ],
+        "nation": "England",
+        "value": 31
+      },
+      {
+        "rank": 2,
+        "answer": "Adam Armstrong",
+        "aliases": [
+          "Armstrong"
+        ],
+        "nation": "England",
+        "value": 28
+      },
+      {
+        "rank": 3,
+        "answer": "Josh Maupay",
+        "aliases": [
+          "Maupay"
+        ],
+        "nation": "France",
+        "value": 24
+      },
+      {
+        "rank": 4,
+        "answer": "Emiliano Buendía",
+        "aliases": [
+          "Buendia",
+          "Buendía"
+        ],
+        "nation": "Argentina",
+        "value": 15
+      },
+      {
+        "rank": 5,
+        "answer": "Teemu Pukki",
+        "aliases": [
+          "Pukki"
+        ],
+        "nation": "Finland",
+        "value": 14
+      },
+      {
+        "rank": 6,
+        "answer": "James Collins",
+        "aliases": [
+          "Collins"
+        ],
+        "nation": "Wales",
+        "value": 13
+      },
+      {
+        "rank": 7,
+        "answer": "Harry Wilson",
+        "aliases": [
+          "Wilson"
+        ],
+        "nation": "Wales",
+        "value": 12
+      },
+      {
+        "rank": 8,
+        "answer": "Sergi Canós",
+        "aliases": [
+          "Canos",
+          "Canós"
+        ],
+        "nation": "Spain",
+        "value": 11
+      },
+      {
+        "rank": 9,
+        "answer": "Callum Robinson",
+        "aliases": [
+          "Robinson"
+        ],
+        "nation": "Ireland",
+        "value": 11
+      },
+      {
+        "rank": 10,
+        "answer": "Dominic Solanke",
+        "aliases": [
+          "Solanke"
+        ],
+        "nation": "England",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "id": "chmp-top-assists-2020-21",
+    "title": "Championship Top 10 Assists (2020/21)",
+    "category": "chmp-assists",
+    "season": "2020/21",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Emiliano Buendía",
+        "aliases": [
+          "Buendia",
+          "Buendía"
+        ],
+        "nation": "Argentina",
+        "value": 15
+      },
+      {
+        "rank": 2,
+        "answer": "Harry Wilson",
+        "aliases": [
+          "Wilson"
+        ],
+        "nation": "Wales",
+        "value": 11
+      },
+      {
+        "rank": 3,
+        "answer": "Ivan Toney",
+        "aliases": [
+          "Toney"
+        ],
+        "nation": "England",
+        "value": 10
+      },
+      {
+        "rank": 4,
+        "answer": "Adam Armstrong",
+        "aliases": [
+          "Armstrong"
+        ],
+        "nation": "England",
+        "value": 8
+      },
+      {
+        "rank": 5,
+        "answer": "Sergi Canós",
+        "aliases": [
+          "Canós"
+        ],
+        "nation": "Spain",
+        "value": 7
+      },
+      {
+        "rank": 6,
+        "answer": "Morgan Gibbs-White",
+        "aliases": [
+          "Gibbs-White",
+          "Gibbs White"
+        ],
+        "nation": "England",
+        "value": 7
+      },
+      {
+        "rank": 7,
+        "answer": "Josh Maupay",
+        "aliases": [
+          "Maupay"
+        ],
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Callum Robinson",
+        "aliases": [
+          "Robinson"
+        ],
+        "nation": "Ireland",
+        "value": 6
+      },
+      {
+        "rank": 9,
+        "answer": "Dominic Solanke",
+        "aliases": [
+          "Solanke"
+        ],
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Teemu Pukki",
+        "aliases": [
+          "Pukki"
+        ],
+        "nation": "Finland",
+        "value": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "season": "All time",
+    "slug": "all-time",
+    "scorers": [
+      { "name": "Pierre-Emerick Aubameyang", "nation": "Gabon" },
+      { "name": "Radamel Falcao", "nation": "Colombia" },
+      { "name": "Bruno Fernandes", "nation": "Portugal" },
+      { "name": "Romelu Lukaku", "nation": "Belgium" },
+      { "name": "Aritz Aduriz", "nation": "Spain" },
+      { "name": "Alexandre Lacazette", "nation": "France" },
+      { "name": "Munas Dabbur", "nation": "Israel" },
+      { "name": "Edin Džeko", "nation": "Bosnia and Herzegovina" },
+      { "name": "Kevin Gameiro", "nation": "France" },
+      { "name": "Óscar Cardozo", "nation": "Paraguay" }
+    ]
+  },
+  {
+    "season": "2025/26",
+    "slug": "2025-26",
+    "scorers": [
+      { "name": "Petar Stanic", "nation": "Serbia", "value": 7 },
+      { "name": "Igor Jesus", "nation": "Brazil", "value": 7 },
+      { "name": "Kerem Aktürkoglu", "nation": "Turkey", "value": 6 },
+      { "name": "Bilal El Khannouss", "nation": "Morocco", "value": 5 },
+      { "name": "Federico Bernardeschi", "nation": "Italy", "value": 5 },
+      { "name": "Antony", "nation": "Brazil", "value": 5 },
+      { "name": "Dion Drena Beljo", "nation": "Croatia", "value": 5 },
+      { "name": "Olivier Giroud", "nation": "France", "value": 4 },
+      { "name": "Karol Swiderski", "nation": "Poland", "value": 4 },
+      { "name": "Daan Heymans", "nation": "Belgium", "value": 4 }
+    ]
+  },
+  {
+    "season": "2024/25",
+    "slug": "2024-25",
+    "scorers": [
+      { "name": "Bruno Fernandes", "nation": "Portugal", "value": 7 },
+      { "name": "Ayoub El Kaabi", "nation": "Morocco", "value": 7 },
+      { "name": "Kasper Høgh", "nation": "Norway", "value": 7, "aliases": ["Hogh"] },
+      { "name": "Václav Černý", "nation": "Czech Republic", "value": 6 },
+      { "name": "Youssef En-Nesyri", "nation": "Morocco", "value": 6 },
+      { "name": "Malick Fofana", "nation": "Belgium", "value": 6 },
+      { "name": "Rasmus Højlund", "nation": "Denmark", "value": 6 },
+      { "name": "Victor Osimhen", "nation": "Nigeria", "value": 6 },
+      { "name": "Samu", "nation": "Brazil", "value": 6, "aliases": ["Samu"] },
+      { "name": "Barnabás Varga", "nation": "Hungary", "value": 6 }
+    ]
+  },
+  {
+    "season": "2023/24",
+    "slug": "2023-24",
+    "scorers": [
+      { "name": "Pierre-Emerick Aubameyang", "nation": "Gabon", "value": 10 },
+      { "name": "Romelu Lukaku", "nation": "Belgium", "value": 7 },
+      { "name": "João Pedro", "nation": "Brazil", "value": 6 },
+      { "name": "Gianluca Scamacca", "nation": "Italy", "value": 6 },
+      { "name": "Victor Boniface", "nation": "Nigeria", "value": 5 },
+      { "name": "Mohammed Kudus", "nation": "Ghana", "value": 5 },
+      { "name": "Ademola Lookman", "nation": "Nigeria", "value": 5 },
+      { "name": "Mohamed Salah", "nation": "Egypt", "value": 5 },
+      { "name": "Patrik Schick", "nation": "Czech Republic", "value": 5 },
+      { "name": "Florian Wirtz", "nation": "Germany", "value": 5 }
+    ]
+  },
+  {
+    "season": "2022/23",
+    "slug": "2022-23",
+    "scorers": [
+      { "name": "Victor Boniface", "nation": "Nigeria", "value": 6 },
+      { "name": "Marcus Rashford", "nation": "England", "value": 6 },
+      { "name": "Paulo Dybala", "nation": "Argentina", "value": 5 },
+      { "name": "Igor Thiago", "nation": "Brazil", "value": 5, "sourcePlayerId": "196156" },
+      { "name": "Lorenzo Pellegrini", "nation": "Italy", "value": 5 },
+      { "name": "Wissam Ben Yedder", "nation": "France", "value": 5 },
+      { "name": "Ángel Di María", "nation": "Argentina", "value": 5 },
+      { "name": "Anastasios Bakasetas", "nation": "Greece", "value": 5 },
+      { "name": "Teddy Teuma", "nation": "Malta", "value": 5 },
+      { "name": "Ludovic Blas", "nation": "France", "value": 5 }
+    ]
+  },
+  {
+    "season": "2021/22",
+    "slug": "2021-22",
+    "scorers": [
+      { "name": "James Tavernier", "nation": "Scotland", "value": 7, "aliases": ["Tavernier"] },
+      { "name": "Victor Boniface", "nation": "Nigeria", "value": 6 },
+      { "name": "Karl Toko Ekambi", "nation": "Cameroon", "value": 6 },
+      { "name": "Daichi Kamada", "nation": "Japan", "value": 6 },
+      { "name": "Ricardo Horta", "nation": "Portugal", "value": 5 },
+      { "name": "Mislav Orsic", "nation": "Croatia", "value": 5 },
+      { "name": "Moussa Diaby", "nation": "France", "value": 5 },
+      { "name": "Eljif Elmas", "nation": "North Macedonia", "value": 5 },
+      { "name": "Filip Kostić", "nation": "Serbia", "value": 5 },
+      { "name": "Florian Wirtz", "nation": "Germany", "value": 4 }
+    ]
+  },
+  {
+    "season": "2020/21",
+    "slug": "2020-21",
+    "scorers": [
+      { "name": "Gerard Moreno", "nation": "Spain", "value": 7 },
+      { "name": "Pizzi", "nation": "Portugal", "value": 7, "aliases": ["Pizzi"] },
+      { "name": "Borja Mayoral", "nation": "Spain", "value": 7 },
+      { "name": "Yusuf Yazıcı", "nation": "Turkey", "value": 7 },
+      { "name": "Munas Dabbur", "nation": "Israel", "value": 6 },
+      { "name": "Carlos Vinícius", "nation": "Brazil", "value": 6 },
+      { "name": "Willian José", "nation": "Brazil", "value": 6 },
+      { "name": "Alexander Sørloth", "nation": "Norway", "value": 6 },
+      { "name": "Bruno Fernandes", "nation": "Portugal", "value": 6 },
+      { "name": "Olivier Giroud", "nation": "France", "value": 6 }
+    ]
+  }
+]

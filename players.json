@@ -1541,7 +1541,7 @@
   },
   "193": {
     "id": "193",
-    "name": "D. D&apos;Ambrosio",
+    "name": "D. D'Ambrosio",
     "firstname": "Danilo",
     "lastname": "D'Ambrosio",
     "age": 37,
@@ -13190,7 +13190,7 @@
   },
   "2992": {
     "id": "2992",
-    "name": "A. N&apos;Diaye",
+    "name": "A. N'Diaye",
     "firstname": "Alfred John Momar",
     "lastname": "N'Diaye",
     "age": 34,
@@ -15984,7 +15984,7 @@
   },
   "17597": {
     "id": "17597",
-    "name": "D. O&apos;Shea",
+    "name": "D. O'Shea",
     "firstname": "Dara Joseph",
     "lastname": "O'Shea",
     "age": 26,
@@ -18877,7 +18877,7 @@
   },
   "19030": {
     "id": "19030",
-    "name": "M. O&apos;Riley",
+    "name": "M. O'Riley",
     "firstname": "Matthew Sean",
     "lastname": "O'Riley",
     "age": 25,
@@ -19471,7 +19471,7 @@
   },
   "19095": {
     "id": "19095",
-    "name": "J. O&apos;Connell",
+    "name": "J. O'Connell",
     "firstname": "Jack William",
     "lastname": "O'Connell",
     "age": 29,
@@ -21858,7 +21858,7 @@
   },
   "20503": {
     "id": "20503",
-    "name": "L. O&apos;Brien",
+    "name": "L. O'Brien",
     "firstname": "Lewis John",
     "lastname": "O'Brien",
     "age": 27,
@@ -30372,7 +30372,7 @@
   },
   "30806": {
     "id": "30806",
-    "name": "M. D&apos;Alessandro",
+    "name": "M. D'Alessandro",
     "firstname": "Marco",
     "lastname": "D'Alessandro",
     "age": 34,
@@ -31516,7 +31516,7 @@
   },
   "31041": {
     "id": "31041",
-    "name": "C. Dell&apos;Orco",
+    "name": "C. Dell'Orco",
     "firstname": "Cristian",
     "lastname": "Dell'Orco",
     "age": 31,
@@ -32363,7 +32363,7 @@
   },
   "31318": {
     "id": "31318",
-    "name": "M&apos;Bala Nzola",
+    "name": "M'Bala Nzola",
     "firstname": "M'Bala",
     "lastname": "Nzola",
     "age": 29,
@@ -44389,10 +44389,10 @@
     "name": "Vitinha",
     "firstname": "Vítor",
     "lastname": "Machado Ferreira",
-    "age": 25,
+    "age": 26,
     "nationality": "Portugal",
-    "team": "Wolves",
-    "league": "Premier League",
+    "team": "Paris Saint-Germain",
+    "league": "Ligue 1",
     "position": "Midfielder"
   },
   "128398": {
@@ -49512,7 +49512,7 @@
   },
   "203483": {
     "id": "203483",
-    "name": "A. N&apos;Diaye",
+    "name": "A. N'Diaye",
     "firstname": "Abdoulaye",
     "lastname": "Niakhate N'Diaye",
     "age": 23,
@@ -50117,7 +50117,7 @@
   },
   "270139": {
     "id": "270139",
-    "name": "J. O&apos;Brien",
+    "name": "J. O'Brien",
     "firstname": "Jake",
     "lastname": "O'Brien",
     "age": 24,
@@ -51998,7 +51998,7 @@
   },
   "307123": {
     "id": "307123",
-    "name": "N. O&apos;Reilly",
+    "name": "N. O'Reilly",
     "firstname": "Nico",
     "lastname": "O'Reilly",
     "age": 20,
@@ -53879,7 +53879,7 @@
   },
   "341978": {
     "id": "341978",
-    "name": "L. D&apos;Andrea",
+    "name": "L. D'Andrea",
     "firstname": "Luca",
     "lastname": "D'Andrea",
     "age": 21,
@@ -56525,138 +56525,6 @@
     "age": 19,
     "nationality": "Côte d'Ivoire",
     "team": "RB Leipzig",
-    "league": "Bundesliga",
-    "position": "Attacker"
-  },
-  "527889": {
-    "id": "527889",
-    "name": "Fallou Cham",
-    "firstname": null,
-    "lastname": null,
-    "age": 19,
-    "nationality": null,
-    "team": "Hellas Verona",
-    "league": "Serie A",
-    "position": "Midfielder"
-  },
-  "535046": {
-    "id": "535046",
-    "name": "A. Amaimouni",
-    "firstname": null,
-    "lastname": null,
-    "age": 20,
-    "nationality": null,
-    "team": "Eintracht Frankfurt",
-    "league": "Bundesliga",
-    "position": "Attacker"
-  },
-  "546852": {
-    "id": "546852",
-    "name": "Alex Sancris",
-    "firstname": null,
-    "lastname": null,
-    "age": 28,
-    "nationality": null,
-    "team": "Getafe",
-    "league": "La Liga",
-    "position": "Attacker"
-  },
-  "551352": {
-    "id": "551352",
-    "name": "F. Balde",
-    "firstname": null,
-    "lastname": null,
-    "age": 20,
-    "nationality": null,
-    "team": "Hamburger SV",
-    "league": "Bundesliga",
-    "position": "Attacker"
-  },
-  "551366": {
-    "id": "551366",
-    "name": "A. Perez",
-    "firstname": null,
-    "lastname": null,
-    "age": 23,
-    "nationality": null,
-    "team": "Alaves",
-    "league": "La Liga",
-    "position": "Defender"
-  },
-  "551413": {
-    "id": "551413",
-    "name": "J. Liteta",
-    "firstname": null,
-    "lastname": null,
-    "age": 19,
-    "nationality": null,
-    "team": "Cagliari",
-    "league": "Serie A",
-    "position": "Midfielder"
-  },
-  "553065": {
-    "id": "553065",
-    "name": "E. Mayers",
-    "firstname": null,
-    "lastname": null,
-    "age": 18,
-    "nationality": null,
-    "team": "West Ham",
-    "league": "Premier League",
-    "position": "Defender"
-  },
-  "568156": {
-    "id": "568156",
-    "name": "S. Sanchez",
-    "firstname": null,
-    "lastname": null,
-    "age": 18,
-    "nationality": null,
-    "team": "Athletic Club",
-    "league": "La Liga",
-    "position": "Midfielder"
-  },
-  "568225": {
-    "id": "568225",
-    "name": "L. Reggiani",
-    "firstname": null,
-    "lastname": null,
-    "age": 17,
-    "nationality": null,
-    "team": "Borussia Dortmund",
-    "league": "Bundesliga",
-    "position": "Defender"
-  },
-  "578918": {
-    "id": "578918",
-    "name": "Wael Mohya",
-    "firstname": null,
-    "lastname": null,
-    "age": 16,
-    "nationality": null,
-    "team": "Borussia Mönchengladbach",
-    "league": "Bundesliga",
-    "position": "Midfielder"
-  },
-  "579287": {
-    "id": "579287",
-    "name": "K. Tunde",
-    "firstname": null,
-    "lastname": null,
-    "age": null,
-    "nationality": null,
-    "team": "Levante",
-    "league": "La Liga",
-    "position": "Attacker"
-  },
-  "610625": {
-    "id": "610625",
-    "name": "F. Schenten",
-    "firstname": null,
-    "lastname": null,
-    "age": 18,
-    "nationality": null,
-    "team": "1. FC Köln",
     "league": "Bundesliga",
     "position": "Attacker"
   }

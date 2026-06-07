@@ -1,0 +1,1392 @@
+[
+  {
+    "id": "ucl-all-time-scorers",
+    "title": "Champions League Top 10 Goal Scorers (All time)",
+    "category": "ucl-scorers",
+    "season": "All time",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Cristiano Ronaldo",
+        "aliases": [
+          "Ronaldo",
+          "CR7"
+        ],
+        "nation": "Portugal"
+      },
+      {
+        "rank": 2,
+        "answer": "Lionel Messi",
+        "aliases": [
+          "Messi"
+        ],
+        "nation": "Argentina"
+      },
+      {
+        "rank": 3,
+        "answer": "Robert Lewandowski",
+        "aliases": [
+          "Lewandowski",
+          "Lewa"
+        ],
+        "nation": "Poland"
+      },
+      {
+        "rank": 4,
+        "answer": "Karim Benzema",
+        "aliases": [
+          "Benzema"
+        ],
+        "nation": "France"
+      },
+      {
+        "rank": 5,
+        "answer": "Raúl",
+        "aliases": [],
+        "nation": "Spain"
+      },
+      {
+        "rank": 6,
+        "answer": "Ruud van Nistelrooy",
+        "aliases": [
+          "Van Nistelrooy",
+          "Nistelrooy"
+        ],
+        "nation": "Netherlands"
+      },
+      {
+        "rank": 7,
+        "answer": "Thomas Müller",
+        "aliases": [
+          "Muller",
+          "Müller"
+        ],
+        "nation": "Germany"
+      },
+      {
+        "rank": 8,
+        "answer": "Thierry Henry",
+        "aliases": [
+          "Henry"
+        ],
+        "nation": "France"
+      },
+      {
+        "rank": 9,
+        "answer": "Filippo Inzaghi",
+        "aliases": [
+          "Inzaghi"
+        ],
+        "nation": "Italy"
+      },
+      {
+        "rank": 10,
+        "answer": "Andriy Shevchenko",
+        "aliases": [
+          "Shevchenko",
+          "Sheva"
+        ],
+        "nation": "Ukraine"
+      }
+    ]
+  },
+  {
+    "id": "ucl-all-time-assists",
+    "title": "Champions League Top 10 Assists (All time)",
+    "category": "ucl-assists",
+    "season": "All time",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Cristiano Ronaldo",
+        "aliases": [
+          "Ronaldo",
+          "CR7"
+        ],
+        "nation": "Portugal"
+      },
+      {
+        "rank": 2,
+        "answer": "Lionel Messi",
+        "aliases": [
+          "Messi"
+        ],
+        "nation": "Argentina"
+      },
+      {
+        "rank": 3,
+        "answer": "Thomas Müller",
+        "aliases": [
+          "Muller",
+          "Müller"
+        ],
+        "nation": "Germany"
+      },
+      {
+        "rank": 4,
+        "answer": "Neymar",
+        "aliases": [],
+        "nation": "Brazil"
+      },
+      {
+        "rank": 5,
+        "answer": "Ángel Di María",
+        "aliases": [
+          "Di Maria",
+          "Di María",
+          "María"
+        ],
+        "nation": "Argentina"
+      },
+      {
+        "rank": 6,
+        "answer": "Karim Benzema",
+        "aliases": [
+          "Benzema"
+        ],
+        "nation": "France"
+      },
+      {
+        "rank": 7,
+        "answer": "Ryan Giggs",
+        "aliases": [
+          "Giggs"
+        ],
+        "nation": "Wales"
+      },
+      {
+        "rank": 8,
+        "answer": "Andrés Iniesta",
+        "aliases": [
+          "Iniesta"
+        ],
+        "nation": "Spain"
+      },
+      {
+        "rank": 9,
+        "answer": "Luis Figo",
+        "aliases": [
+          "Figo"
+        ],
+        "nation": "Portugal"
+      },
+      {
+        "rank": 10,
+        "answer": "Xavi",
+        "aliases": [],
+        "nation": "Spain"
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-scorers-2025-26",
+    "title": "Champions League Top 10 Scorers (2025/26)",
+    "category": "ucl-scorers",
+    "season": "2025/26",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 15
+      },
+      {
+        "rank": 2,
+        "answer": "Harry Kane",
+        "aliases": [
+          "Kane"
+        ],
+        "nation": "England",
+        "value": 14
+      },
+      {
+        "rank": 3,
+        "answer": "Khvicha Kvaratskhelia",
+        "aliases": [
+          "Kvaratskhelia",
+          "Kvara"
+        ],
+        "nation": "Georgia",
+        "value": 10
+      },
+      {
+        "rank": 4,
+        "answer": "Julián Álvarez",
+        "aliases": [
+          "Julian Alvarez",
+          "Alvarez",
+          "Álvarez"
+        ],
+        "nation": "Argentina",
+        "value": 10
+      },
+      {
+        "rank": 5,
+        "answer": "Anthony Gordon",
+        "aliases": [
+          "Gordon"
+        ],
+        "nation": "England",
+        "value": 10
+      },
+      {
+        "rank": 6,
+        "answer": "Erling Haaland",
+        "aliases": [
+          "Haaland"
+        ],
+        "nation": "Norway",
+        "value": 8
+      },
+      {
+        "rank": 7,
+        "answer": "Ousmane Dembélé",
+        "aliases": [
+          "Dembele",
+          "Dembélé"
+        ],
+        "nation": "France",
+        "value": 8
+      },
+      {
+        "rank": 8,
+        "answer": "Luis Díaz",
+        "aliases": [
+          "Díaz"
+        ],
+        "nation": "Colombia",
+        "value": 7
+      },
+      {
+        "rank": 9,
+        "answer": "Victor Osimhen",
+        "aliases": [
+          "Osimhen"
+        ],
+        "nation": "Nigeria",
+        "value": 7
+      },
+      {
+        "rank": 10,
+        "answer": "Fermín López",
+        "aliases": [
+          "López"
+        ],
+        "nation": "Spain",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-assists-2025-26",
+    "title": "Champions League Top 10 Assists (2025/26)",
+    "category": "ucl-assists",
+    "season": "2025/26",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Raphinha",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 8
+      },
+      {
+        "rank": 2,
+        "answer": "Lamine Yamal",
+        "aliases": [
+          "Yamal"
+        ],
+        "nation": "Spain",
+        "value": 7
+      },
+      {
+        "rank": 3,
+        "answer": "Khvicha Kvaratskhelia",
+        "aliases": [
+          "Kvaratskhelia",
+          "Kvara"
+        ],
+        "nation": "Georgia",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Vitinha",
+        "aliases": [],
+        "nation": "Portugal",
+        "value": 6,
+        "sourcePlayerId": "128384"
+      },
+      {
+        "rank": 5,
+        "answer": "Julián Álvarez",
+        "aliases": [
+          "Julian Alvarez",
+          "Alvarez",
+          "Álvarez"
+        ],
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Ousmane Dembélé",
+        "aliases": [
+          "Dembele",
+          "Dembélé"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Phil Foden",
+        "aliases": [
+          "Foden"
+        ],
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Rodrygo",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "rank": 10,
+        "answer": "Jude Bellingham",
+        "aliases": [
+          "Bellingham"
+        ],
+        "nation": "England",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-scorers-2024-25",
+    "title": "Champions League Top 10 Scorers (2024/25)",
+    "category": "ucl-scorers",
+    "season": "2024/25",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Serhou Guirassy",
+        "aliases": [
+          "Guirassy"
+        ],
+        "nation": "Guinea",
+        "value": 13
+      },
+      {
+        "rank": 2,
+        "answer": "Raphinha",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 13
+      },
+      {
+        "rank": 3,
+        "answer": "Harry Kane",
+        "aliases": [
+          "Kane"
+        ],
+        "nation": "England",
+        "value": 11
+      },
+      {
+        "rank": 4,
+        "answer": "Robert Lewandowski",
+        "aliases": [
+          "Lewandowski",
+          "Lewa"
+        ],
+        "nation": "Poland",
+        "value": 11
+      },
+      {
+        "rank": 5,
+        "answer": "Lautaro Martínez",
+        "aliases": [
+          "Lautaro",
+          "Martinez",
+          "Martínez"
+        ],
+        "nation": "Argentina",
+        "value": 9
+      },
+      {
+        "rank": 6,
+        "answer": "Ousmane Dembélé",
+        "aliases": [
+          "Dembele",
+          "Dembélé"
+        ],
+        "nation": "France",
+        "value": 8
+      },
+      {
+        "rank": 7,
+        "answer": "Erling Haaland",
+        "aliases": [
+          "Haaland"
+        ],
+        "nation": "Norway",
+        "value": 8
+      },
+      {
+        "rank": 8,
+        "answer": "Vinícius Júnior",
+        "aliases": [
+          "Vinicius Jr",
+          "Vini Jr",
+          "Vinicius Junior",
+          "Júnior"
+        ],
+        "nation": "Brazil",
+        "value": 8
+      },
+      {
+        "rank": 9,
+        "answer": "Lamine Yamal",
+        "aliases": [
+          "Yamal"
+        ],
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Jude Bellingham",
+        "aliases": [
+          "Bellingham"
+        ],
+        "nation": "England",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-assists-2024-25",
+    "title": "Champions League Top 10 Assists (2024/25)",
+    "category": "ucl-assists",
+    "season": "2024/25",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Raphinha",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 9
+      },
+      {
+        "rank": 2,
+        "answer": "Vitinha",
+        "aliases": [],
+        "nation": "Portugal",
+        "value": 7,
+        "sourcePlayerId": "128384"
+      },
+      {
+        "rank": 3,
+        "answer": "Lamine Yamal",
+        "aliases": [
+          "Yamal"
+        ],
+        "nation": "Spain",
+        "value": 7
+      },
+      {
+        "rank": 4,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 6
+      },
+      {
+        "rank": 5,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "rank": 6,
+        "answer": "Phil Foden",
+        "aliases": [
+          "Foden"
+        ],
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Julián Álvarez",
+        "aliases": [
+          "Julian Alvarez",
+          "Alvarez",
+          "Álvarez"
+        ],
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Ousmane Dembélé",
+        "aliases": [
+          "Dembele",
+          "Dembélé"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Vinícius Júnior",
+        "aliases": [
+          "Vinicius Jr",
+          "Vini Jr",
+          "Vinicius Junior",
+          "Júnior"
+        ],
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Jude Bellingham",
+        "aliases": [
+          "Bellingham"
+        ],
+        "nation": "England",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-scorers-2023-24",
+    "title": "Champions League Top 10 Scorers (2023/24)",
+    "category": "ucl-scorers",
+    "season": "2023/24",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Harry Kane",
+        "aliases": [
+          "Kane"
+        ],
+        "nation": "England",
+        "value": 8
+      },
+      {
+        "rank": 2,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 8
+      },
+      {
+        "rank": 3,
+        "answer": "Antoine Griezmann",
+        "aliases": [
+          "Griezmann"
+        ],
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Erling Haaland",
+        "aliases": [
+          "Haaland"
+        ],
+        "nation": "Norway",
+        "value": 6
+      },
+      {
+        "rank": 5,
+        "answer": "Vinícius Júnior",
+        "aliases": [
+          "Vinicius Jr",
+          "Vini Jr",
+          "Vinicius Junior",
+          "Júnior"
+        ],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 6,
+        "answer": "Rodrygo",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Joselu",
+        "aliases": [],
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Álvaro Morata",
+        "aliases": [
+          "Morata"
+        ],
+        "nation": "Spain",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Phil Foden",
+        "aliases": [
+          "Foden"
+        ],
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Rasmus Højlund",
+        "aliases": [
+          "Hojlund",
+          "Højlund"
+        ],
+        "nation": "Denmark",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-assists-2023-24",
+    "title": "Champions League Top 10 Assists (2023/24)",
+    "category": "ucl-assists",
+    "season": "2023/24",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Phil Foden",
+        "aliases": [
+          "Foden"
+        ],
+        "nation": "England",
+        "value": 5
+      },
+      {
+        "rank": 2,
+        "answer": "Bernardo Silva",
+        "aliases": [
+          "Silva"
+        ],
+        "nation": "Portugal",
+        "value": 5
+      },
+      {
+        "rank": 3,
+        "answer": "Rodrygo",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "rank": 4,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "rank": 5,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 4
+      },
+      {
+        "rank": 6,
+        "answer": "Raphinha",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "rank": 7,
+        "answer": "Harry Kane",
+        "aliases": [
+          "Kane"
+        ],
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "rank": 8,
+        "answer": "Antoine Griezmann",
+        "aliases": [
+          "Griezmann"
+        ],
+        "nation": "France",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Vinícius Júnior",
+        "aliases": [
+          "Vinicius Jr",
+          "Vini Jr",
+          "Vinicius Junior",
+          "Júnior"
+        ],
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "rank": 10,
+        "answer": "Jude Bellingham",
+        "aliases": [
+          "Bellingham"
+        ],
+        "nation": "England",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-scorers-2022-23",
+    "title": "Champions League Top 10 Scorers (2022/23)",
+    "category": "ucl-scorers",
+    "season": "2022/23",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Erling Haaland",
+        "aliases": [
+          "Haaland"
+        ],
+        "nation": "Norway",
+        "value": 12
+      },
+      {
+        "rank": 2,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 8
+      },
+      {
+        "rank": 3,
+        "answer": "Vinícius Júnior",
+        "aliases": [
+          "Vinicius Jr",
+          "Vini Jr",
+          "Vinicius Junior",
+          "Júnior"
+        ],
+        "nation": "Brazil",
+        "value": 7
+      },
+      {
+        "rank": 4,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 7
+      },
+      {
+        "rank": 5,
+        "answer": "João Mário",
+        "aliases": [
+          "Joao Mario",
+          "Mário"
+        ],
+        "nation": "Portugal",
+        "value": 6,
+        "sourcePlayerId": "206"
+      },
+      {
+        "rank": 6,
+        "answer": "Olivier Giroud",
+        "aliases": [
+          "Giroud"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Robert Lewandowski",
+        "aliases": [
+          "Lewandowski",
+          "Lewa"
+        ],
+        "nation": "Poland",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Victor Osimhen",
+        "aliases": [
+          "Osimhen"
+        ],
+        "nation": "Nigeria",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Rodrygo",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Rafa Silva",
+        "aliases": [
+          "Rafa"
+        ],
+        "nation": "Portugal",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-assists-2022-23",
+    "title": "Champions League Top 10 Assists (2022/23)",
+    "category": "ucl-assists",
+    "season": "2022/23",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Kevin De Bruyne",
+        "aliases": [
+          "De Bruyne",
+          "KDB",
+          "Bruyne"
+        ],
+        "nation": "Belgium",
+        "value": 7
+      },
+      {
+        "rank": 2,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 6
+      },
+      {
+        "rank": 3,
+        "answer": "Vinícius Júnior",
+        "aliases": [
+          "Vinicius Jr",
+          "Vini Jr",
+          "Vinicius Junior",
+          "Júnior"
+        ],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Leroy Sané",
+        "aliases": [
+          "Sane",
+          "Sané"
+        ],
+        "nation": "Germany",
+        "value": 5
+      },
+      {
+        "rank": 5,
+        "answer": "Raphinha",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Phil Foden",
+        "aliases": [
+          "Foden"
+        ],
+        "nation": "England",
+        "value": 4
+      },
+      {
+        "rank": 8,
+        "answer": "Rodrygo",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Bruno Fernandes",
+        "aliases": [
+          "Fernandes"
+        ],
+        "nation": "Portugal",
+        "value": 4
+      },
+      {
+        "rank": 10,
+        "answer": "Jude Bellingham",
+        "aliases": [
+          "Bellingham"
+        ],
+        "nation": "England",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-scorers-2021-22",
+    "title": "Champions League Top 10 Scorers (2021/22)",
+    "category": "ucl-scorers",
+    "season": "2021/22",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Karim Benzema",
+        "aliases": [
+          "Benzema"
+        ],
+        "nation": "France",
+        "value": 15
+      },
+      {
+        "rank": 2,
+        "answer": "Robert Lewandowski",
+        "aliases": [
+          "Lewandowski",
+          "Lewa"
+        ],
+        "nation": "Poland",
+        "value": 13
+      },
+      {
+        "rank": 3,
+        "answer": "Sébastien Haller",
+        "aliases": [
+          "Haller"
+        ],
+        "nation": "Ivory Coast",
+        "value": 11
+      },
+      {
+        "rank": 4,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 8
+      },
+      {
+        "rank": 5,
+        "answer": "Riyad Mahrez",
+        "aliases": [
+          "Mahrez"
+        ],
+        "nation": "Algeria",
+        "value": 7
+      },
+      {
+        "rank": 6,
+        "answer": "Christopher Nkunku",
+        "aliases": [
+          "Nkunku"
+        ],
+        "nation": "France",
+        "value": 7
+      },
+      {
+        "rank": 7,
+        "answer": "Arnaut Danjuma",
+        "aliases": [
+          "Danjuma"
+        ],
+        "nation": "Netherlands",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Leroy Sané",
+        "aliases": [
+          "Sane",
+          "Sané"
+        ],
+        "nation": "Germany",
+        "value": 6
+      },
+      {
+        "rank": 9,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "rank": 10,
+        "answer": "Cristiano Ronaldo",
+        "aliases": [
+          "Ronaldo",
+          "CR7"
+        ],
+        "nation": "Portugal",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-assists-2021-22",
+    "title": "Champions League Top 10 Assists (2021/22)",
+    "category": "ucl-assists",
+    "season": "2021/22",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Leroy Sané",
+        "aliases": [
+          "Sane",
+          "Sané"
+        ],
+        "nation": "Germany",
+        "value": 7
+      },
+      {
+        "rank": 2,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 6
+      },
+      {
+        "rank": 3,
+        "answer": "Karim Benzema",
+        "aliases": [
+          "Benzema"
+        ],
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Vinícius Júnior",
+        "aliases": [
+          "Vinicius Jr",
+          "Vini Jr",
+          "Vinicius Junior",
+          "Júnior"
+        ],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 5,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Thomas Müller",
+        "aliases": [
+          "Muller",
+          "Müller"
+        ],
+        "nation": "Germany",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Riyad Mahrez",
+        "aliases": [
+          "Mahrez"
+        ],
+        "nation": "Algeria",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Neymar",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 5
+      },
+      {
+        "rank": 9,
+        "answer": "Lionel Messi",
+        "aliases": [
+          "Messi"
+        ],
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "rank": 10,
+        "answer": "Christopher Nkunku",
+        "aliases": [
+          "Nkunku"
+        ],
+        "nation": "France",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-scorers-2020-21",
+    "title": "Champions League Top 10 Scorers (2020/21)",
+    "category": "ucl-scorers",
+    "season": "2020/21",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Erling Haaland",
+        "aliases": [
+          "Haaland"
+        ],
+        "nation": "Norway",
+        "value": 10
+      },
+      {
+        "rank": 2,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 8
+      },
+      {
+        "rank": 3,
+        "answer": "Karim Benzema",
+        "aliases": [
+          "Benzema"
+        ],
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Youssef En-Nesyri",
+        "aliases": [
+          "En-Nesyri",
+          "En Nesyri"
+        ],
+        "nation": "Morocco",
+        "value": 6
+      },
+      {
+        "rank": 5,
+        "answer": "Marcus Rashford",
+        "aliases": [
+          "Rashford"
+        ],
+        "nation": "England",
+        "value": 6
+      },
+      {
+        "rank": 6,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 6
+      },
+      {
+        "rank": 7,
+        "answer": "Álvaro Morata",
+        "aliases": [
+          "Morata"
+        ],
+        "nation": "Spain",
+        "value": 6
+      },
+      {
+        "rank": 8,
+        "answer": "Olivier Giroud",
+        "aliases": [
+          "Giroud"
+        ],
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "rank": 9,
+        "answer": "Neymar",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 10,
+        "answer": "Alassane Pléa",
+        "aliases": [
+          "Pléa"
+        ],
+        "nation": "France",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "ucl-top-assists-2020-21",
+    "title": "Champions League Top 10 Assists (2020/21)",
+    "category": "ucl-assists",
+    "season": "2020/21",
+    "items": [
+      {
+        "rank": 1,
+        "answer": "Neymar",
+        "aliases": [],
+        "nation": "Brazil",
+        "value": 6
+      },
+      {
+        "rank": 2,
+        "answer": "Kylian Mbappé",
+        "aliases": [
+          "Mbappe",
+          "Mbappé"
+        ],
+        "nation": "France",
+        "value": 6
+      },
+      {
+        "rank": 3,
+        "answer": "Bruno Fernandes",
+        "aliases": [
+          "Fernandes"
+        ],
+        "nation": "Portugal",
+        "value": 6
+      },
+      {
+        "rank": 4,
+        "answer": "Mohamed Salah",
+        "aliases": [
+          "Salah"
+        ],
+        "nation": "Egypt",
+        "value": 5
+      },
+      {
+        "rank": 5,
+        "answer": "Karim Benzema",
+        "aliases": [
+          "Benzema"
+        ],
+        "nation": "France",
+        "value": 5
+      },
+      {
+        "rank": 6,
+        "answer": "Leroy Sané",
+        "aliases": [
+          "Sane",
+          "Sané"
+        ],
+        "nation": "Germany",
+        "value": 5
+      },
+      {
+        "rank": 7,
+        "answer": "Ángel Di María",
+        "aliases": [
+          "Di Maria",
+          "Di María",
+          "María"
+        ],
+        "nation": "Argentina",
+        "value": 5
+      },
+      {
+        "rank": 8,
+        "answer": "Kevin De Bruyne",
+        "aliases": [
+          "De Bruyne",
+          "KDB",
+          "Bruyne"
+        ],
+        "nation": "Belgium",
+        "value": 4
+      },
+      {
+        "rank": 9,
+        "answer": "Riyad Mahrez",
+        "aliases": [
+          "Mahrez"
+        ],
+        "nation": "Algeria",
+        "value": 4
+      },
+      {
+        "rank": 10,
+        "answer": "Thomas Müller",
+        "aliases": [
+          "Muller",
+          "Müller"
+        ],
+        "nation": "Germany",
+        "value": 4
+      }
+    ]
+  }
+]
