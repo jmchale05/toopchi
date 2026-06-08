@@ -1,14 +1,14 @@
 {
   "2026-06-07": {
-    "id": "vitinha-psg",
-    "answer": "Vitinha",
-    "aliases": ["Vítor Machado Ferreira", "Vitor Machado Ferreira"],
-    "age": 26,
-    "position": "Midfielder",
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "nationality": "Portugal",
-    "photo": "https://media.api-sports.io/football/players/128384.png"
+    "id": "joe-gomez-liverpool",
+    "answer": "Joe Gomez",
+    "aliases": ["Joseph Gomez", "Joseph Dave Gomez", "J. Gomez", "Gomez"],
+    "age": 28,
+    "position": "Defender",
+    "league": "Premier League",
+    "team": "Liverpool",
+    "nationality": "England",
+    "photo": "https://media.api-sports.io/football/players/290.png"
   },
   "2026-06-06": {
     "id": "beto-everton",
