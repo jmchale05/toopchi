@@ -47,6 +47,7 @@ function toPlayerRecord(entry: SearchIndexEntry): PlayerRecord {
 function scoreMultiTokenName(
   firstname: string,
   lastname: string,
+  displayName: string,
   term: string,
 ): number {
   const tokens = term.split(" ").filter(Boolean);
@@ -55,21 +56,31 @@ function scoreMultiTokenName(
   const firstToken = tokens[0];
   const lastToken = tokens.at(-1) ?? "";
   const lastnameParts = lastname.split(" ").filter(Boolean);
+  const displayParts = normalizeSearchText(displayName).split(" ").filter(Boolean);
+  const displayFirst = displayParts[0] ?? "";
 
   const firstMatches =
     firstname.startsWith(firstToken) ||
-    (firstToken.length === 1 && firstname.startsWith(firstToken));
+    displayFirst.startsWith(firstToken) ||
+    (firstToken.length === 1 &&
+      (firstname.startsWith(firstToken) || displayFirst.startsWith(firstToken)));
 
   const lastMatches =
     lastname.startsWith(lastToken) ||
     lastnameParts.some(
+      (part) => part === lastToken || part.startsWith(lastToken),
+    ) ||
+    displayParts.some(
       (part) => part === lastToken || part.startsWith(lastToken),
     );
 
   if (!firstMatches || !lastMatches) return 0;
 
   const penalty = firstname.length + lastname.length - term.length;
-  if (firstname.startsWith(firstToken) && lastname.startsWith(lastToken)) {
+  if (
+    (firstname.startsWith(firstToken) || displayFirst.startsWith(firstToken)) &&
+    lastname.startsWith(lastToken)
+  ) {
     return 860 - penalty;
   }
 
@@ -86,7 +97,7 @@ function scorePlayer(entry: SearchIndexEntry, term: string): number {
   if (name === term) return 990;
   if (lastname === term || firstname === term) return 900;
 
-  const multiTokenScore = scoreMultiTokenName(firstname, lastname, term);
+  const multiTokenScore = scoreMultiTokenName(firstname, lastname, entry.name, term);
   if (multiTokenScore > 0) return multiTokenScore;
 
   if (name.startsWith(term)) return 800 - (name.length - term.length);

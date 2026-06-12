@@ -16,6 +16,8 @@
     "check:player-duplicates": "node scripts/check-player-duplicates.mjs",
     "dedupe:players-json": "node scripts/dedupe-players-json.mjs --apply",
     "verify:tenable-lists": "node scripts/verify-tenable-lists.mjs",
+    "verify:player-search": "node scripts/build-player-search-index.mjs && node scripts/verify-player-search-coverage.mjs",
+    "sync:game-players": "node scripts/sync-game-players-from-answers.mjs --apply && node scripts/build-player-search-index.mjs",
     "verify:transfermarkt-lists": "node scripts/verify-transfermarkt-lists.mjs",
     "sync:transfermarkt-lists": "node scripts/sync-transfermarkt-lists.mjs",
     "import:players": "node scripts/import-players-firestore.mjs",
